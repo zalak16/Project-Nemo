@@ -1,0 +1,500 @@
+     41  emacs MDout.java
+     42  exit
+     43  ssh uw1-320-09
+     44  cd CSS534_Assignment4/
+     45  ./killMProcess.sh
+     46  exit
+     47  who
+     48  xload
+     49  exit
+     50  who
+     51  ssh uw1-320-11
+     52  exit
+     53  who
+     54  ssh uw1-320-10
+     55  exit
+     56  xload
+     57  exit
+     58  clear
+     59  cd CSS534_Assignment4/
+     60  ls
+     61  cat compile.sh
+     62  ./compile.sh
+     63  stty -echo
+     64  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+     65  ./mdmass_zalak zalak Hazal1316 machinefile.txt 13611 4 1 1000 10000 100
+     66  ././killMProcess.sh
+     67  ./mdmass_zalak zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+     68  ./ki9l
+     69  ./killMProcess.sh
+     70  ./mdmass_zalak zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+     71  stty echo
+     72  clear
+     73  ls
+     74  cd Final_Before_optimization/
+     75  ls
+     76  ls
+     77  cd ..
+     78  ls
+     79  copy compile.sh Final_Before_optimization/
+     80  cp compile.sh Final_Before_optimization/
+     81  cd Final_Before_optimization/
+     82  ls
+     83  ./compile.sh
+     84  cd ..
+     85  ls
+     86  cp machinefile.txt Final_Before_optimization/
+     87  cd Final_Before_optimization/
+     88  ls
+     89  clear
+     90  ls
+     91  cd ..
+     92  ls
+     93  ls -l
+     94  cp mprocess Final_Before_optimization/
+     95  cd Final_Before_optimization/
+     96  ls
+     97  ls -l
+     98  rm mprocess
+     99  ls
+    100  ln -s ~dslab/MASS/c++/ubuntu/mprocess mprocess
+    101  ./compile.sh
+    102  ln -s ~dslab/MASS/c++/ubuntu/killMProcess.sh killMprocess.sh
+    103  ./compile.sh
+    104  clear
+    105  ./compile.sh
+    106  stty -echo
+    107  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    108  stty echo
+    109  cd ../../..
+    110  cd zalak/
+    111  cd css534_Assignment2//molecular_dynamics
+    112  ls
+    113  emacs mpd.hosts
+    114  cat mp
+    115  cat mpd.hosts
+    116  mpirun -np 4 MDmpi_zalak 1000 10000 100 4 | java MDout
+    117  exit
+    118  who
+    119  clear
+    120  vi machin
+    121  cd CSS534_Assignment4/
+    122  ls
+    123  vi machinefile.txt
+    124  ssh uw1-320-05
+    125  exit
+    126  who
+    127  ssh uw1-320-08
+    128  exit
+    129  who
+    130  ssh uw1-320-07
+    131  exit
+    132  who
+    133  ssh uw1-320-06
+    134  exit
+    135  who
+    136  ssh uw1-320-05
+    137  exit
+    138  who
+    139  ssh uw1-320-10
+    140  exit
+    141  who
+    142  ssh uw1-320-01
+    143  exit
+    144  ./compil
+    145  cd CSS534_Assignment4/
+    146  ./compile.sh
+    147  stty -echo
+    148  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    149  ./killMProcess.sh
+    150  stty -echo
+    151  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 100 0
+    152  ./compile.sh
+    153  stty -echo
+    154  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 100 0
+    155  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 100 0
+    156  stty -echo
+    157  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 1000 0
+    158  stty -echo
+    159  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 1000 0
+    160  ./killMProcess.sh
+    161  ./compile.sh
+    162  stty -echo
+    163  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 1000 0
+    164  stty -echo
+    165  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 0
+    166  ./killMProcess.sh
+    167  stty echo
+    168  clear
+    169  who
+    170  ssh uw1-320-00
+    171  exir
+    172  exit
+    173  who
+    174  ssh uw1-320-09
+    175  exit
+    176  who
+    177  ssh uw1-320-1
+    178  ssh uw1-320-01
+    179  exit
+    180  cd CSS534_Assignment4/
+    181  ls
+    182  ./compile.sh
+    183  cat compile.sh
+    184  vi compile.sh
+    185  ./compile.sh
+    186  ./compile.sh
+    187  clear
+    188  ./compile.sh
+    189  vi machinefile.txt
+    190  stty -echo
+    191  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 0
+    192  stty echo
+    193  ping uw1-320-10
+    194  ./killMProcess.sh
+    195  stty -echo
+    196  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    197  ./killMProcess.sh
+    198  ./compile.sh
+    199  stty -echo
+    200  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    201  ../kill
+    202  ./killMProcess.sh
+    203  ./compile.sh
+    204  stty -echo
+    205  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    206  ./killMProcess.sh
+    207  ./compile.sh
+    208  stty -echo
+    209  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    210  ./killMProcess.sh
+    211  ./compile.sh
+    212  stty -echo
+    213  ./md zalak Hazal1316 machinefile.txt 13611 4 4 1000 10000 100
+    214  ./killMProcess.sh
+    215  stty echo
+    216  ssh uw1-320-10
+    217  exit
+    218  xload
+    219  cd css534_Assignment2/molecular_dynamics
+    220  mpirun MDmpi_zalak 1000 10000 100 4 | java MDout
+    221  cat mpd.hosts.
+    222  cat mpd.hosts
+    223  ssh uw1-320-09
+    224  exir
+    225  exit
+    226  ls
+    227  dir
+    228  clear
+    229  cd CSS534_Assignment4/
+    230  ls
+    231  who
+    232  cd MASS_logs/
+    233  ls
+    234  vi PID_1_uw1-320-06.uwb.eduresult.txt
+    235  #vi PID_1_uw1-320-0[1~.uwb.eduresult.txt
+    236  ls -l
+    237  cd ..
+    238  ls
+    239  ./killMProcess.sh
+    240  stty -echo
+    241  ./md zalak Hazal1316 machinefile.txt 13611 4 1 1000 10000 0
+    242  ./killMProcess.sh
+    243  stty echo
+    244  cd ../
+    245  cd css534_Assignment2/molecular_dynamics
+    246  clear
+    247  ls
+    248  cat MDmpi_zalak.cpp
+    249  mpic++ MDmpi_zalak.cpp Timer.cpp -fopenmp -o MDmpi_zalak
+    250  clear
+    251  cat mpd.hosts
+    252  clear
+    253  mpirun -np 4 ./MDmpi_zalak 1000 10000 100 4 >> coordinateOutput.txt
+    254  cat coordinateOutput.txt
+    255  ls
+    256  cat mpi_setup.txt
+    257  mpdboot -n 4 -v
+    258  clear
+    259  rm coordinateOutput.txt
+    260  mpirun -np 4 ./MDmpi_zalak 1000 10000 100 4 >> coordinateOutput.txt
+    261  cat coordinateOutput.txt
+    262  clear
+    263  mpirun -np 4 ./MDmpi_zalak 1000 10000 0 4
+    264  mpirun -np 4 ./MDmpi_zalak 1000 10000 0 1
+    265  mpirun -np 1 ./MDmpi_zalak 1000 10000 0 1
+    266  mpirun -np 1 ./MDmpi_zalak 1000 10000 0 4
+    267  emacs MDmpi_zalak.cpp
+    268  emacs MDmpi_zalak.cpp
+    269  mpic++ MDmpi_zalak.cpp Timer.cpp -fopenmp -o MDmpi_zalak
+    270  rm coordinateOutput.txt
+    271  mpirun -np 1 ./MDmpi_zalak 1000 10000 100 1 >> coordinateOutput.txt
+    272  cat coordinateOutput.txt
+    273  emacs MDmpi_zalak
+    274  emacs MDmpi_zalak.cpp
+    275  rm coordinateOutput.txt
+    276  mpic++ MDmpi_zalak.cpp Timer.cpp -fopenmp -o MDmpi_zalak
+    277  mpirun -np 1 ./MDmpi_zalak 1000 10000 100 1 >> coordinateOutput.txt
+    278  mpdallexit
+    279  cd ../..
+    280  cd CSS534_Assignment4/Final_Before_optimization/
+    281  clear
+    282  stty -echo
+    283  ./md zalak Hazal1316 machinefile.txt 13611 4 1 1000 10000 0
+    284  who
+    285  cd CSS534_Assignment4/
+    286  cd final_working_Iteration1/
+    287  cd ..
+    288  cd Final_Before_optimization/
+    289  emacs machinefile.txt
+    290  ./killMprocess.sh
+    291  exit
+    292  cd CSS534_Assignment4/
+    293  cd Final_Before_optimization/
+    294  ./killMprocess.sh
+    295  cd ../..
+    296  cd css534_Assignment2/molecular_dynamics
+    297  mpdallexit
+    298  exit
+    299  cd CSS534_Assignment4/
+    300  cd Final_Before_optimization/
+    301  ./killMprocess.sh
+    302  cd ~
+    303  cd css534_Assignment2/molecular_dynamics
+    304  cat mpi_setup.txt
+    305  mpdboot -n 4 -v
+    306  clear
+    307  mpirun -np 4 ./MDmpi_zalak 1000 10000 0 4
+    308  mpirun -np 4 ./MDmpi_zalak 1000 10000 0 1
+    309  mpirun -np 1 ./MDmpi_zalak 1000 10000 0 4
+    310  mpirun -np 1 ./MDmpi_zalak 1000 10000 0 1
+    311  emacs mpd.hosts
+    312  clear
+    313  mpirun -np 4 ./MDmpi_zalak 1000 10000 0 4
+    314  mpdallexit
+    315  ssh uw1-320-00
+    316  cd CSS534_Assignment4/Final_Before_optimization/
+    317  ./killMprocess.sh
+    318  exit
+    319  mkdir FinalExams
+    320  cd FinalExams/
+    321  touch my_file.txt
+    322  emacs my_file.txt
+    323  emacs /net/metis/home2/zalak/css534_Assignment2/molecular_dynamics/compile.sh
+    324  ls
+    325  cat /net/metis/home2/zalak/css534_Assignment2/molecular_dynamics/compile.sh
+    326  g++ TwoPhaseIO.cpp -o two
+    327  emacs TwoPhaseIO.cpp
+    328  emacs TwoPhaseIO.cpp
+    329  g++ TwoPhaseIO.cpp -o two
+    330  cat TwoPhaseIO.cpp
+    331  emacs TwoPhaseIO.cpp
+    332  g++ TwoPhaseIO.cpp -o two
+    333  emacs TwoPhaseIO.cpp
+    334  g++ TwoPhaseIO.cpp -o two
+    335  emacs TwoPhaseIO.cpp
+    336  g++ TwoPhaseIO.cpp -o two
+    337  ls
+    338  rm TwoPhaseIO.cpp~
+    339  rm my_file.txt~
+    340  ./two my_file.txt
+    341  cat my_file.txt
+    342  g++ TwoPhaseIO.cpp -o two
+    343  g++ TwoPhaseIO.cpp -o two
+    344  ./two my_file.txt
+    345  g++ TwoPhaseIO.cpp -o two
+    346  ./two my_file.txt
+    347  g++ TwoPhaseIO.cpp -o two
+    348  ./two my_file.txt
+    349  cd css534_Assignment2/molecular_dynamics
+    350  ls
+    351  cp mpd.hosts ~/FinalExams/
+    352  cp MDArchive.zip ~/FinalExams/
+    353  cp mpi_setup.txt ~/FinalExams/
+    354  cd ~/FinalExams/
+    355  clear
+    356  ls
+    357  cp ~/css534_Assignment2/molecular_dynamics/compile.sh .
+  history
+  history > 1.txt
+  cat 1.txt
+  stty -echo
+  wer
+  stty echo
+  cd css534_lab3/
+  ls
+  cat command.txt 
+  sbin/start-dfs.sh
+  sbin/start-dfs.sh
+  cd ..
+  cd hadoop-2.4.0/
+  ./sbin/start-dfs.sh 
+  ./bin/hdfs dfs -mkdir /user
+  ./bin/hdfs dfs -mkdir /user/zalak
+  ./bin/hdfs dfs -chown zalak:zalak /user/zalak
+  ./bin/hdfs dfs -ls /user
+  ./bin/hdfs dfs -mkdir /user/zalak/inout
+  ./bin/hdfs dfs -rmdir /user/zalak/inout
+  ./bin/hdfs dfs -ls /user
+  ./bin/hdfs dfs -rmdir /user/zalak/input
+  ./bin/hdfs dfs -mkdir /user/zalak/input
+  ./bin/hdfs dfs -put etc/hadoop/*.xml /user/zalak/input/
+  ./bin/hdfs dfs -ls /user/zalak/input/
+  ./bin/hadoop/ jar ./share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar grep input output 'dfs[a-z.]+'
+  ./bin/hadoop jar ./share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar grep input output 'dfs[a-z.]+'
+  ./bin/hdfs dfs -ls /user/zalak/output/
+  ./bin/hdfs/dfs -get /user/zalak/output/part-r-00000
+  ./bin/hdfs dfs -get /user/zalak/output/part-r-00000
+  ls
+  cp ~ part-r-00000 
+  ls
+  cd ..
+  ls
+  cp hadoop-2.4.0/part-r-00000 .
+  ls
+  cd hadoop-2.4.0/
+  rm part-r-00000 
+  cd ..
+  cat part-r-00000 
+  cd hadoop-2.4.0/
+  ./bin/hdfs dfs -rm /user/zalak/output/*
+  ./bin/hdfs dfs -rmdir /user/zalak/output
+  cd ..
+  cd css534_lab3/wordcount_2.0/
+  ls
+  javac -cp `hadoop-classpath`:. WordCount.java 
+  cd ..
+  cat command.txt 
+  javac -cp `hadoop classpath`:. WordCount.java
+  cd wordcount_2.0/
+  javac -cp `hadoop classpath`:. WordCount.java
+  jar -cvf wordcount.jar *.class
+  ~/hadoop-2.4.0/bin/hdfs dfs -ls /user/zalak/input/
+  ~/hadoop-2.4.0/bin/hdfs dfs -rm /user/zalak/input/*
+  ~/hadoop-2.4.0/bin/hdfs dfs -put input/* /user/zalak/input
+  ~/hadoop-2.4.0/bin/hdfs dfs -ls /user/zalak/input/
+  ~/hadoop-2.4.0/bin/hadoop jar ./wordcount.jar WordCount input output
+  ~/hadoop-2.4.0/bin/hdfs dfs -ls /user/zalak/output/
+  ~/hadoop-2.4.0/bin/hdfs dfs -get /user/zalak/output/part-00000 output
+  cat output/*
+  ~/hadoop-2.4.0/sbin/stop-dfs.sh
+  exit
+  cd Network\ Motif/
+  java -cp `Hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.
+  ls NetworkMotif/src/main/java/edu/uw/nemo/motifSignificant/mapreduce/
+  java -cp `Hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.SwitchingAlgorithmGenerateGraphMapper,java
+  java -cp `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.SwitchingAlgorithmGenerateGraphMapper,java
+  java -cp `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.SwitchingAlgorithmGenerateGraphMapper.java
+* 
+  java -cp `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  java -cp . `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  java -cp . `hadoop classpath`:. NemoRandomGraphMain.java
+  java -cp `hadoop classpath`:. NemoRandomGraphMain.java
+  history
+  javac -cp `hadoop classpath`:. NemoRandomGraphMain.java
+  javac -cp `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  javac -help
+  javac -cp `hadoop classpath`:. NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+   NetworkMotif.src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  javac -version
+  touch Helloworld.java
+  vi Helloworld.java 
+  javac -cp Helloworld.java 
+  javac -cp . Helloworld.java 
+  ls
+  cd NetworkMotif/
+  javac -cp `hadoop classpath`:. NemoRandomGraphMain.java
+  javac -cp `hadoop classpath`:. src.main.java.edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  javac -cp `hadoop classpath`:. edu.uw.nemo.motifSignificant.mapreduce.NemoRandomGraphMain.java
+  javac -cp `hadoop classpath`:. NemoRandomGraphMain.java
+  javac -d `hadoop classpath`:. NemoRandomGraphMain.java
+  javac -d src/main/java/ `hadoop classpath`:. NemoRandomGraphMain.java
+  javac -d `hadoop classpath`:. src/main/java/NemoRandomGraphMain.java
+  cd  src/main/java/edu/uw/nemo/motifSignificant/mapreduce/
+  javac -d `hadoop classpath`:. NemoRandomGraphMain.java
+  cd ../../..
+* 
+  cd../..
+  cd ../../.
+  cd ../../.
+  cd ../../.
+  cd ../../.
+  cd ~
+  cd css534_lab3/
+  cd wordcount_2.0/
+  ls
+  javac -cp `hadoop classpath`:. WordCount.java
+  cd ..
+  cd ..
+  cd Network\ Motif/NetworkMotif/
+  javac -d bin/ -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain.java 
+  javac -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain.java 
+  javac -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/GraphGeneratorJob.java 
+  javac -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraph
+  javac -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.java 
+  javac -cp `hadoop classpath`:. src src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.java 
+  javac -cp `hadoop classpath`:.  src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.java 
+  javac -cp `hadoop classpath`:.  src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphReducer.java 
+  javac -cp `hadoop classpath`:.  src/main/java/edu/uw/nemo/model/AdjacentVertexWithEdge.java 
+  javac -cp `hadoop classpath`:.  src/main/java/edu/uw/nemo/model/AdjacencyMapping.java 
+  javac -cp `hadoop classpath`:.  src/main/java/edu/uw/nemo/model/AdjacentVertexWithEdge.java src/main/java/edu/uw/nemo/model/AdjacencyMapping.java src/main/java/edu/uw/nemo/model/Mapping.java src/main/java/edu/uw/nemo/io/Parser.java src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.java src/main/java/edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphReducer.java src/main/java/edu/uw/nemo/motifSignificant/mapreduce/GraphGeneratorJob.java src/main/java/edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain.java 
+  ls
+  cd src/main/java/edu/uw/nemo/motifSignificant/mapreduce/
+  ls
+* 
+  cd ../../..
+  cd ../..
+  jar -cvf nemo.jar src/main/java/edu/uw/nemo/model/*.class src/main/java/edu/uw/nemo/io/Parser.class src/main/java/edu/uw/nemo/motifSignificant/mapreduce/*.class
+  ls
+  ~/hadoop-2.4.0/bin/hdfs dfs -rm /user/zalak/input/*
+  ~/hadoop-2.4.0/bin/hdfs dfs -rm /user/zalak/input
+  ~/hadoop-2.4.0/bin/hdfs dfs -ls /user/zalak
+  ~/hadoop-2.4.0/sbin/start-dfs.sh
+  ~/hadoop-2.4.0/bin/hdfs dfs -rm /user/zalak/input/*
+  ping uw1-320-01
+  ping uw1-320-02
+  ping uw1-320-03
+  ping uw1-320-00
+  ~/hadoop-2.4.0/bin/hdfs dfs -ls /user
+  cd ..
+  cd ..
+  cd css534_Assignment3/
+  ls
+  cd invertedindex/
+  ls
+  cd ../..
+  cd css534_lab3/wordcount_2.0/
+  ls
+  ls 
+  cd ../..
+  cd hadoop-2.4.0/
+  ./bin/hdfs dfs -mkdir /user
+  ./bin/hdfs dfs -ls /user
+  ./bin/hdfs dfs -mkdir /user/zalak
+  ./bin/hdfs dfs -ls /user
+  vi etc/hadoop/core-site.xml
+  vi etc/hadoop/core-site.xml
+  ./sbin/stop-dfs.sh 
+  vi etc/hadoop/hdfs-site.xml
+  vi etc/hadoop/slaves
+  ./bin/hdfs namenode -format
+  ./sbin/start-dfs.sh
+  ./bin/hdfs dfs -mkdir /user
+  ./bin/hdfs dfs -mkdir /user/zalak
+  ./bin/hdfs dfs -chown zalak:zalak /user/zalak
+  ./bin/hdfs dfs -mkdir /user/zalak/input
+  cd ..
+  cd Network\ Motif/NetworkMotif/
+  ~/hadoop-2.6.0/bin/hdfs dfs -put src/test/resources/InputGraph1.csv /user/zalak/input
+  ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/input
+  ~/hadoop-2.6.0/bin/hadoop jar ./nemo.jar InputGraph1.csv output 1000 1.0 random
+  ~/hadoop-2.6.0/bin/hadoop jar nemo.jar input/InputGraph1.csv output 1000 1.0 random
+  ~/hadoop-2.6.0/bin/hadoop jar nemo.jar input output 1000 1.0 random
+  ~/hadoop-2.6.0/bin/hadoop jar nemo.jar InputGraph1.csv output 1000 1.0 random
+  history
+  ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/input
+  ~/hadoop-2.6.0/bin/hadoop jar nemo.jar  input output 1000 1.0 random
+  Exception in thread "main" java.lang.ClassNotFoundException: input
+  history
+  command.txt > history
+  history > commandHistory.txt

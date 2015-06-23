@@ -1,0 +1,1724 @@
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7533 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 556 milliseconds.
+mapping to ids took 212 milliseconds.
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerated 1350000 sub-graphs till now.
+Enumerated 1400000 sub-graphs till now.
+Enumerated 1450000 sub-graphs till now.
+Enumerated 1500000 sub-graphs till now.
+Enumerated 1550000 sub-graphs till now.
+Enumerated 1600000 sub-graphs till now.
+Enumerated 1650000 sub-graphs till now.
+Enumerated 1700000 sub-graphs till now.
+Enumerated 1750000 sub-graphs till now.
+Enumerated 1800000 sub-graphs till now.
+Enumerated 1850000 sub-graphs till now.
+Enumerated 1900000 sub-graphs till now.
+Enumerated 1950000 sub-graphs till now.
+Enumerated 2000000 sub-graphs till now.
+Enumerated 2050000 sub-graphs till now.
+Enumerated 2100000 sub-graphs till now.
+Enumerated 2150000 sub-graphs till now.
+Enumerated 2200000 sub-graphs till now.
+Enumerated 2250000 sub-graphs till now.
+Enumerated 2300000 sub-graphs till now.
+Enumerated 2350000 sub-graphs till now.
+Enumerated 2400000 sub-graphs till now.
+Enumerated 2450000 sub-graphs till now.
+Enumerated 2500000 sub-graphs till now.
+Enumerated 2550000 sub-graphs till now.
+Enumerated 2600000 sub-graphs till now.
+Enumerated 2650000 sub-graphs till now.
+Enumerated 2700000 sub-graphs till now.
+Enumerated 2750000 sub-graphs till now.
+Enumerated 2800000 sub-graphs till now.
+Enumerated 2850000 sub-graphs till now.
+Enumerated 2900000 sub-graphs till now.
+Enumerated 2950000 sub-graphs till now.
+Enumerated 3000000 sub-graphs till now.
+Enumerated 3050000 sub-graphs till now.
+Enumerated 3100000 sub-graphs till now.
+Enumerated 3150000 sub-graphs till now.
+Enumerated 3200000 sub-graphs till now.
+Enumerated 3250000 sub-graphs till now.
+Enumerated 3300000 sub-graphs till now.
+Enumerated 3350000 sub-graphs till now.
+Enumerated 3400000 sub-graphs till now.
+Enumerated 3450000 sub-graphs till now.
+Enumerated 3500000 sub-graphs till now.
+Enumerated 3550000 sub-graphs till now.
+Enumerated 3600000 sub-graphs till now.
+Enumerated 3650000 sub-graphs till now.
+Enumerated 3700000 sub-graphs till now.
+Enumerated 3750000 sub-graphs till now.
+Enumerated 3800000 sub-graphs till now.
+Enumerated 3850000 sub-graphs till now.
+Enumerated 3900000 sub-graphs till now.
+Enumerated 3950000 sub-graphs till now.
+Enumerated 4000000 sub-graphs till now.
+Enumerated 4050000 sub-graphs till now.
+Enumerated 4100000 sub-graphs till now.
+Enumerated 4150000 sub-graphs till now.
+Enumerated 4200000 sub-graphs till now.
+Enumerated 4250000 sub-graphs till now.
+Enumerated 4300000 sub-graphs till now.
+Enumerated 4350000 sub-graphs till now.
+Enumerated 4400000 sub-graphs till now.
+Enumerated 4450000 sub-graphs till now.
+Enumerated 4500000 sub-graphs till now.
+Enumerated 4550000 sub-graphs till now.
+Enumerated 4600000 sub-graphs till now.
+Enumerated 4650000 sub-graphs till now.
+Enumerated 4700000 sub-graphs till now.
+Enumerated 4750000 sub-graphs till now.
+Enumerated 4800000 sub-graphs till now.
+Enumerated 4850000 sub-graphs till now.
+Enumerated 4900000 sub-graphs till now.
+Enumerated 4950000 sub-graphs till now.
+Enumerated 5000000 sub-graphs till now.
+Enumerated 5050000 sub-graphs till now.
+Enumerated 5100000 sub-graphs till now.
+Enumerated 5150000 sub-graphs till now.
+Enumerated 5200000 sub-graphs till now.
+Enumerated 5250000 sub-graphs till now.
+Enumerated 5300000 sub-graphs till now.
+Enumerated 5350000 sub-graphs till now.
+Enumerated 5400000 sub-graphs till now.
+Enumerated 5450000 sub-graphs till now.
+Enumerated 5500000 sub-graphs till now.
+Enumerated 5550000 sub-graphs till now.
+Enumerated 5600000 sub-graphs till now.
+Enumerated 5650000 sub-graphs till now.
+Enumerated 5700000 sub-graphs till now.
+Enumerated 5750000 sub-graphs till now.
+Enumerated 5800000 sub-graphs till now.
+Enumerated 5850000 sub-graphs till now.
+Enumerated 5900000 sub-graphs till now.
+Enumerated 5950000 sub-graphs till now.
+Enumerated 6000000 sub-graphs till now.
+Enumerated 6050000 sub-graphs till now.
+Enumerated 6100000 sub-graphs till now.
+Enumerated 6150000 sub-graphs till now.
+Enumerated 6200000 sub-graphs till now.
+Enumerated 6250000 sub-graphs till now.
+Enumerated 6300000 sub-graphs till now.
+Enumerated 6350000 sub-graphs till now.
+Enumerated 6400000 sub-graphs till now.
+Enumerated 6450000 sub-graphs till now.
+Enumerated 6500000 sub-graphs till now.
+Enumerated 6550000 sub-graphs till now.
+Enumerated 6600000 sub-graphs till now.
+Enumerated 6650000 sub-graphs till now.
+Enumerated 6700000 sub-graphs till now.
+Enumerated 6750000 sub-graphs till now.
+Enumerated 6800000 sub-graphs till now.
+Enumerated 6850000 sub-graphs till now.
+Enumerated 6900000 sub-graphs till now.
+Enumerated 6950000 sub-graphs till now.
+Enumerated 7000000 sub-graphs till now.
+Enumerated 7050000 sub-graphs till now.
+Enumerated 7100000 sub-graphs till now.
+Enumerated 7150000 sub-graphs till now.
+Enumerated 7200000 sub-graphs till now.
+Enumerated 7250000 sub-graphs till now.
+Enumerated 7300000 sub-graphs till now.
+Enumerated 7350000 sub-graphs till now.
+Enumerated 7400000 sub-graphs till now.
+Enumerated 7450000 sub-graphs till now.
+Enumerated 7500000 sub-graphs till now.
+Enumerated 7550000 sub-graphs till now.
+Enumerated 7600000 sub-graphs till now.
+Enumerated 7650000 sub-graphs till now.
+Enumerated 7700000 sub-graphs till now.
+Enumerated 7750000 sub-graphs till now.
+Enumerated 7800000 sub-graphs till now.
+Enumerated 7850000 sub-graphs till now.
+Enumerated 7900000 sub-graphs till now.
+Enumerated 7950000 sub-graphs till now.
+Enumerated 8000000 sub-graphs till now.
+Enumerated 8050000 sub-graphs till now.
+Enumerated 8100000 sub-graphs till now.
+Enumerated 8150000 sub-graphs till now.
+Enumerated 8200000 sub-graphs till now.
+Enumerated 8250000 sub-graphs till now.
+Enumerated 8300000 sub-graphs till now.
+Enumerated 8350000 sub-graphs till now.
+Enumerated 8400000 sub-graphs till now.
+Enumerated 8450000 sub-graphs till now.
+Enumerated 8500000 sub-graphs till now.
+Enumerated 8550000 sub-graphs till now.
+Enumerated 8600000 sub-graphs till now.
+Enumerated 8650000 sub-graphs till now.
+Enumerated 8700000 sub-graphs till now.
+Enumerated 8750000 sub-graphs till now.
+Enumerated 8800000 sub-graphs till now.
+Enumerated 8850000 sub-graphs till now.
+Enumerated 8900000 sub-graphs till now.
+Enumerated 8950000 sub-graphs till now.
+Enumerated 9000000 sub-graphs till now.
+Enumerated 9050000 sub-graphs till now.
+Enumerated 9100000 sub-graphs till now.
+Enumerated 9150000 sub-graphs till now.
+Enumerated 9200000 sub-graphs till now.
+Enumerated 9250000 sub-graphs till now.
+Enumerated 9300000 sub-graphs till now.
+Enumerated 9350000 sub-graphs till now.
+Enumerated 9400000 sub-graphs till now.
+Enumerated 9450000 sub-graphs till now.
+Enumerated 9500000 sub-graphs till now.
+Enumerated 9550000 sub-graphs till now.
+Enumerated 9600000 sub-graphs till now.
+Enumerated 9650000 sub-graphs till now.
+Enumerated 9700000 sub-graphs till now.
+Enumerated 9750000 sub-graphs till now.
+Enumerated 9800000 sub-graphs till now.
+Enumerated 9850000 sub-graphs till now.
+Enumerated 9900000 sub-graphs till now.
+Enumerated 9950000 sub-graphs till now.
+Enumerated 10000000 sub-graphs till now.
+Enumerated 10050000 sub-graphs till now.
+Enumerated 10100000 sub-graphs till now.
+Enumerated 10150000 sub-graphs till now.
+Enumerated 10200000 sub-graphs till now.
+Enumerated 10250000 sub-graphs till now.
+Enumerated 10300000 sub-graphs till now.
+Enumerated 10350000 sub-graphs till now.
+Enumerated 10400000 sub-graphs till now.
+Enumerated 10450000 sub-graphs till now.
+Enumerated 10500000 sub-graphs till now.
+Enumerated 10550000 sub-graphs till now.
+Enumerated 10600000 sub-graphs till now.
+Enumerated 10650000 sub-graphs till now.
+Enumerated 10700000 sub-graphs till now.
+Enumerated 10750000 sub-graphs till now.
+Enumerated 10800000 sub-graphs till now.
+Enumerated 10850000 sub-graphs till now.
+Enumerated 10900000 sub-graphs till now.
+Enumerated 10950000 sub-graphs till now.
+Enumerated 11000000 sub-graphs till now.
+Enumerated 11050000 sub-graphs till now.
+Enumerated 11100000 sub-graphs till now.
+Enumerated 11150000 sub-graphs till now.
+Enumerated 11200000 sub-graphs till now.
+Enumerated 11250000 sub-graphs till now.
+Enumerated 11300000 sub-graphs till now.
+Enumerated 11350000 sub-graphs till now.
+Enumerated 11400000 sub-graphs till now.
+Enumerated 11450000 sub-graphs till now.
+Enumerated 11500000 sub-graphs till now.
+Enumerated 11550000 sub-graphs till now.
+Enumerated 11600000 sub-graphs till now.
+Enumerated 11650000 sub-graphs till now.
+Enumerated 11700000 sub-graphs till now.
+Enumerated 11750000 sub-graphs till now.
+Enumerated 11800000 sub-graphs till now.
+Enumerated 11850000 sub-graphs till now.
+Enumerated 11900000 sub-graphs till now.
+Enumerated 11950000 sub-graphs till now.
+Enumerated 12000000 sub-graphs till now.
+Enumerated 12050000 sub-graphs till now.
+Enumerated 12100000 sub-graphs till now.
+Enumerated 12150000 sub-graphs till now.
+Enumerated 12200000 sub-graphs till now.
+Enumerated 12250000 sub-graphs till now.
+Enumerated 12300000 sub-graphs till now.
+Enumerated 12350000 sub-graphs till now.
+Enumerated 12400000 sub-graphs till now.
+Enumerated 12450000 sub-graphs till now.
+Enumerated 12500000 sub-graphs till now.
+Enumerated 12550000 sub-graphs till now.
+Enumerated 12600000 sub-graphs till now.
+Enumerated 12650000 sub-graphs till now.
+Enumerated 12700000 sub-graphs till now.
+Enumerated 12750000 sub-graphs till now.
+Enumerated 12800000 sub-graphs till now.
+Enumerated 12850000 sub-graphs till now.
+Enumerated 12900000 sub-graphs till now.
+Enumerated 12950000 sub-graphs till now.
+Enumerated 13000000 sub-graphs till now.
+Enumerated 13050000 sub-graphs till now.
+Enumerated 13100000 sub-graphs till now.
+Enumerated 13150000 sub-graphs till now.
+Enumerated 13200000 sub-graphs till now.
+Enumerated 13250000 sub-graphs till now.
+Enumerated 13300000 sub-graphs till now.
+Enumerated 13350000 sub-graphs till now.
+Enumerated 13400000 sub-graphs till now.
+Enumerated 13450000 sub-graphs till now.
+Enumerated 13500000 sub-graphs till now.
+Enumerated 13550000 sub-graphs till now.
+Enumerated 13600000 sub-graphs till now.
+Enumerated 13650000 sub-graphs till now.
+Enumerated 13700000 sub-graphs till now.
+Enumerated 13750000 sub-graphs till now.
+Enumerated 13800000 sub-graphs till now.
+Enumerated 13850000 sub-graphs till now.
+Enumerated 13900000 sub-graphs till now.
+Enumerated 13950000 sub-graphs till now.
+Enumerated 14000000 sub-graphs till now.
+Enumerated 14050000 sub-graphs till now.
+Enumerated 14100000 sub-graphs till now.
+Enumerated 14150000 sub-graphs till now.
+Enumerated 14200000 sub-graphs till now.
+Enumerated 14250000 sub-graphs till now.
+Enumerated 14300000 sub-graphs till now.
+Enumerated 14350000 sub-graphs till now.
+Enumerated 14400000 sub-graphs till now.
+Enumerated 14450000 sub-graphs till now.
+Enumerated 14500000 sub-graphs till now.
+Enumerated 14550000 sub-graphs till now.
+Enumerated 14600000 sub-graphs till now.
+Enumerated 14650000 sub-graphs till now.
+Enumerated 14700000 sub-graphs till now.
+Enumerated 14750000 sub-graphs till now.
+Enumerated 14800000 sub-graphs till now.
+Enumerated 14850000 sub-graphs till now.
+Enumerated 14900000 sub-graphs till now.
+Enumerated 14950000 sub-graphs till now.
+Enumerated 15000000 sub-graphs till now.
+Enumerated 15050000 sub-graphs till now.
+Enumerated 15100000 sub-graphs till now.
+Enumerated 15150000 sub-graphs till now.
+Enumerated 15200000 sub-graphs till now.
+Enumerated 15250000 sub-graphs till now.
+Enumerated 15300000 sub-graphs till now.
+Enumerated 15350000 sub-graphs till now.
+Enumerated 15400000 sub-graphs till now.
+Enumerated 15450000 sub-graphs till now.
+Enumerated 15500000 sub-graphs till now.
+Enumerated 15550000 sub-graphs till now.
+Enumerated 15600000 sub-graphs till now.
+Enumerated 15650000 sub-graphs till now.
+Enumerated 15700000 sub-graphs till now.
+Enumerated 15750000 sub-graphs till now.
+Enumerated 15800000 sub-graphs till now.
+Enumerated 15850000 sub-graphs till now.
+Enumerated 15900000 sub-graphs till now.
+Enumerated 15950000 sub-graphs till now.
+Enumerated 16000000 sub-graphs till now.
+Enumerated 16050000 sub-graphs till now.
+Enumerated 16100000 sub-graphs till now.
+Enumerated 16150000 sub-graphs till now.
+Enumerated 16200000 sub-graphs till now.
+Enumerated 16250000 sub-graphs till now.
+Enumerated 16300000 sub-graphs till now.
+Enumerated 16350000 sub-graphs till now.
+Enumerated 16400000 sub-graphs till now.
+Enumerated 16450000 sub-graphs till now.
+Enumerated 16500000 sub-graphs till now.
+Enumerated 16550000 sub-graphs till now.
+Enumerated 16600000 sub-graphs till now.
+Enumerated 16650000 sub-graphs till now.
+Enumerated 16700000 sub-graphs till now.
+Enumerated 16750000 sub-graphs till now.
+Enumerated 16800000 sub-graphs till now.
+Enumerated 16850000 sub-graphs till now.
+Enumerated 16900000 sub-graphs till now.
+Enumerated 16950000 sub-graphs till now.
+Enumerated 17000000 sub-graphs till now.
+Enumerated 17050000 sub-graphs till now.
+Enumerated 17100000 sub-graphs till now.
+Enumerated 17150000 sub-graphs till now.
+Enumerated 17200000 sub-graphs till now.
+Enumerated 17250000 sub-graphs till now.
+Enumerated 17300000 sub-graphs till now.
+Enumerated 17350000 sub-graphs till now.
+Enumerated 17400000 sub-graphs till now.
+Enumerated 17450000 sub-graphs till now.
+Enumerated 17500000 sub-graphs till now.
+Enumerated 17550000 sub-graphs till now.
+Enumerated 17600000 sub-graphs till now.
+Enumerated 17650000 sub-graphs till now.
+Enumerated 17700000 sub-graphs till now.
+Enumerated 17750000 sub-graphs till now.
+Enumerated 17800000 sub-graphs till now.
+Enumerated 17850000 sub-graphs till now.
+Enumerated 17900000 sub-graphs till now.
+Enumerated 17950000 sub-graphs till now.
+Enumerated 18000000 sub-graphs till now.
+Enumerated 18050000 sub-graphs till now.
+Enumerated 18100000 sub-graphs till now.
+Enumerated 18150000 sub-graphs till now.
+Enumerated 18200000 sub-graphs till now.
+Enumerated 18250000 sub-graphs till now.
+Enumerated 18300000 sub-graphs till now.
+Enumerated 18350000 sub-graphs till now.
+Enumerated 18400000 sub-graphs till now.
+Enumerated 18450000 sub-graphs till now.
+Enumerated 18500000 sub-graphs till now.
+Enumerated 18550000 sub-graphs till now.
+Enumerated 18600000 sub-graphs till now.
+Enumerated 18650000 sub-graphs till now.
+Enumerated 18700000 sub-graphs till now.
+Enumerated 18750000 sub-graphs till now.
+Enumerated 18800000 sub-graphs till now.
+Enumerated 18850000 sub-graphs till now.
+Enumerated 18900000 sub-graphs till now.
+Enumerated 18950000 sub-graphs till now.
+Enumerated 19000000 sub-graphs till now.
+Enumerated 19050000 sub-graphs till now.
+Enumerated 19100000 sub-graphs till now.
+Enumerated 19150000 sub-graphs till now.
+Enumerated 19200000 sub-graphs till now.
+Enumerated 19250000 sub-graphs till now.
+Enumerated 19300000 sub-graphs till now.
+Enumerated 19350000 sub-graphs till now.
+Enumerated 19400000 sub-graphs till now.
+Enumerated 19450000 sub-graphs till now.
+Enumerated 19500000 sub-graphs till now.
+Enumerated 19550000 sub-graphs till now.
+Enumerated 19600000 sub-graphs till now.
+Enumerated 19650000 sub-graphs till now.
+Enumerated 19700000 sub-graphs till now.
+Enumerated 19750000 sub-graphs till now.
+Enumerated 19800000 sub-graphs till now.
+Enumerated 19850000 sub-graphs till now.
+Enumerated 19900000 sub-graphs till now.
+Enumerated 19950000 sub-graphs till now.
+Enumerated 20000000 sub-graphs till now.
+Enumerated 20050000 sub-graphs till now.
+Enumerated 20100000 sub-graphs till now.
+Enumerated 20150000 sub-graphs till now.
+Enumerated 20200000 sub-graphs till now.
+Enumerated 20250000 sub-graphs till now.
+Enumerated 20300000 sub-graphs till now.
+Enumerated 20350000 sub-graphs till now.
+Enumerated 20400000 sub-graphs till now.
+Enumerated 20450000 sub-graphs till now.
+Enumerated 20500000 sub-graphs till now.
+Enumerated 20550000 sub-graphs till now.
+Enumerated 20600000 sub-graphs till now.
+Enumerated 20650000 sub-graphs till now.
+Enumerated 20700000 sub-graphs till now.
+Enumerated 20750000 sub-graphs till now.
+Enumerated 20800000 sub-graphs till now.
+Enumerated 20850000 sub-graphs till now.
+Enumerated 20900000 sub-graphs till now.
+Enumerated 20950000 sub-graphs till now.
+Enumerated 21000000 sub-graphs till now.
+Enumerated 21050000 sub-graphs till now.
+Enumerated 21100000 sub-graphs till now.
+Enumerated 21150000 sub-graphs till now.
+Enumerated 21200000 sub-graphs till now.
+Enumerated 21250000 sub-graphs till now.
+Enumerated 21300000 sub-graphs till now.
+Enumerated 21350000 sub-graphs till now.
+Enumerated 21400000 sub-graphs till now.
+Enumerated 21450000 sub-graphs till now.
+Enumerated 21500000 sub-graphs till now.
+Enumerated 21550000 sub-graphs till now.
+Enumerated 21600000 sub-graphs till now.
+Enumerated 21650000 sub-graphs till now.
+Enumerated 21700000 sub-graphs till now.
+Enumerated 21750000 sub-graphs till now.
+Enumerated 21800000 sub-graphs till now.
+Enumerated 21850000 sub-graphs till now.
+Enumerated 21900000 sub-graphs till now.
+Enumerated 21950000 sub-graphs till now.
+Enumerated 22000000 sub-graphs till now.
+Enumerated 22050000 sub-graphs till now.
+Enumerated 22100000 sub-graphs till now.
+Enumerated 22150000 sub-graphs till now.
+Enumerated 22200000 sub-graphs till now.
+Enumerated 22250000 sub-graphs till now.
+Enumerated 22300000 sub-graphs till now.
+Enumerated 22350000 sub-graphs till now.
+Enumerated 22400000 sub-graphs till now.
+Enumerated 22450000 sub-graphs till now.
+Enumerated 22500000 sub-graphs till now.
+Enumerated 22550000 sub-graphs till now.
+Enumerated 22600000 sub-graphs till now.
+Enumerated 22650000 sub-graphs till now.
+Enumerated 22700000 sub-graphs till now.
+Enumerated 22750000 sub-graphs till now.
+Enumerated 22800000 sub-graphs till now.
+Enumerated 22850000 sub-graphs till now.
+Enumerated 22900000 sub-graphs till now.
+Enumerated 22950000 sub-graphs till now.
+Enumerated 23000000 sub-graphs till now.
+Enumerated 23050000 sub-graphs till now.
+Enumerated 23100000 sub-graphs till now.
+Enumerated 23150000 sub-graphs till now.
+Enumerated 23200000 sub-graphs till now.
+Enumerated 23250000 sub-graphs till now.
+Enumerated 23300000 sub-graphs till now.
+Enumerated 23350000 sub-graphs till now.
+Enumerated 23400000 sub-graphs till now.
+Enumerated 23450000 sub-graphs till now.
+Enumerated 23500000 sub-graphs till now.
+Enumerated 23550000 sub-graphs till now.
+Enumerated 23600000 sub-graphs till now.
+Enumerated 23650000 sub-graphs till now.
+Enumerated 23700000 sub-graphs till now.
+Enumerated 23750000 sub-graphs till now.
+Enumerated 23800000 sub-graphs till now.
+Enumerated 23850000 sub-graphs till now.
+Enumerated 23900000 sub-graphs till now.
+Enumerated 23950000 sub-graphs till now.
+Enumerated 24000000 sub-graphs till now.
+Enumerated 24050000 sub-graphs till now.
+Enumerated 24100000 sub-graphs till now.
+Enumerated 24150000 sub-graphs till now.
+Enumerated 24200000 sub-graphs till now.
+Enumerated 24250000 sub-graphs till now.
+Enumerated 24300000 sub-graphs till now.
+Enumerated 24350000 sub-graphs till now.
+Enumerated 24400000 sub-graphs till now.
+Enumerated 24450000 sub-graphs till now.
+Enumerated 24500000 sub-graphs till now.
+Enumerated 24550000 sub-graphs till now.
+Enumerated 24600000 sub-graphs till now.
+Enumerated 24650000 sub-graphs till now.
+Enumerated 24700000 sub-graphs till now.
+Enumerated 24750000 sub-graphs till now.
+Enumerated 24800000 sub-graphs till now.
+Enumerated 24850000 sub-graphs till now.
+Enumerated 24900000 sub-graphs till now.
+Enumerated 24950000 sub-graphs till now.
+Enumerated 25000000 sub-graphs till now.
+Enumerated 25050000 sub-graphs till now.
+Enumerated 25100000 sub-graphs till now.
+Enumerated 25150000 sub-graphs till now.
+Enumerated 25200000 sub-graphs till now.
+Enumerated 25250000 sub-graphs till now.
+Enumerated 25300000 sub-graphs till now.
+Enumerated 25350000 sub-graphs till now.
+Enumerated 25400000 sub-graphs till now.
+Enumerated 25450000 sub-graphs till now.
+Enumerated 25500000 sub-graphs till now.
+Enumerated 25550000 sub-graphs till now.
+Enumerated 25600000 sub-graphs till now.
+Enumerated 25650000 sub-graphs till now.
+Enumerated 25700000 sub-graphs till now.
+Enumerated 25750000 sub-graphs till now.
+Enumerated 25800000 sub-graphs till now.
+Enumerated 25850000 sub-graphs till now.
+Enumerated 25900000 sub-graphs till now.
+Enumerated 25950000 sub-graphs till now.
+Enumerated 26000000 sub-graphs till now.
+Enumerated 26050000 sub-graphs till now.
+Enumerated 26100000 sub-graphs till now.
+Enumerated 26150000 sub-graphs till now.
+Enumerated 26200000 sub-graphs till now.
+Enumerated 26250000 sub-graphs till now.
+Enumerated 26300000 sub-graphs till now.
+Enumerated 26350000 sub-graphs till now.
+Enumerated 26400000 sub-graphs till now.
+Enumerated 26450000 sub-graphs till now.
+Enumerated 26500000 sub-graphs till now.
+Enumerated 26550000 sub-graphs till now.
+Enumerated 26600000 sub-graphs till now.
+Enumerated 26650000 sub-graphs till now.
+Enumerated 26700000 sub-graphs till now.
+Enumerated 26750000 sub-graphs till now.
+Enumerated 26800000 sub-graphs till now.
+Enumerated 26850000 sub-graphs till now.
+Enumerated 26900000 sub-graphs till now.
+Enumerated 26950000 sub-graphs till now.
+Enumerated 27000000 sub-graphs till now.
+Enumerated 27050000 sub-graphs till now.
+Enumerated 27100000 sub-graphs till now.
+Enumerated 27150000 sub-graphs till now.
+Enumerated 27200000 sub-graphs till now.
+Enumerated 27250000 sub-graphs till now.
+Enumerated 27300000 sub-graphs till now.
+Enumerated 27350000 sub-graphs till now.
+Enumerated 27400000 sub-graphs till now.
+Enumerated 27450000 sub-graphs till now.
+Enumerated 27500000 sub-graphs till now.
+Enumerated 27550000 sub-graphs till now.
+Enumerated 27600000 sub-graphs till now.
+Enumerated 27650000 sub-graphs till now.
+Enumerated 27700000 sub-graphs till now.
+Enumerated 27750000 sub-graphs till now.
+Enumerated 27800000 sub-graphs till now.
+Enumerated 27850000 sub-graphs till now.
+Enumerated 27900000 sub-graphs till now.
+Enumerated 27950000 sub-graphs till now.
+Enumerated 28000000 sub-graphs till now.
+Enumerated 28050000 sub-graphs till now.
+Enumerated 28100000 sub-graphs till now.
+Enumerated 28150000 sub-graphs till now.
+Enumerated 28200000 sub-graphs till now.
+Enumerated 28250000 sub-graphs till now.
+Enumerated 28300000 sub-graphs till now.
+Enumerated 28350000 sub-graphs till now.
+Enumerated 28400000 sub-graphs till now.
+Enumerated 28450000 sub-graphs till now.
+Enumerated 28500000 sub-graphs till now.
+Enumerated 28550000 sub-graphs till now.
+Enumerated 28600000 sub-graphs till now.
+Enumerated 28650000 sub-graphs till now.
+Enumerated 28700000 sub-graphs till now.
+Enumerated 28750000 sub-graphs till now.
+Enumerated 28800000 sub-graphs till now.
+Enumerated 28850000 sub-graphs till now.
+Enumerated 28900000 sub-graphs till now.
+Enumerated 28950000 sub-graphs till now.
+Enumerated 29000000 sub-graphs till now.
+Enumerated 29050000 sub-graphs till now.
+Enumerated 29100000 sub-graphs till now.
+Enumerated 29150000 sub-graphs till now.
+Enumerated 29200000 sub-graphs till now.
+Enumerated 29250000 sub-graphs till now.
+Enumerated 29300000 sub-graphs till now.
+Enumerated 29350000 sub-graphs till now.
+Enumerated 29400000 sub-graphs till now.
+Enumerated 29450000 sub-graphs till now.
+Enumerated 29500000 sub-graphs till now.
+Enumerated 29550000 sub-graphs till now.
+Enumerated 29600000 sub-graphs till now.
+Enumerated 29650000 sub-graphs till now.
+Enumerated 29700000 sub-graphs till now.
+Enumerated 29750000 sub-graphs till now.
+Enumerated 29800000 sub-graphs till now.
+Enumerated 29850000 sub-graphs till now.
+Enumerated 29900000 sub-graphs till now.
+Enumerated 29950000 sub-graphs till now.
+Enumerated 30000000 sub-graphs till now.
+Enumerated 30050000 sub-graphs till now.
+Enumerated 30100000 sub-graphs till now.
+Enumerated 30150000 sub-graphs till now.
+Enumerated 30200000 sub-graphs till now.
+Enumerated 30250000 sub-graphs till now.
+Enumerated 30300000 sub-graphs till now.
+Enumerated 30350000 sub-graphs till now.
+Enumerated 30400000 sub-graphs till now.
+Enumerated 30450000 sub-graphs till now.
+Enumerated 30500000 sub-graphs till now.
+Enumerated 30550000 sub-graphs till now.
+Enumerated 30600000 sub-graphs till now.
+Enumerated 30650000 sub-graphs till now.
+Enumerated 30700000 sub-graphs till now.
+Enumerated 30750000 sub-graphs till now.
+Enumerated 30800000 sub-graphs till now.
+Enumerated 30850000 sub-graphs till now.
+Enumerated 30900000 sub-graphs till now.
+Enumerated 30950000 sub-graphs till now.
+Enumerated 31000000 sub-graphs till now.
+Enumerated 31050000 sub-graphs till now.
+Enumerated 31100000 sub-graphs till now.
+Enumerated 31150000 sub-graphs till now.
+Enumerated 31200000 sub-graphs till now.
+Enumerated 31250000 sub-graphs till now.
+Enumerated 31300000 sub-graphs till now.
+Enumerated 31350000 sub-graphs till now.
+Enumerated 31400000 sub-graphs till now.
+Enumerated 31450000 sub-graphs till now.
+Enumerated 31500000 sub-graphs till now.
+Enumerated 31550000 sub-graphs till now.
+Enumerated 31600000 sub-graphs till now.
+Enumerated 31650000 sub-graphs till now.
+Enumerated 31700000 sub-graphs till now.
+Enumerated 31750000 sub-graphs till now.
+Enumerated 31800000 sub-graphs till now.
+Enumerated 31850000 sub-graphs till now.
+Enumerated 31900000 sub-graphs till now.
+Enumerated 31950000 sub-graphs till now.
+Enumerated 32000000 sub-graphs till now.
+Enumerated 32050000 sub-graphs till now.
+Enumerated 32100000 sub-graphs till now.
+Enumerated 32150000 sub-graphs till now.
+Enumerated 32200000 sub-graphs till now.
+Enumerated 32250000 sub-graphs till now.
+Enumerated 32300000 sub-graphs till now.
+Enumerated 32350000 sub-graphs till now.
+Enumerated 32400000 sub-graphs till now.
+Enumerated 32450000 sub-graphs till now.
+Enumerated 32500000 sub-graphs till now.
+Enumerated 32550000 sub-graphs till now.
+Enumerated 32600000 sub-graphs till now.
+Enumerated 32650000 sub-graphs till now.
+Enumerated 32700000 sub-graphs till now.
+Enumerated 32750000 sub-graphs till now.
+Enumerated 32800000 sub-graphs till now.
+Enumerated 32850000 sub-graphs till now.
+Enumerated 32900000 sub-graphs till now.
+Enumerated 32950000 sub-graphs till now.
+Enumerated 33000000 sub-graphs till now.
+Enumerated 33050000 sub-graphs till now.
+Enumerated 33100000 sub-graphs till now.
+Enumerated 33150000 sub-graphs till now.
+Enumerated 33200000 sub-graphs till now.
+Enumerated 33250000 sub-graphs till now.
+Enumerated 33300000 sub-graphs till now.
+Enumerated 33350000 sub-graphs till now.
+Enumerated 33400000 sub-graphs till now.
+Enumerated 33450000 sub-graphs till now.
+Enumerated 33500000 sub-graphs till now.
+Enumerated 33550000 sub-graphs till now.
+Enumerated 33600000 sub-graphs till now.
+Enumerated 33650000 sub-graphs till now.
+Enumerated 33700000 sub-graphs till now.
+Enumerated 33750000 sub-graphs till now.
+Enumerated 33800000 sub-graphs till now.
+Enumerated 33850000 sub-graphs till now.
+Enumerated 33900000 sub-graphs till now.
+Enumerated 33950000 sub-graphs till now.
+Enumerated 34000000 sub-graphs till now.
+Enumerated 34050000 sub-graphs till now.
+Enumerated 34100000 sub-graphs till now.
+Enumerated 34150000 sub-graphs till now.
+Enumerated 34200000 sub-graphs till now.
+Enumerated 34250000 sub-graphs till now.
+Enumerated 34300000 sub-graphs till now.
+Enumerated 34350000 sub-graphs till now.
+Enumerated 34400000 sub-graphs till now.
+Enumerated 34450000 sub-graphs till now.
+Enumerated 34500000 sub-graphs till now.
+Enumerated 34550000 sub-graphs till now.
+Enumerated 34600000 sub-graphs till now.
+Enumerated 34650000 sub-graphs till now.
+Enumerated 34700000 sub-graphs till now.
+Enumerated 34750000 sub-graphs till now.
+Enumerated 34800000 sub-graphs till now.
+Enumerated 34850000 sub-graphs till now.
+Enumerated 34900000 sub-graphs till now.
+Enumerated 34950000 sub-graphs till now.
+Enumerated 35000000 sub-graphs till now.
+Enumerated 35050000 sub-graphs till now.
+Enumerated 35100000 sub-graphs till now.
+Enumerated 35150000 sub-graphs till now.
+Enumerated 35200000 sub-graphs till now.
+Enumerated 35250000 sub-graphs till now.
+Enumerated 35300000 sub-graphs till now.
+Enumerated 35350000 sub-graphs till now.
+Enumerated 35400000 sub-graphs till now.
+Enumerated 35450000 sub-graphs till now.
+Enumerated 35500000 sub-graphs till now.
+Enumerated 35550000 sub-graphs till now.
+Enumerated 35600000 sub-graphs till now.
+Enumerated 35650000 sub-graphs till now.
+Enumerated 35700000 sub-graphs till now.
+Enumerated 35750000 sub-graphs till now.
+Enumerated 35800000 sub-graphs till now.
+Enumerated 35850000 sub-graphs till now.
+Enumerated 35900000 sub-graphs till now.
+Enumerated 35950000 sub-graphs till now.
+Enumerated 36000000 sub-graphs till now.
+Enumerated 36050000 sub-graphs till now.
+Enumerated 36100000 sub-graphs till now.
+Enumerated 36150000 sub-graphs till now.
+Enumerated 36200000 sub-graphs till now.
+Enumerated 36250000 sub-graphs till now.
+Enumerated 36300000 sub-graphs till now.
+Enumerated 36350000 sub-graphs till now.
+Enumerated 36400000 sub-graphs till now.
+Enumerated 36450000 sub-graphs till now.
+Enumerated 36500000 sub-graphs till now.
+Enumerated 36550000 sub-graphs till now.
+Enumerated 36600000 sub-graphs till now.
+Enumerated 36650000 sub-graphs till now.
+Enumerated 36700000 sub-graphs till now.
+Enumerated 36750000 sub-graphs till now.
+Enumerated 36800000 sub-graphs till now.
+Enumerated 36850000 sub-graphs till now.
+Enumerated 36900000 sub-graphs till now.
+Enumerated 36950000 sub-graphs till now.
+Enumerated 37000000 sub-graphs till now.
+Enumerated 37050000 sub-graphs till now.
+Enumerated 37100000 sub-graphs till now.
+Enumerated 37150000 sub-graphs till now.
+Enumerated 37200000 sub-graphs till now.
+Enumerated 37250000 sub-graphs till now.
+Enumerated 37300000 sub-graphs till now.
+Enumerated 37350000 sub-graphs till now.
+Enumerated 37400000 sub-graphs till now.
+Enumerated 37450000 sub-graphs till now.
+Enumerated 37500000 sub-graphs till now.
+Enumerated 37550000 sub-graphs till now.
+Enumerated 37600000 sub-graphs till now.
+Enumerated 37650000 sub-graphs till now.
+Enumerated 37700000 sub-graphs till now.
+Enumerated 37750000 sub-graphs till now.
+Enumerated 37800000 sub-graphs till now.
+Enumerated 37850000 sub-graphs till now.
+Enumerated 37900000 sub-graphs till now.
+Enumerated 37950000 sub-graphs till now.
+Enumerated 38000000 sub-graphs till now.
+Enumerated 38050000 sub-graphs till now.
+Enumerated 38100000 sub-graphs till now.
+Enumerated 38150000 sub-graphs till now.
+Enumerated 38200000 sub-graphs till now.
+Enumerated 38250000 sub-graphs till now.
+Enumerated 38300000 sub-graphs till now.
+Enumerated 38350000 sub-graphs till now.
+Enumerated 38400000 sub-graphs till now.
+Enumerated 38450000 sub-graphs till now.
+Enumerated 38500000 sub-graphs till now.
+Enumerated 38550000 sub-graphs till now.
+Enumerated 38600000 sub-graphs till now.
+Enumerated 38650000 sub-graphs till now.
+Enumerated 38700000 sub-graphs till now.
+Enumerated 38750000 sub-graphs till now.
+Enumerated 38800000 sub-graphs till now.
+Enumerated 38850000 sub-graphs till now.
+Enumerated 38900000 sub-graphs till now.
+Enumerated 38950000 sub-graphs till now.
+Enumerated 39000000 sub-graphs till now.
+Enumerated 39050000 sub-graphs till now.
+Enumerated 39100000 sub-graphs till now.
+Enumerated 39150000 sub-graphs till now.
+Enumerated 39200000 sub-graphs till now.
+Enumerated 39250000 sub-graphs till now.
+Enumerated 39300000 sub-graphs till now.
+Enumerated 39350000 sub-graphs till now.
+Enumerated 39400000 sub-graphs till now.
+Enumerated 39450000 sub-graphs till now.
+Enumerated 39500000 sub-graphs till now.
+Enumerated 39550000 sub-graphs till now.
+Enumerated 39600000 sub-graphs till now.
+Enumerated 39650000 sub-graphs till now.
+Enumerated 39700000 sub-graphs till now.
+Enumerated 39750000 sub-graphs till now.
+Enumerated 39800000 sub-graphs till now.
+Enumerated 39850000 sub-graphs till now.
+Enumerated 39900000 sub-graphs till now.
+Enumerated 39950000 sub-graphs till now.
+Enumerated 40000000 sub-graphs till now.
+Enumerated 40050000 sub-graphs till now.
+Enumerated 40100000 sub-graphs till now.
+Enumerated 40150000 sub-graphs till now.
+Enumerated 40200000 sub-graphs till now.
+Enumerated 40250000 sub-graphs till now.
+Enumerated 40300000 sub-graphs till now.
+Enumerated 40350000 sub-graphs till now.
+Enumerated 40400000 sub-graphs till now.
+Enumerated 40450000 sub-graphs till now.
+Enumerated 40500000 sub-graphs till now.
+Enumerated 40550000 sub-graphs till now.
+Enumerated 40600000 sub-graphs till now.
+Enumerated 40650000 sub-graphs till now.
+Enumerated 40700000 sub-graphs till now.
+Enumerated 40750000 sub-graphs till now.
+Enumerated 40800000 sub-graphs till now.
+Enumerated 40850000 sub-graphs till now.
+Enumerated 40900000 sub-graphs till now.
+Enumerated 40950000 sub-graphs till now.
+Enumerated 41000000 sub-graphs till now.
+Enumerated 41050000 sub-graphs till now.
+Enumerated 41100000 sub-graphs till now.
+Enumerated 41150000 sub-graphs till now.
+Enumerated 41200000 sub-graphs till now.
+Enumerated 41250000 sub-graphs till now.
+Enumerated 41300000 sub-graphs till now.
+Enumerated 41350000 sub-graphs till now.
+Enumerated 41400000 sub-graphs till now.
+Enumerated 41450000 sub-graphs till now.
+Enumerated 41500000 sub-graphs till now.
+Enumerated 41550000 sub-graphs till now.
+Enumerated 41600000 sub-graphs till now.
+Enumerated 41650000 sub-graphs till now.
+Enumerated 41700000 sub-graphs till now.
+Enumerated 41750000 sub-graphs till now.
+Enumerated 41800000 sub-graphs till now.
+Enumerated 41850000 sub-graphs till now.
+Enumerated 41900000 sub-graphs till now.
+Enumerated 41950000 sub-graphs till now.
+Enumerated 42000000 sub-graphs till now.
+Enumerated 42050000 sub-graphs till now.
+Enumerated 42100000 sub-graphs till now.
+Enumerated 42150000 sub-graphs till now.
+Enumerated 42200000 sub-graphs till now.
+Enumerated 42250000 sub-graphs till now.
+Enumerated 42300000 sub-graphs till now.
+Enumerated 42350000 sub-graphs till now.
+Enumerated 42400000 sub-graphs till now.
+Enumerated 42450000 sub-graphs till now.
+Enumerated 42500000 sub-graphs till now.
+Enumerated 42550000 sub-graphs till now.
+Enumerated 42600000 sub-graphs till now.
+Enumerated 42650000 sub-graphs till now.
+Enumerated 42700000 sub-graphs till now.
+Enumerated 42750000 sub-graphs till now.
+Enumerated 42800000 sub-graphs till now.
+Enumerated 42850000 sub-graphs till now.
+Enumerated 42900000 sub-graphs till now.
+Enumerated 42950000 sub-graphs till now.
+Enumerating subgraph took 714569 milliseconds.
+Number of subgraphs enumerated: 42953516
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 195 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 10903474
+	SubGraph (g6) "Ci" has count: 11015450
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 163686
+	SubGraph (g6) "Cu" has count: 146202
+	SubGraph (g6) "Cx" has count: 364993
+	SubGraph (g6) "Cy" has count: 316744
+	SubGraph (g6) "Cj" has count: 288902
+	SubGraph (g6) "C{" has count: 159783
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 16595
+	SubGraph (g6) "Cz" has count: 48667
+	SubGraph (g6) "C|" has count: 14765
+	SubGraph (g6) "C}" has count: 26070
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 10404
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 7823541
+	SubGraph (g6) "Cp" has count: 6754814
+	SubGraph (g6) "Cq" has count: 4477878
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 421548
+Random Graph
+############# Random Graph 1####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerating subgraph took 10182 milliseconds.
+Number of subgraphs enumerated: 1297858
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 115064
+	SubGraph (g6) "Ci" has count: 202423
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3041
+	SubGraph (g6) "Cu" has count: 2507
+	SubGraph (g6) "Cx" has count: 6302
+	SubGraph (g6) "Cy" has count: 6231
+	SubGraph (g6) "Cj" has count: 5952
+	SubGraph (g6) "C{" has count: 2868
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 461
+	SubGraph (g6) "Cz" has count: 1167
+	SubGraph (g6) "C|" has count: 279
+	SubGraph (g6) "C}" has count: 200
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 23
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 426612
+	SubGraph (g6) "Cp" has count: 249442
+	SubGraph (g6) "Cq" has count: 241019
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 34267
+############# Random Graph 2####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerating subgraph took 8914 milliseconds.
+Number of subgraphs enumerated: 1332514
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 129843
+	SubGraph (g6) "Ci" has count: 209066
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 2865
+	SubGraph (g6) "Cu" has count: 2708
+	SubGraph (g6) "Cx" has count: 6022
+	SubGraph (g6) "Cy" has count: 5994
+	SubGraph (g6) "Cj" has count: 5584
+	SubGraph (g6) "C{" has count: 2744
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 556
+	SubGraph (g6) "Cz" has count: 1317
+	SubGraph (g6) "C|" has count: 514
+	SubGraph (g6) "C}" has count: 325
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 28
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 421362
+	SubGraph (g6) "Cp" has count: 252013
+	SubGraph (g6) "Cq" has count: 245607
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 45966
+############# Random Graph 3####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerating subgraph took 9514 milliseconds.
+Number of subgraphs enumerated: 1143768
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 98766
+	SubGraph (g6) "Ci" has count: 180720
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 2067
+	SubGraph (g6) "Cu" has count: 1886
+	SubGraph (g6) "Cx" has count: 4293
+	SubGraph (g6) "Cy" has count: 4355
+	SubGraph (g6) "Cj" has count: 4908
+	SubGraph (g6) "C{" has count: 2017
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 337
+	SubGraph (g6) "Cz" has count: 986
+	SubGraph (g6) "C|" has count: 258
+	SubGraph (g6) "C}" has count: 130
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 9
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 391371
+	SubGraph (g6) "Cp" has count: 216111
+	SubGraph (g6) "Cq" has count: 202690
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 32864
+############# Random Graph 4####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerating subgraph took 8853 milliseconds.
+Number of subgraphs enumerated: 1195398
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 101156
+	SubGraph (g6) "Ci" has count: 181507
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3333
+	SubGraph (g6) "Cu" has count: 2211
+	SubGraph (g6) "Cx" has count: 6458
+	SubGraph (g6) "Cy" has count: 6171
+	SubGraph (g6) "Cj" has count: 6404
+	SubGraph (g6) "C{" has count: 2861
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 328
+	SubGraph (g6) "Cz" has count: 1031
+	SubGraph (g6) "C|" has count: 300
+	SubGraph (g6) "C}" has count: 235
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 22
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 402428
+	SubGraph (g6) "Cp" has count: 233469
+	SubGraph (g6) "Cq" has count: 220739
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 26745
+############# Random Graph 5####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerating subgraph took 9087 milliseconds.
+Number of subgraphs enumerated: 1258712
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 108612
+	SubGraph (g6) "Ci" has count: 189499
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 4138
+	SubGraph (g6) "Cu" has count: 3431
+	SubGraph (g6) "Cx" has count: 9007
+	SubGraph (g6) "Cy" has count: 8770
+	SubGraph (g6) "Cj" has count: 7859
+	SubGraph (g6) "C{" has count: 3523
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 722
+	SubGraph (g6) "Cz" has count: 1221
+	SubGraph (g6) "C|" has count: 529
+	SubGraph (g6) "C}" has count: 297
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 33
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 415307
+	SubGraph (g6) "Cp" has count: 246081
+	SubGraph (g6) "Cq" has count: 230526
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 29157
+############# Random Graph 6####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerating subgraph took 8214 milliseconds.
+Number of subgraphs enumerated: 1234411
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 98888
+	SubGraph (g6) "Ci" has count: 187909
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3813
+	SubGraph (g6) "Cu" has count: 2973
+	SubGraph (g6) "Cx" has count: 8458
+	SubGraph (g6) "Cy" has count: 8060
+	SubGraph (g6) "Cj" has count: 8238
+	SubGraph (g6) "C{" has count: 3644
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 516
+	SubGraph (g6) "Cz" has count: 1088
+	SubGraph (g6) "C|" has count: 349
+	SubGraph (g6) "C}" has count: 259
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 28
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 417132
+	SubGraph (g6) "Cp" has count: 245561
+	SubGraph (g6) "Cq" has count: 225840
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 21655
+############# Random Graph 7####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerated 1350000 sub-graphs till now.
+Enumerated 1400000 sub-graphs till now.
+Enumerated 1450000 sub-graphs till now.
+Enumerating subgraph took 8770 milliseconds.
+Number of subgraphs enumerated: 1459225
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 141356
+	SubGraph (g6) "Ci" has count: 225937
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3821
+	SubGraph (g6) "Cu" has count: 3469
+	SubGraph (g6) "Cx" has count: 8458
+	SubGraph (g6) "Cy" has count: 8286
+	SubGraph (g6) "Cj" has count: 7145
+	SubGraph (g6) "C{" has count: 3978
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 807
+	SubGraph (g6) "Cz" has count: 1491
+	SubGraph (g6) "C|" has count: 824
+	SubGraph (g6) "C}" has count: 486
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 38
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 452480
+	SubGraph (g6) "Cp" has count: 287133
+	SubGraph (g6) "Cq" has count: 266354
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 47162
+############# Random Graph 8####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerating subgraph took 7506 milliseconds.
+Number of subgraphs enumerated: 1224626
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 103573
+	SubGraph (g6) "Ci" has count: 186010
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3225
+	SubGraph (g6) "Cu" has count: 2318
+	SubGraph (g6) "Cx" has count: 6659
+	SubGraph (g6) "Cy" has count: 6624
+	SubGraph (g6) "Cj" has count: 6382
+	SubGraph (g6) "C{" has count: 3049
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 350
+	SubGraph (g6) "Cz" has count: 1080
+	SubGraph (g6) "C|" has count: 319
+	SubGraph (g6) "C}" has count: 274
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 22
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 410879
+	SubGraph (g6) "Cp" has count: 238644
+	SubGraph (g6) "Cq" has count: 228215
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 27003
+############# Random Graph 9####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerating subgraph took 7123 milliseconds.
+Number of subgraphs enumerated: 1167081
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 96739
+	SubGraph (g6) "Ci" has count: 180496
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 2671
+	SubGraph (g6) "Cu" has count: 2134
+	SubGraph (g6) "Cx" has count: 6232
+	SubGraph (g6) "Cy" has count: 5785
+	SubGraph (g6) "Cj" has count: 6303
+	SubGraph (g6) "C{" has count: 2823
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 363
+	SubGraph (g6) "Cz" has count: 965
+	SubGraph (g6) "C|" has count: 357
+	SubGraph (g6) "C}" has count: 277
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 24
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 398826
+	SubGraph (g6) "Cp" has count: 228060
+	SubGraph (g6) "Cq" has count: 208735
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 26291
+############# Random Graph 10####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerating subgraph took 7610 milliseconds.
+Number of subgraphs enumerated: 1219303
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 100958
+	SubGraph (g6) "Ci" has count: 182028
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 4342
+	SubGraph (g6) "Cu" has count: 3109
+	SubGraph (g6) "Cx" has count: 9095
+	SubGraph (g6) "Cy" has count: 8847
+	SubGraph (g6) "Cj" has count: 8098
+	SubGraph (g6) "C{" has count: 3858
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 541
+	SubGraph (g6) "Cz" has count: 1296
+	SubGraph (g6) "C|" has count: 466
+	SubGraph (g6) "C}" has count: 430
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 40
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 408158
+	SubGraph (g6) "Cp" has count: 236755
+	SubGraph (g6) "Cq" has count: 226741
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 24541
+############# Random Graph 11####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerating subgraph took 6817 milliseconds.
+Number of subgraphs enumerated: 1161244
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 95601
+	SubGraph (g6) "Ci" has count: 178102
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3603
+	SubGraph (g6) "Cu" has count: 2781
+	SubGraph (g6) "Cx" has count: 7662
+	SubGraph (g6) "Cy" has count: 7400
+	SubGraph (g6) "Cj" has count: 7452
+	SubGraph (g6) "C{" has count: 3379
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 488
+	SubGraph (g6) "Cz" has count: 1235
+	SubGraph (g6) "C|" has count: 444
+	SubGraph (g6) "C}" has count: 297
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 31
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 393735
+	SubGraph (g6) "Cp" has count: 223463
+	SubGraph (g6) "Cq" has count: 209903
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 25668
+############# Random Graph 12####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerating subgraph took 6985 milliseconds.
+Number of subgraphs enumerated: 1186115
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 98843
+	SubGraph (g6) "Ci" has count: 179872
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 2995
+	SubGraph (g6) "Cu" has count: 2330
+	SubGraph (g6) "Cx" has count: 6505
+	SubGraph (g6) "Cy" has count: 6298
+	SubGraph (g6) "Cj" has count: 6247
+	SubGraph (g6) "C{" has count: 2959
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 379
+	SubGraph (g6) "Cz" has count: 873
+	SubGraph (g6) "C|" has count: 280
+	SubGraph (g6) "C}" has count: 244
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 27
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 24695
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 402532
+	SubGraph (g6) "Cp" has count: 231200
+	SubGraph (g6) "Cq" has count: 219836
+############# Random Graph 13####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerating subgraph took 6919 milliseconds.
+Number of subgraphs enumerated: 1190427
+Total number of unique sub-graphs for which canonical labels need to be computed: 17
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 6
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 99608
+	SubGraph (g6) "Ci" has count: 182290
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 3266
+	SubGraph (g6) "Cu" has count: 2433
+	SubGraph (g6) "Cx" has count: 6652
+	SubGraph (g6) "Cy" has count: 6406
+	SubGraph (g6) "Cj" has count: 6590
+	SubGraph (g6) "C{" has count: 2676
+Cannonical Label (g6) "C~" has following Sub Graphs:
+	SubGraph (g6) "C~" has count: 21
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cv" has count: 451
+	SubGraph (g6) "Cz" has count: 948
+	SubGraph (g6) "C|" has count: 285
+	SubGraph (g6) "C}" has count: 188
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 26732
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 403446
+	SubGraph (g6) "Cp" has count: 232261
+	SubGraph (g6) "Cq" has count: 216174
+Time taken for Random graph: 1753007
+input Graph 
+
+CF : 21918924
+CN : 1440310
+C^ : 106097
+C~ : 10404
+CR : 19056233
+Cr : 421548
+Random Graph 0
+
+CF : 453552
+CN : 38430
+C^ : 3010
+C~ : 32
+CR : 1310104
+Cr : 48952
+Random Graph 1
+
+CF : 484155
+CN : 37024
+C^ : 3874
+C~ : 40
+CR : 1312831
+Cr : 65665
+Random Graph 2
+
+CF : 399265
+CN : 27894
+C^ : 2444
+C~ : 12
+CR : 1157388
+Cr : 46948
+Random Graph 3
+
+CF : 403804
+CN : 39197
+C^ : 2705
+C~ : 31
+CR : 1223765
+Cr : 38207
+Random Graph 4
+
+CF : 425872
+CN : 52468
+C^ : 3955
+C~ : 47
+CR : 1274162
+Cr : 41652
+Random Graph 5
+
+CF : 409710
+CN : 50265
+C^ : 3160
+C~ : 40
+CR : 1269332
+Cr : 30935
+Random Graph 6
+
+CF : 524704
+CN : 50224
+C^ : 5154
+C~ : 54
+CR : 1437095
+Cr : 67374
+Random Graph 7
+
+CF : 413690
+CN : 40367
+C^ : 2890
+C~ : 31
+CR : 1253911
+Cr : 38575
+Random Graph 8
+
+CF : 396050
+CN : 37068
+C^ : 2802
+C~ : 34
+CR : 1193744
+Cr : 37558
+Random Graph 9
+
+CF : 404265
+CN : 53355
+C^ : 3904
+C~ : 57
+CR : 1245220
+Cr : 35058
+Random Graph 10
+
+CF : 391004
+CN : 46110
+C^ : 3520
+C~ : 44
+CR : 1181572
+Cr : 36668
+Random Graph 11
+
+CF : 398164
+CN : 39048
+C^ : 2537
+C~ : 38
+Cr : 35278
+CR : 1219382
+Random Graph 12
+
+CF : 402711
+CN : 40032
+C~ : 30
+C^ : 2674
+Cr : 38188
+CR : 1216972
+Z-Score for motif CFfor size 4is:  1854.5538005323406
+Significant Motif for size 4 subgraph is CF
+Z-Score for motif CNfor size 4is:  646.6348315817418
+Significant Motif for size 4 subgraph is CN
+Z-Score for motif C^for size 4is:  460.32734776350503
+Significant Motif for size 4 subgraph is C^
+Z-Score for motif C~for size 4is:  3080.413990197008
+Significant Motif for size 4 subgraph is C~
+Z-Score for motif CRfor size 4is:  854.2440254431252
+Significant Motif for size 4 subgraph is CR
+Z-Score for motif Crfor size 4is:  114.81646065977185
+Significant Motif for size 4 subgraph is Cr
+
+Process finished with exit code 0

@@ -1,0 +1,28 @@
+Entering reducer
+RandomGraph#1
+Enumerating Subgraphs
+Enumerating subgraph took 20 milliseconds.
+Number of subgraphs enumerated: 1
+Total number of unique sub-graphs for which canonical labels need to be computed: 1
+LabelG Input file created
+15/05/10 00:55:45 INFO mapreduce.Job:  map 100% reduce 0%
+Return code for labelg: 53
+ERROR WHILE READING CANONICAL LABELS PRODUCED BY LABELG. ERROR MSG: OUTPUTGRAPHS.G6 (NO SUCH FILE OR DIRECTORY)
+15/05/10 00:55:45 INFO mapred.LocalJobRunner: reduce task executor complete.
+15/05/10 00:55:45 WARN mapred.LocalJobRunner: job_local1165411945_0001
+java.lang.Exception: java.lang.NullPointerException
+        at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+        at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+        at edu.uw.nemo.labeler.GraphLabel.getCanonicalLabels(GraphLabel.java:214)
+        at edu.uw.nemo.motifSignificant.mapreduce.SwitchingAlgorithmGenerateGraphReducer.reduce(SwitchingAlgorithmGenerateGraphReducer.java:57)
+        at edu.uw.nemo.motifSignificant.mapreduce.SwitchingAlgorithmGenerateGraphReducer.reduce(SwitchingAlgorithmGenerateGraphReducer.java:25)
+        at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+        at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+        at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+        at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+        at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,1557 @@
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 193 milliseconds.
+mapping to ids took 146 milliseconds.
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerating subgraph took 13345 milliseconds.
+Number of subgraphs enumerated: 763322
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Generating canonical labels took 226 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 402970
+	SubGraph (g6) "Bo" has count: 344995
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 15357
+Input Graph
+
+ Graph 1
+
+
+ *****************************************************************************************************
+
+ Graph 2
+
+
+ *****************************************************************************************************
+
+ Graph 3
+
+
+ *****************************************************************************************************
+
+ Graph 4
+
+
+ *****************************************************************************************************
+
+ Graph 5
+
+
+ *****************************************************************************************************
+
+ Graph 6
+
+
+ *****************************************************************************************************
+
+ Graph 7
+
+
+ *****************************************************************************************************
+
+ Graph 8
+
+
+ *****************************************************************************************************
+
+ Graph 9
+
+
+ *****************************************************************************************************
+
+ Graph 10
+
+
+ *****************************************************************************************************
+
+ Graph 11
+
+
+ *****************************************************************************************************
+
+ Graph 12
+
+
+ *****************************************************************************************************
+
+ Graph 13
+
+
+ *****************************************************************************************************
+
+ Graph 14
+
+
+ *****************************************************************************************************
+
+ Graph 15
+
+
+ *****************************************************************************************************
+
+ Graph 16
+
+
+ *****************************************************************************************************
+
+ Graph 17
+
+
+ *****************************************************************************************************
+
+ Graph 18
+
+
+ *****************************************************************************************************
+
+ Graph 19
+
+
+ *****************************************************************************************************
+
+ Graph 20
+
+
+ *****************************************************************************************************
+
+ Graph 21
+
+
+ *****************************************************************************************************
+
+ Graph 22
+
+
+ *****************************************************************************************************
+
+ Graph 23
+
+
+ *****************************************************************************************************
+
+ Graph 24
+
+
+ *****************************************************************************************************
+
+ Graph 25
+
+
+ *****************************************************************************************************
+
+ Graph 26
+
+
+ *****************************************************************************************************
+
+ Graph 27
+
+
+ *****************************************************************************************************
+
+ Graph 28
+
+
+ *****************************************************************************************************
+
+ Graph 29
+
+
+ *****************************************************************************************************
+
+ Graph 30
+
+
+ *****************************************************************************************************
+
+ Graph 31
+
+
+ *****************************************************************************************************
+
+ Graph 32
+
+
+ *****************************************************************************************************
+
+ Graph 33
+
+
+ *****************************************************************************************************
+
+ Graph 34
+
+
+ *****************************************************************************************************
+
+ Graph 35
+
+
+ *****************************************************************************************************
+
+ Graph 36
+
+
+ *****************************************************************************************************
+
+ Graph 37
+
+
+ *****************************************************************************************************
+
+ Graph 38
+
+
+ *****************************************************************************************************
+
+ Graph 39
+
+
+ *****************************************************************************************************
+
+ Graph 40
+
+
+ *****************************************************************************************************
+
+ Graph 41
+
+
+ *****************************************************************************************************
+
+ Graph 42
+
+
+ *****************************************************************************************************
+
+ Graph 43
+
+
+ *****************************************************************************************************
+
+ Graph 44
+
+
+ *****************************************************************************************************
+
+ Graph 45
+
+
+ *****************************************************************************************************
+
+ Graph 46
+
+
+ *****************************************************************************************************
+
+ Graph 47
+
+
+ *****************************************************************************************************
+
+ Graph 48
+
+
+ *****************************************************************************************************
+
+ Graph 49
+
+
+ *****************************************************************************************************
+
+ Graph 50
+
+
+ *****************************************************************************************************
+
+ Time taken to generate 50 random graphs is: 5082184############# Random Graph 1####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10338 milliseconds.
+Number of subgraphs enumerated: 522138
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 309626
+	SubGraph (g6) "Bo" has count: 204138
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8374
+############# Random Graph 2####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10253 milliseconds.
+Number of subgraphs enumerated: 537510
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 302728
+	SubGraph (g6) "Bo" has count: 227000
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7782
+############# Random Graph 3####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10488 milliseconds.
+Number of subgraphs enumerated: 550495
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 306538
+	SubGraph (g6) "Bo" has count: 235892
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8065
+############# Random Graph 4####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10093 milliseconds.
+Number of subgraphs enumerated: 544232
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 320252
+	SubGraph (g6) "Bo" has count: 215280
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8700
+############# Random Graph 5####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10162 milliseconds.
+Number of subgraphs enumerated: 546820
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307640
+	SubGraph (g6) "Bo" has count: 230355
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8825
+############# Random Graph 6####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 11459 milliseconds.
+Number of subgraphs enumerated: 558252
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 312687
+	SubGraph (g6) "Bo" has count: 237123
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8442
+############# Random Graph 7####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10888 milliseconds.
+Number of subgraphs enumerated: 543070
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 306477
+	SubGraph (g6) "Bo" has count: 228550
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8043
+############# Random Graph 8####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9903 milliseconds.
+Number of subgraphs enumerated: 537408
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 310803
+	SubGraph (g6) "Bo" has count: 218594
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8011
+############# Random Graph 9####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9815 milliseconds.
+Number of subgraphs enumerated: 525716
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 312068
+	SubGraph (g6) "Bo" has count: 205226
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8422
+############# Random Graph 10####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10050 milliseconds.
+Number of subgraphs enumerated: 518389
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308816
+	SubGraph (g6) "Bo" has count: 201738
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7835
+############# Random Graph 11####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10343 milliseconds.
+Number of subgraphs enumerated: 528172
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307974
+	SubGraph (g6) "Bo" has count: 211596
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8602
+############# Random Graph 12####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10336 milliseconds.
+Number of subgraphs enumerated: 523841
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 299302
+	SubGraph (g6) "Bo" has count: 216282
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8257
+############# Random Graph 13####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10945 milliseconds.
+Number of subgraphs enumerated: 557942
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 314086
+	SubGraph (g6) "Bo" has count: 235155
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8701
+############# Random Graph 14####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10012 milliseconds.
+Number of subgraphs enumerated: 549733
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307033
+	SubGraph (g6) "Bo" has count: 234680
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8020
+############# Random Graph 15####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10095 milliseconds.
+Number of subgraphs enumerated: 536236
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 317395
+	SubGraph (g6) "Bo" has count: 210374
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8467
+############# Random Graph 16####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10092 milliseconds.
+Number of subgraphs enumerated: 524479
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 306405
+	SubGraph (g6) "Bo" has count: 209718
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8356
+############# Random Graph 17####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10400 milliseconds.
+Number of subgraphs enumerated: 546351
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308930
+	SubGraph (g6) "Bo" has count: 228733
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8688
+############# Random Graph 18####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10944 milliseconds.
+Number of subgraphs enumerated: 575601
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 318272
+	SubGraph (g6) "Bo" has count: 248583
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8746
+############# Random Graph 19####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 11048 milliseconds.
+Number of subgraphs enumerated: 564091
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308421
+	SubGraph (g6) "Bo" has count: 247453
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8217
+############# Random Graph 20####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10315 milliseconds.
+Number of subgraphs enumerated: 517532
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 297467
+	SubGraph (g6) "Bo" has count: 211483
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8582
+############# Random Graph 21####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10139 milliseconds.
+Number of subgraphs enumerated: 544720
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307693
+	SubGraph (g6) "Bo" has count: 228983
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8044
+############# Random Graph 22####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10501 milliseconds.
+Number of subgraphs enumerated: 556475
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 315176
+	SubGraph (g6) "Bo" has count: 232639
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8660
+############# Random Graph 23####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10128 milliseconds.
+Number of subgraphs enumerated: 519834
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 306922
+	SubGraph (g6) "Bo" has count: 204295
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8617
+############# Random Graph 24####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9849 milliseconds.
+Number of subgraphs enumerated: 524077
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 303560
+	SubGraph (g6) "Bo" has count: 212535
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7982
+############# Random Graph 25####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 11097 milliseconds.
+Number of subgraphs enumerated: 572173
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 311314
+	SubGraph (g6) "Bo" has count: 252069
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8790
+############# Random Graph 26####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9748 milliseconds.
+Number of subgraphs enumerated: 504794
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 300383
+	SubGraph (g6) "Bo" has count: 196356
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8055
+############# Random Graph 27####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 11022 milliseconds.
+Number of subgraphs enumerated: 569871
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 319349
+	SubGraph (g6) "Bo" has count: 242069
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8453
+############# Random Graph 28####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9884 milliseconds.
+Number of subgraphs enumerated: 516757
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308136
+	SubGraph (g6) "Bo" has count: 200285
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8336
+############# Random Graph 29####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10788 milliseconds.
+Number of subgraphs enumerated: 550573
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 314834
+	SubGraph (g6) "Bo" has count: 226950
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8789
+############# Random Graph 30####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10135 milliseconds.
+Number of subgraphs enumerated: 543430
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 305887
+	SubGraph (g6) "Bo" has count: 229733
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7810
+############# Random Graph 31####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 12333 milliseconds.
+Number of subgraphs enumerated: 541292
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307143
+	SubGraph (g6) "Bo" has count: 225191
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8958
+############# Random Graph 32####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10465 milliseconds.
+Number of subgraphs enumerated: 526821
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 306985
+	SubGraph (g6) "Bo" has count: 211470
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8366
+############# Random Graph 33####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9671 milliseconds.
+Number of subgraphs enumerated: 519350
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308801
+	SubGraph (g6) "Bo" has count: 202534
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8015
+############# Random Graph 34####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10167 milliseconds.
+Number of subgraphs enumerated: 521607
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 305551
+	SubGraph (g6) "Bo" has count: 207905
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8151
+############# Random Graph 35####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9482 milliseconds.
+Number of subgraphs enumerated: 523081
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 304654
+	SubGraph (g6) "Bo" has count: 210786
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7641
+############# Random Graph 36####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 10145 milliseconds.
+Number of subgraphs enumerated: 526655
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 307751
+	SubGraph (g6) "Bo" has count: 210242
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8662
+############# Random Graph 37####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9963 milliseconds.
+Number of subgraphs enumerated: 523755
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 304258
+	SubGraph (g6) "Bo" has count: 211231
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8266
+############# Random Graph 38####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10961 milliseconds.
+Number of subgraphs enumerated: 567043
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 316078
+	SubGraph (g6) "Bo" has count: 241996
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8969
+############# Random Graph 39####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9864 milliseconds.
+Number of subgraphs enumerated: 530863
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 308927
+	SubGraph (g6) "Bo" has count: 213801
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8135
+############# Random Graph 40####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10617 milliseconds.
+Number of subgraphs enumerated: 559387
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 314557
+	SubGraph (g6) "Bo" has count: 236441
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8389
+############# Random Graph 41####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10425 milliseconds.
+Number of subgraphs enumerated: 558683
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 311243
+	SubGraph (g6) "Bo" has count: 238642
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8798
+############# Random Graph 42####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9809 milliseconds.
+Number of subgraphs enumerated: 503818
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 305132
+	SubGraph (g6) "Bo" has count: 190877
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7809
+############# Random Graph 43####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10682 milliseconds.
+Number of subgraphs enumerated: 554579
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 313913
+	SubGraph (g6) "Bo" has count: 232001
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8665
+############# Random Graph 44####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10967 milliseconds.
+Number of subgraphs enumerated: 554075
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 312570
+	SubGraph (g6) "Bo" has count: 232544
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8961
+############# Random Graph 45####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9520 milliseconds.
+Number of subgraphs enumerated: 507941
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 296880
+	SubGraph (g6) "Bo" has count: 202900
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8161
+############# Random Graph 46####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10682 milliseconds.
+Number of subgraphs enumerated: 550540
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 317205
+	SubGraph (g6) "Bo" has count: 224396
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8939
+############# Random Graph 47####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 11107 milliseconds.
+Number of subgraphs enumerated: 570839
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 313155
+	SubGraph (g6) "Bo" has count: 248749
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8935
+############# Random Graph 48####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerating subgraph took 9512 milliseconds.
+Number of subgraphs enumerated: 496775
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 292850
+	SubGraph (g6) "Bo" has count: 195721
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 8204
+############# Random Graph 49####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerating subgraph took 10801 milliseconds.
+Number of subgraphs enumerated: 562069
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 312614
+	SubGraph (g6) "Bo" has count: 240227
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 9228
+############# Random Graph 50####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerating subgraph took 9896 milliseconds.
+Number of subgraphs enumerated: 522139
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 313246
+	SubGraph (g6) "Bo" has count: 201040
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 7853
+Time taken for Random graph: 5605800
+input Graph 
+
+BW : 747965
+Bw : 15357
+Random Graph 0
+
+BW : 733948
+Bw : 11962
+Random Graph 1
+
+BW : 756754
+Bw : 11117
+Random Graph 2
+
+BW : 774900
+Bw : 11521
+Random Graph 3
+
+BW : 765045
+Bw : 12428
+Random Graph 4
+
+BW : 768564
+Bw : 12607
+Random Graph 5
+
+BW : 785442
+Bw : 12060
+Random Graph 6
+
+BW : 764324
+Bw : 11490
+Random Graph 7
+
+BW : 756281
+Bw : 11444
+Random Graph 8
+
+BW : 738991
+Bw : 12031
+Random Graph 9
+
+BW : 729362
+Bw : 11192
+Random Graph 10
+
+BW : 742242
+Bw : 12288
+Random Graph 11
+
+BW : 736548
+Bw : 11795
+Random Graph 12
+
+BW : 784630
+Bw : 12430
+Random Graph 13
+
+BW : 773875
+Bw : 11457
+Random Graph 14
+
+BW : 753955
+Bw : 12095
+Random Graph 15
+
+BW : 737318
+Bw : 11937
+Random Graph 16
+
+BW : 768090
+Bw : 12411
+Random Graph 17
+
+BW : 809792
+Bw : 12494
+Random Graph 18
+
+BW : 794105
+Bw : 11738
+Random Graph 19
+
+BW : 727071
+Bw : 12260
+Random Graph 20
+
+BW : 766680
+Bw : 11491
+Random Graph 21
+
+BW : 782592
+Bw : 12371
+Random Graph 22
+
+BW : 730310
+Bw : 12310
+Random Graph 23
+
+BW : 737278
+Bw : 11402
+Random Graph 24
+
+BW : 804832
+Bw : 12557
+Random Graph 25
+
+BW : 709627
+Bw : 11507
+Random Graph 26
+
+BW : 802025
+Bw : 12075
+Random Graph 27
+
+BW : 726315
+Bw : 11908
+Random Graph 28
+
+BW : 773977
+Bw : 12555
+Random Graph 29
+
+BW : 765171
+Bw : 11157
+Random Graph 30
+
+BW : 760477
+Bw : 12797
+Random Graph 31
+
+BW : 740650
+Bw : 11951
+Random Graph 32
+
+BW : 730478
+Bw : 11450
+Random Graph 33
+
+BW : 733508
+Bw : 11644
+Random Graph 34
+
+BW : 736342
+Bw : 10915
+Random Graph 35
+
+BW : 739990
+Bw : 12374
+Random Graph 36
+
+BW : 736412
+Bw : 11808
+Random Graph 37
+
+BW : 797248
+Bw : 12812
+Random Graph 38
+
+BW : 746754
+Bw : 11621
+Random Graph 39
+
+BW : 787140
+Bw : 11984
+Random Graph 40
+
+BW : 785550
+Bw : 12568
+Random Graph 41
+
+BW : 708584
+Bw : 11155
+Random Graph 42
+
+BW : 779877
+Bw : 12378
+Random Graph 43
+
+BW : 778734
+Bw : 12801
+Random Graph 44
+
+BW : 713971
+Bw : 11658
+Random Graph 45
+
+BW : 773715
+Bw : 12770
+Random Graph 46
+
+BW : 802720
+Bw : 12764
+Random Graph 47
+
+BW : 697958
+Bw : 11720
+Random Graph 48
+
+BW : 789772
+Bw : 13182
+Random Graph 49
+
+BW : 734694
+Bw : 11218
+Z-Score for motif BWfor size 3is:  -2.3730720035313264
+Z-Score for motif Bwfor size 3is:  42.82175138257703
+Significant Motif for size 3 subgraph is Bw
+
+Process finished with exit code 0

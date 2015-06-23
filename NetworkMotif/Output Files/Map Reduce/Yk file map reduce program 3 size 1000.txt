@@ -1,0 +1,259 @@
+        SubGraph (g6) "Bo" has count: 6990
+BW : 23117
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 108
+Bw : 154
+Entering reducer
+RandomGraph#99
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 496 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8557
+        SubGraph (g6) "Bo" has count: 6974
+BW : 22187
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 111
+Bw : 158
+Entering reducer
+RandomGraph#990
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 440 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8793
+        SubGraph (g6) "Bo" has count: 6668
+BW : 22087
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 122
+Bw : 174
+Entering reducer
+RandomGraph#991
+Converting mattric to mapping in reducer1241
+15/05/18 01:14:56 INFO mapred.LocalJobRunner: reduce > reduce
+Enumerating subgraph took 420 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8467
+        SubGraph (g6) "Bo" has count: 6325
+BW : 21131
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 108
+Bw : 154
+Entering reducer
+RandomGraph#992
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 427 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8778
+        SubGraph (g6) "Bo" has count: 6857
+BW : 22335
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 165
+Bw : 235
+Entering reducer
+RandomGraph#993
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 554 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8709
+        SubGraph (g6) "Bo" has count: 6479
+BW : 21697
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 84
+Bw : 120
+Entering reducer
+RandomGraph#994
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 426 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8835
+        SubGraph (g6) "Bo" has count: 7057
+BW : 22702
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 104
+Bw : 148
+Entering reducer
+RandomGraph#995
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 425 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8163
+        SubGraph (g6) "Bo" has count: 6149
+BW : 20445
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 126
+Bw : 180
+Entering reducer
+RandomGraph#996
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 418 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8136
+        SubGraph (g6) "Bo" has count: 6133
+BW : 20384
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 119
+Bw : 170
+Entering reducer
+RandomGraph#997
+Converting mattric to mapping in reducer1241
+15/05/18 01:14:59 INFO mapred.LocalJobRunner: reduce > reduce
+Enumerating subgraph took 482 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8603
+        SubGraph (g6) "Bo" has count: 7042
+BW : 22350
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 178
+Bw : 254
+Entering reducer
+RandomGraph#998
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 431 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8456
+        SubGraph (g6) "Bo" has count: 6912
+BW : 21954
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 139
+Bw : 198
+Entering reducer
+RandomGraph#999
+Converting mattric to mapping in reducer1241
+Enumerating subgraph took 420 milliseconds.
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Output Label G: true
+Cannonical Label (g6) "BW" has following Sub Graphs:
+        SubGraph (g6) "Bg" has count: 8040
+        SubGraph (g6) "Bo" has count: 5919
+BW : 19941
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+        SubGraph (g6) "Bw" has count: 109
+Bw : 155
+15/05/18 01:15:00 INFO mapred.Task: Task:attempt_local152367365_0001_r_000000_0 is done. And is in the process of committing
+15/05/18 01:15:00 INFO mapred.LocalJobRunner: reduce > reduce
+15/05/18 01:15:00 INFO mapred.Task: Task attempt_local152367365_0001_r_000000_0 is allowed to commit now
+15/05/18 01:15:00 INFO output.FileOutputCommitter: Saved output of task 'attempt_local152367365_0001_r_000000_0' to hdfs://uw1-320-10:13160/user/zalak/output1/_temporary/0/task_local152367365_0001_r_000000
+15/05/18 01:15:00 INFO mapred.LocalJobRunner: reduce > reduce
+15/05/18 01:15:00 INFO mapred.Task: Task 'attempt_local152367365_0001_r_000000_0' done.
+15/05/18 01:15:00 INFO mapred.LocalJobRunner: Finishing task: attempt_local152367365_0001_r_000000_0
+15/05/18 01:15:00 INFO mapred.LocalJobRunner: reduce task executor complete.
+15/05/18 01:15:01 INFO mapreduce.Job: Job job_local152367365_0001 completed successfully
+15/05/18 01:15:01 INFO mapreduce.Job: Counters: 38
+        File System Counters
+                FILE: Number of bytes read=3101369162
+                FILE: Number of bytes written=34884200100
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=4088427
+                HDFS: Number of bytes written=192761
+                HDFS: Number of read operations=2161
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=122
+        Map-Reduce Framework
+                Map input records=1000
+                Map output records=1000
+                Map output bytes=1545064893
+                Map output materialized bytes=1545070127
+                Input split bytes=5577
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1000
+                Reduce shuffle bytes=1545070127
+                Reduce input records=1000
+                Reduce output records=1000
+                Spilled Records=2000
+                Shuffled Maps =39
+                Failed Shuffles=0
+                Merged Map outputs=39
+                GC time elapsed (ms)=321224
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=16288579584
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=77727
+        File Output Format Counters
+                Bytes Written=32881
+Elapsed Time: 10289324

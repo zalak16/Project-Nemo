@@ -1,0 +1,46 @@
+
+-------------------------------------
+
+
+BenderCalc (2005, Sebastian Wernicke)
+
+
+-------------------------------------
+
+1. Process Input Parameters and Initialize
+
+
+ - Subgraph size = 3
+
+ - Number of samples per subgraph = 1000000
+
+ - Input graph is undirected 
+
+
+2. Build Graph
+
+ - Reading File 'Y2k_GO5_Graphindex.txt'.
+
+ - Building degree sequence for graph with 
+
+985 vertices and 2261 connections 
+
+ 3. Sampling 
+
+
+   Motif 1 of 2
+
+   Motif 2 of 2
+ - Overall time: 504.247 seconds  
+
+ - time per sample: 252.123 microseconds 
+
+res[0] = 0.00325151418958369
+res[1] = 1.0
+4. Results: 
+
+ Motif 1 78 : 0.003 
+
+ Motif 0 238 : 0.997 
+
+Total time taken for samling 4-sizem motif : 504286

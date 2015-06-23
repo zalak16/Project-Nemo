@@ -1,0 +1,17 @@
+ #cd src/main/java/
+ 
+ ~/hadoop-2.6.0/bin/hdfs dfs -rm /user/zalak/logdir/*
+ ~/hadoop-2.6.0/bin/hdfs dfs -rmdir /user/zalak/logdir
+ ~/hadoop-2.6.0/bin/hdfs dfs -rm /user/zalak/output1/*
+ ~/hadoop-2.6.0/bin/hdfs dfs -rmdir /user/zalak/output1
+ ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/
+ ~/hadoop-2.6.0/bin/hdfs dfs -rm /user/zalak/nemo.jar
+ 
+ 
+ ./compile.sh
+ ~/hadoop-2.6.0/bin/hdfs dfs -put nemo.jar /user/zalak/
+ ~/hadoop-2.6.0/bin/hadoop jar nemo.jar edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain input/InputGraph1.csv output1 1000 1.0 nemo.jar logdir
+ ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/
+ ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/RandomGraphGenerator
+ ~/hadoop-2.6.0/bin/hdfs dfs -get /user/zalak/RandomGraphGenerator/numberRandomGraphs.txt .
+

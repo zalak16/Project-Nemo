@@ -1,0 +1,1954 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin/java -ea -Didea.launcher.port=7533 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA 14 CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Applications/IntelliJ IDEA 14 CE.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 14 CE.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Users/krunalshah/Desktop/NetworkMotif/target/test-classes:/Users/krunalshah/Desktop/NetworkMotif/target/classes:/Users/krunalshah/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/krunalshah/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/krunalshah/.m2/repository/net/sf/jung/jung-graph-impl/2.0.1/jung-graph-impl-2.0.1.jar:/Users/krunalshah/.m2/repository/net/sourceforge/collections/collections-generic/4.01/collections-generic-4.01.jar:/Users/krunalshah/.m2/repository/net/sf/jung/jung-visualization/2.0.1/jung-visualization-2.0.1.jar:/Users/krunalshah/.m2/repository/net/sf/jung/jung-api/2.0.1/jung-api-2.0.1.jar:/Users/krunalshah/.m2/repository/net/sf/jung/jung-algorithms/2.0.1/jung-algorithms-2.0.1.jar:/Users/krunalshah/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar:/Users/krunalshah/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar:/Users/krunalshah/.m2/repository/net/sf/jung/jung-io/2.0.1/jung-io-2.0.1.jar:/Users/krunalshah/.m2/repository/org/codehaus/woodstox/wstx-asl/3.2.6/wstx-asl-3.2.6.jar:/Users/krunalshah/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-client/2.4.0/hadoop-client-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar:/Users/krunalshah/.m2/repository/com/google/guava/guava/11.0.2/guava-11.0.2.jar:/Users/krunalshah/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/krunalshah/.m2/repository/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar:/Users/krunalshah/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/krunalshah/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/krunalshah/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/krunalshah/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/krunalshah/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar:/Users/krunalshah/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/krunalshah/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/krunalshah/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/krunalshah/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/krunalshah/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/krunalshah/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/krunalshah/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/krunalshah/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/krunalshah/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/krunalshah/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:/Users/krunalshah/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:/Users/krunalshah/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/Users/krunalshah/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar:/Users/krunalshah/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar:/Users/krunalshah/.m2/repository/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar:/Users/krunalshah/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.0/hadoop-auth-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar:/Users/krunalshah/.m2/repository/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar:/Users/krunalshah/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/krunalshah/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/krunalshah/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar:/Users/krunalshah/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.0/hadoop-hdfs-2.4.0.jar:/Users/krunalshah/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.0/hadoop-mapreduce-client-app-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.0/hadoop-mapreduce-client-common-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.0/hadoop-yarn-client-2.4.0.jar:/Users/krunalshah/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.0/hadoop-yarn-server-common-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.0/hadoop-mapreduce-client-shuffle-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.0/hadoop-yarn-api-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.0/hadoop-yarn-common-2.4.0.jar:/Users/krunalshah/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/Users/krunalshah/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/krunalshah/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/krunalshah/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/krunalshah/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.0/hadoop-mapreduce-client-jobclient-2.4.0.jar:/Users/krunalshah/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.0/hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 105 milliseconds.
+mapping to ids took 82 milliseconds.
+#Nodes: 3722 #Edges: 5099
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerating subgraph took 2076 milliseconds.
+Number of subgraphs enumerated: 160213
+Total number of unique sub-graphs for which canonical labels need to be computed: 6
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 488 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 3
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 38178
+	SubGraph (g6) "Ci" has count: 34047
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 32517
+	SubGraph (g6) "Cp" has count: 22955
+	SubGraph (g6) "Cq" has count: 30471
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 2045
+Preserving number of edges and vertexes
+Graph: 1
+Time taken to generate 1 random graphs is: 12121
+Graph: 2
+Graph: 3
+Graph: 4
+Graph: 5
+Graph: 6
+Graph: 7
+Graph: 8
+Graph: 9
+Graph: 10
+Graph: 11
+Graph: 12
+Graph: 13
+Graph: 14
+Graph: 15
+Graph: 16
+Graph: 17
+Graph: 18
+Graph: 19
+Graph: 20
+Graph: 21
+Graph: 22
+Graph: 23
+Graph: 24
+Graph: 25
+Graph: 26
+Graph: 27
+Graph: 28
+Graph: 29
+Graph: 30
+Graph: 31
+Graph: 32
+Graph: 33
+Graph: 34
+Graph: 35
+Graph: 36
+Graph: 37
+Graph: 38
+Graph: 39
+Graph: 40
+Graph: 41
+Graph: 42
+Graph: 43
+Graph: 44
+Graph: 45
+Graph: 46
+Graph: 47
+Graph: 48
+Graph: 49
+Graph: 50
+Graph: 51
+Graph: 52
+Graph: 53
+Graph: 54
+Graph: 55
+Graph: 56
+Graph: 57
+Graph: 58
+Graph: 59
+Graph: 60
+Graph: 61
+Graph: 62
+Graph: 63
+Graph: 64
+Graph: 65
+Graph: 66
+Graph: 67
+Graph: 68
+Graph: 69
+Graph: 70
+Graph: 71
+Graph: 72
+Graph: 73
+Graph: 74
+Graph: 75
+Graph: 76
+Graph: 77
+Graph: 78
+Graph: 79
+Graph: 80
+Graph: 81
+Graph: 82
+Graph: 83
+Graph: 84
+Graph: 85
+Graph: 86
+Graph: 87
+Graph: 88
+Graph: 89
+Graph: 90
+Graph: 91
+Graph: 92
+Graph: 93
+Graph: 94
+Graph: 95
+Graph: 96
+Graph: 97
+Graph: 98
+Graph: 99
+Graph: 100
+Random Graph
+############# Random Graph 1####################
+Enumerating subgraph took 2077 milliseconds.
+Number of subgraphs enumerated: 19076
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 2####################
+Enumerating subgraph took 2104 milliseconds.
+Number of subgraphs enumerated: 19987
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 3####################
+Enumerating subgraph took 2133 milliseconds.
+Number of subgraphs enumerated: 18818
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 4####################
+Enumerating subgraph took 2496 milliseconds.
+Number of subgraphs enumerated: 23016
+Total number of unique sub-graphs for which canonical labels need to be computed: 15
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 5####################
+Enumerating subgraph took 2063 milliseconds.
+Number of subgraphs enumerated: 16320
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 6####################
+Enumerating subgraph took 2120 milliseconds.
+Number of subgraphs enumerated: 19216
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 7####################
+Enumerating subgraph took 2055 milliseconds.
+Number of subgraphs enumerated: 14372
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 8####################
+Enumerating subgraph took 2077 milliseconds.
+Number of subgraphs enumerated: 17950
+Total number of unique sub-graphs for which canonical labels need to be computed: 9
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 9####################
+Enumerating subgraph took 2124 milliseconds.
+Number of subgraphs enumerated: 14968
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 10####################
+Enumerating subgraph took 2108 milliseconds.
+Number of subgraphs enumerated: 20987
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 11####################
+Enumerating subgraph took 2189 milliseconds.
+Number of subgraphs enumerated: 20448
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 12####################
+Enumerating subgraph took 1957 milliseconds.
+Number of subgraphs enumerated: 18373
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 13####################
+Enumerating subgraph took 2070 milliseconds.
+Number of subgraphs enumerated: 22778
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 14####################
+Enumerating subgraph took 2054 milliseconds.
+Number of subgraphs enumerated: 13119
+Total number of unique sub-graphs for which canonical labels need to be computed: 9
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 15####################
+Enumerating subgraph took 2058 milliseconds.
+Number of subgraphs enumerated: 15354
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 16####################
+Enumerating subgraph took 2102 milliseconds.
+Number of subgraphs enumerated: 26847
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 17####################
+Enumerating subgraph took 2048 milliseconds.
+Number of subgraphs enumerated: 14261
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 18####################
+Enumerating subgraph took 2096 milliseconds.
+Number of subgraphs enumerated: 19631
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 19####################
+Enumerating subgraph took 2198 milliseconds.
+Number of subgraphs enumerated: 23063
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 20####################
+Enumerating subgraph took 2016 milliseconds.
+Number of subgraphs enumerated: 18402
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 21####################
+Enumerating subgraph took 2007 milliseconds.
+Number of subgraphs enumerated: 16569
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 22####################
+Enumerating subgraph took 2042 milliseconds.
+Number of subgraphs enumerated: 21649
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 23####################
+Enumerating subgraph took 2195 milliseconds.
+Number of subgraphs enumerated: 16357
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 24####################
+Enumerating subgraph took 2063 milliseconds.
+Number of subgraphs enumerated: 19730
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 25####################
+Enumerating subgraph took 2093 milliseconds.
+Number of subgraphs enumerated: 31549
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 26####################
+Enumerating subgraph took 2072 milliseconds.
+Number of subgraphs enumerated: 15773
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 27####################
+Enumerating subgraph took 2118 milliseconds.
+Number of subgraphs enumerated: 16170
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 28####################
+Enumerating subgraph took 2002 milliseconds.
+Number of subgraphs enumerated: 17054
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 29####################
+Enumerating subgraph took 1938 milliseconds.
+Number of subgraphs enumerated: 14174
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 30####################
+Enumerating subgraph took 2095 milliseconds.
+Number of subgraphs enumerated: 15376
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 31####################
+Enumerating subgraph took 2526 milliseconds.
+Number of subgraphs enumerated: 15994
+Total number of unique sub-graphs for which canonical labels need to be computed: 9
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 32####################
+Enumerating subgraph took 2046 milliseconds.
+Number of subgraphs enumerated: 18664
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 33####################
+Enumerating subgraph took 2031 milliseconds.
+Number of subgraphs enumerated: 15707
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 34####################
+Enumerating subgraph took 2073 milliseconds.
+Number of subgraphs enumerated: 16485
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 35####################
+Enumerating subgraph took 2058 milliseconds.
+Number of subgraphs enumerated: 23327
+Total number of unique sub-graphs for which canonical labels need to be computed: 15
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 36####################
+Enumerating subgraph took 2291 milliseconds.
+Number of subgraphs enumerated: 16130
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 37####################
+Enumerating subgraph took 2025 milliseconds.
+Number of subgraphs enumerated: 17998
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 38####################
+Enumerating subgraph took 2153 milliseconds.
+Number of subgraphs enumerated: 16923
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 39####################
+Enumerating subgraph took 1993 milliseconds.
+Number of subgraphs enumerated: 18095
+Total number of unique sub-graphs for which canonical labels need to be computed: 6
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 3
+############# Random Graph 40####################
+Enumerating subgraph took 1968 milliseconds.
+Number of subgraphs enumerated: 16627
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 41####################
+Enumerating subgraph took 2025 milliseconds.
+Number of subgraphs enumerated: 16654
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 42####################
+Enumerating subgraph took 2181 milliseconds.
+Number of subgraphs enumerated: 19569
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 43####################
+Enumerating subgraph took 1996 milliseconds.
+Number of subgraphs enumerated: 15911
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 44####################
+Enumerating subgraph took 1979 milliseconds.
+Number of subgraphs enumerated: 22292
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 45####################
+Enumerating subgraph took 1971 milliseconds.
+Number of subgraphs enumerated: 16198
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 46####################
+Enumerating subgraph took 2118 milliseconds.
+Number of subgraphs enumerated: 15337
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 47####################
+Enumerating subgraph took 2057 milliseconds.
+Number of subgraphs enumerated: 21047
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 48####################
+Enumerating subgraph took 2058 milliseconds.
+Number of subgraphs enumerated: 13757
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 49####################
+Enumerating subgraph took 2250 milliseconds.
+Number of subgraphs enumerated: 18447
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 50####################
+Enumerating subgraph took 2570 milliseconds.
+Number of subgraphs enumerated: 20242
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 51####################
+Enumerating subgraph took 2093 milliseconds.
+Number of subgraphs enumerated: 22722
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 52####################
+Enumerating subgraph took 1986 milliseconds.
+Number of subgraphs enumerated: 15943
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 53####################
+Enumerating subgraph took 2030 milliseconds.
+Number of subgraphs enumerated: 21533
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 54####################
+Enumerating subgraph took 2118 milliseconds.
+Number of subgraphs enumerated: 18669
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 55####################
+Enumerating subgraph took 2123 milliseconds.
+Number of subgraphs enumerated: 19211
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 56####################
+Enumerating subgraph took 2077 milliseconds.
+Number of subgraphs enumerated: 20032
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 57####################
+Enumerating subgraph took 2070 milliseconds.
+Number of subgraphs enumerated: 13619
+Total number of unique sub-graphs for which canonical labels need to be computed: 9
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 58####################
+Enumerating subgraph took 2049 milliseconds.
+Number of subgraphs enumerated: 17827
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 59####################
+Enumerating subgraph took 2074 milliseconds.
+Number of subgraphs enumerated: 14947
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 60####################
+Enumerating subgraph took 2032 milliseconds.
+Number of subgraphs enumerated: 13491
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 61####################
+Enumerating subgraph took 1965 milliseconds.
+Number of subgraphs enumerated: 22551
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 62####################
+Enumerating subgraph took 2062 milliseconds.
+Number of subgraphs enumerated: 17086
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 63####################
+Enumerating subgraph took 2105 milliseconds.
+Number of subgraphs enumerated: 22825
+Total number of unique sub-graphs for which canonical labels need to be computed: 15
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 64####################
+Enumerating subgraph took 1948 milliseconds.
+Number of subgraphs enumerated: 17247
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 65####################
+Enumerating subgraph took 2130 milliseconds.
+Number of subgraphs enumerated: 17161
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 66####################
+Enumerating subgraph took 2075 milliseconds.
+Number of subgraphs enumerated: 26156
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 67####################
+Enumerating subgraph took 2024 milliseconds.
+Number of subgraphs enumerated: 17710
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 68####################
+Enumerating subgraph took 1961 milliseconds.
+Number of subgraphs enumerated: 17077
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 69####################
+Enumerating subgraph took 2080 milliseconds.
+Number of subgraphs enumerated: 16195
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 70####################
+Enumerating subgraph took 2002 milliseconds.
+Number of subgraphs enumerated: 16146
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 71####################
+Enumerating subgraph took 2025 milliseconds.
+Number of subgraphs enumerated: 16280
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 72####################
+Enumerating subgraph took 2091 milliseconds.
+Number of subgraphs enumerated: 30683
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 73####################
+Enumerating subgraph took 2016 milliseconds.
+Number of subgraphs enumerated: 14907
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 74####################
+Enumerating subgraph took 2023 milliseconds.
+Number of subgraphs enumerated: 16819
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 75####################
+Enumerating subgraph took 2069 milliseconds.
+Number of subgraphs enumerated: 18030
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 76####################
+Enumerating subgraph took 2047 milliseconds.
+Number of subgraphs enumerated: 14705
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 77####################
+Enumerating subgraph took 2037 milliseconds.
+Number of subgraphs enumerated: 17276
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 78####################
+Enumerating subgraph took 2025 milliseconds.
+Number of subgraphs enumerated: 16289
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 79####################
+Enumerating subgraph took 2029 milliseconds.
+Number of subgraphs enumerated: 17965
+Total number of unique sub-graphs for which canonical labels need to be computed: 11
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 80####################
+Enumerating subgraph took 2042 milliseconds.
+Number of subgraphs enumerated: 17611
+Total number of unique sub-graphs for which canonical labels need to be computed: 15
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 81####################
+Enumerating subgraph took 1950 milliseconds.
+Number of subgraphs enumerated: 16071
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 82####################
+Enumerating subgraph took 2157 milliseconds.
+Number of subgraphs enumerated: 24696
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 83####################
+Enumerating subgraph took 1941 milliseconds.
+Number of subgraphs enumerated: 19196
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 84####################
+Enumerating subgraph took 2041 milliseconds.
+Number of subgraphs enumerated: 17702
+Total number of unique sub-graphs for which canonical labels need to be computed: 9
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 85####################
+Enumerating subgraph took 2079 milliseconds.
+Number of subgraphs enumerated: 17655
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 86####################
+Enumerating subgraph took 2022 milliseconds.
+Number of subgraphs enumerated: 19675
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 87####################
+Enumerating subgraph took 2026 milliseconds.
+Number of subgraphs enumerated: 16107
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 88####################
+Enumerating subgraph took 2085 milliseconds.
+Number of subgraphs enumerated: 21754
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 89####################
+Enumerating subgraph took 2041 milliseconds.
+Number of subgraphs enumerated: 19093
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 90####################
+Enumerating subgraph took 2008 milliseconds.
+Number of subgraphs enumerated: 17500
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 91####################
+Enumerating subgraph took 2068 milliseconds.
+Number of subgraphs enumerated: 21717
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 92####################
+Enumerating subgraph took 2102 milliseconds.
+Number of subgraphs enumerated: 17470
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 93####################
+Enumerating subgraph took 2004 milliseconds.
+Number of subgraphs enumerated: 15998
+Total number of unique sub-graphs for which canonical labels need to be computed: 10
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 94####################
+Enumerating subgraph took 2013 milliseconds.
+Number of subgraphs enumerated: 19299
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 4
+############# Random Graph 95####################
+Enumerating subgraph took 2044 milliseconds.
+Number of subgraphs enumerated: 17312
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 96####################
+Enumerating subgraph took 1936 milliseconds.
+Number of subgraphs enumerated: 17225
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 97####################
+Enumerating subgraph took 2061 milliseconds.
+Number of subgraphs enumerated: 17106
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 98####################
+Enumerating subgraph took 2367 milliseconds.
+Number of subgraphs enumerated: 20680
+Total number of unique sub-graphs for which canonical labels need to be computed: 14
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 99####################
+Enumerating subgraph took 2051 milliseconds.
+Number of subgraphs enumerated: 19388
+Total number of unique sub-graphs for which canonical labels need to be computed: 12
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+############# Random Graph 100####################
+Time taken to enumerate subgraph for random graph  100 is: 208023
+Enumerating subgraph took 2068 milliseconds.
+Number of subgraphs enumerated: 23206
+Total number of unique sub-graphs for which canonical labels need to be computed: 15
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+zTime taken for 100 Random graph: 1330661
+input Graph 
+
+CF : 72225
+CR : 85943
+Cr : 2045
+CF : 0.4508061143602579
+CR : 0.5364296280576483
+Cr : 0.012764257582093838
+Random Graph 0
+
+CF : 8976
+CN : 136
+C^ : 4
+CR : 28322
+Cr : 714
+CF : 0.23526944852170267
+CN : 0.003564688613965192
+C^ : 1.0484378276368212E-4
+CR : 0.7423464038582512
+Cr : 0.018714615223317257
+Random Graph 1
+
+CF : 9348
+CN : 78
+CR : 29772
+Cr : 776
+CF : 0.23385200380247162
+CN : 0.001951268324410867
+CR : 0.7447841096712864
+Cr : 0.01941261820183119
+Random Graph 2
+
+CF : 8898
+CN : 98
+C^ : 2
+CR : 27686
+Cr : 952
+CF : 0.23642257413115103
+CN : 0.0026038898926559677
+C^ : 5.3140610054203425E-5
+CR : 0.735625464980338
+Cr : 0.02529493038580083
+Random Graph 3
+
+CF : 10966
+C^ : 16
+CN : 228
+Cr : 1004
+CR : 33818
+CF : 0.2382255822036844
+C^ : 3.475842891901286E-4
+CN : 0.004953076120959333
+Cr : 0.02181091414668057
+CR : 0.7346628432394856
+Random Graph 4
+
+CF : 7394
+CN : 38
+C^ : 2
+CR : 24688
+Cr : 518
+CF : 0.22653186274509804
+CN : 0.0011642156862745098
+C^ : 6.127450980392157E-5
+CR : 0.7563725490196078
+Cr : 0.015870098039215685
+Random Graph 5
+
+CF : 8732
+CN : 70
+C^ : 2
+CR : 28794
+Cr : 834
+CF : 0.22720649458784348
+CN : 0.001821398834304746
+C^ : 5.203996669442132E-5
+CR : 0.7492194004995837
+Cr : 0.021700666111573688
+Random Graph 6
+
+CF : 6484
+CN : 44
+Cr : 504
+CR : 21712
+CF : 0.22557751182855554
+CN : 0.0015307542443640412
+Cr : 0.01753409407180629
+CR : 0.7553576398552742
+Random Graph 7
+
+CF : 8348
+CN : 10
+CR : 26828
+Cr : 714
+CF : 0.23253481894150418
+CN : 2.785515320334262E-4
+CR : 0.7472980501392757
+Cr : 0.01988857938718663
+Random Graph 8
+
+CF : 6728
+CN : 8
+C^ : 2
+CR : 22650
+Cr : 548
+CF : 0.2247461250668092
+CN : 2.672367717797969E-4
+C^ : 6.680919294494922E-5
+CR : 0.75661411010155
+Cr : 0.018305718866916086
+Random Graph 9
+
+CF : 10682
+CN : 108
+C^ : 4
+CR : 30156
+Cr : 1024
+CF : 0.25449087530375947
+CN : 0.0025730213941964073
+C^ : 9.529708867394101E-5
+CR : 0.7184447515128413
+Cr : 0.0243960547005289
+Random Graph 10
+
+CF : 9516
+CN : 88
+C^ : 8
+CR : 30366
+Cr : 918
+CF : 0.23268779342723006
+CN : 0.0021517996870109544
+C^ : 1.9561815336463224E-4
+CR : 0.7425176056338029
+Cr : 0.02244718309859155
+Random Graph 11
+
+CF : 8056
+CN : 24
+CR : 27886
+Cr : 780
+CF : 0.21923474663908996
+CN : 6.531323137212214E-4
+CR : 0.7588853208512492
+Cr : 0.021226800195939696
+Random Graph 12
+
+CF : 11764
+CN : 116
+C^ : 4
+CR : 32530
+Cr : 1142
+CF : 0.258231627008517
+CN : 0.0025463166213012555
+C^ : 8.780402142418122E-5
+CR : 0.7140662042321538
+Cr : 0.02506804811660374
+Random Graph 13
+
+CF : 5866
+CN : 22
+CR : 19904
+Cr : 446
+CF : 0.22356886957847397
+CN : 8.384785425718424E-4
+CR : 0.7585944050613613
+Cr : 0.016998246817592804
+Random Graph 14
+
+CF : 6838
+CN : 42
+CR : 23258
+Cr : 570
+CF : 0.22267812947766055
+CN : 0.0013677217663149667
+CR : 0.7573922104988928
+Cr : 0.01856193825713169
+Random Graph 15
+
+CF : 13256
+CN : 66
+CR : 39020
+Cr : 1352
+CF : 0.2468804708161061
+CN : 0.0012291876187283494
+CR : 0.7267106194360636
+Cr : 0.02517972212910195
+Random Graph 16
+
+CF : 6348
+CN : 38
+C^ : 4
+CR : 21578
+Cr : 554
+CF : 0.22256503751490078
+CN : 0.0013323048874552977
+C^ : 1.402426197321366E-4
+CR : 0.7565388121450108
+Cr : 0.01942360283290092
+Random Graph 17
+
+CF : 8986
+CN : 86
+C^ : 4
+CR : 29540
+Cr : 646
+CF : 0.2288727013397178
+CN : 0.0021904131221027966
+C^ : 1.018796800978045E-4
+CR : 0.7523814375222861
+Cr : 0.016453568335795424
+Random Graph 18
+
+CF : 12894
+CN : 66
+C^ : 2
+CR : 31874
+Cr : 1290
+CF : 0.2795386549885097
+CN : 0.0014308632875168017
+C^ : 4.3359493561115205E-5
+CR : 0.691020248883493
+Cr : 0.02796687334691931
+Random Graph 19
+
+CF : 8460
+CN : 78
+C^ : 2
+CR : 27488
+Cr : 776
+CF : 0.2298663188783828
+CN : 0.0021193348549070753
+C^ : 5.4341919356591676E-5
+CR : 0.7468753396369959
+Cr : 0.02108466471035757
+Random Graph 20
+
+CF : 7250
+CN : 58
+C^ : 2
+CR : 25248
+Cr : 580
+CF : 0.21878206288852678
+CN : 0.001750256503108214
+C^ : 6.03536725209729E-5
+CR : 0.7619047619047619
+Cr : 0.01750256503108214
+Random Graph 21
+
+CF : 10624
+CN : 50
+CR : 31626
+Cr : 998
+CF : 0.2453693011224537
+CN : 0.0011547877500115479
+CR : 0.7304263476373043
+Cr : 0.023049563490230497
+Random Graph 22
+
+CF : 7306
+CN : 32
+CR : 24692
+Cr : 684
+CF : 0.22332946139267593
+CN : 9.781744818732042E-4
+CR : 0.7547838845754111
+Cr : 0.020908479550039737
+Random Graph 23
+
+CF : 8974
+CN : 50
+CR : 29712
+Cr : 724
+CF : 0.2274201723264065
+CN : 0.0012671059300557526
+CR : 0.7529650278763305
+Cr : 0.018347693867207297
+Random Graph 24
+
+CF : 16770
+CN : 42
+CR : 44410
+Cr : 1876
+CF : 0.26577704523122764
+CN : 6.656312402928778E-4
+CR : 0.7038257947953976
+Cr : 0.029731528733081873
+Random Graph 25
+
+CF : 7410
+CN : 66
+C^ : 2
+CR : 23460
+Cr : 608
+CF : 0.23489507386039435
+CN : 0.0020921828441006784
+C^ : 6.339948012426299E-5
+CR : 0.7436759018576048
+Cr : 0.019273441957775948
+Random Graph 26
+
+CF : 7336
+CN : 18
+CR : 24458
+Cr : 528
+CF : 0.22683982683982684
+CN : 5.565862708719852E-4
+CR : 0.7562770562770563
+Cr : 0.0163265306122449
+Random Graph 27
+
+CF : 7962
+CN : 14
+CR : 25324
+Cr : 808
+CF : 0.23343497126773777
+CN : 4.104608889410109E-4
+CR : 0.74246511082444
+Cr : 0.0236894570188812
+Random Graph 28
+
+CF : 6770
+CN : 22
+CR : 21048
+Cr : 508
+CF : 0.23881755326654439
+CN : 7.760688584732609E-4
+CR : 0.7424862424156907
+Cr : 0.01792013545929166
+Random Graph 29
+
+CF : 6898
+CN : 98
+CR : 23176
+Cr : 580
+CF : 0.22431061394380852
+CN : 0.0031867845993756505
+CR : 0.7536420395421436
+Cr : 0.018860561914672218
+Random Graph 30
+
+CF : 8534
+CN : 26
+CR : 22786
+Cr : 642
+CF : 0.26678754532949855
+CN : 8.128048018006752E-4
+CR : 0.7123296236088533
+Cr : 0.020070026259847443
+Random Graph 31
+
+CF : 9502
+CN : 32
+C^ : 2
+CR : 26954
+Cr : 838
+CF : 0.2545542220317188
+CN : 8.572653236176596E-4
+C^ : 5.357908272610373E-5
+CR : 0.7220852978997
+Cr : 0.022449635662237462
+Random Graph 32
+
+CF : 7160
+CN : 26
+CR : 23720
+Cr : 508
+CF : 0.22792385560578085
+CN : 8.276564589036735E-4
+CR : 0.7550773540459668
+Cr : 0.0161711338893487
+Random Graph 33
+
+CF : 7364
+CN : 46
+CR : 24948
+Cr : 612
+CF : 0.22335456475583865
+CN : 0.0013952077646345162
+CR : 0.756687898089172
+Cr : 0.01856232939035487
+Random Graph 34
+
+CF : 11714
+CN : 182
+C^ : 10
+CR : 33752
+Cr : 996
+CF : 0.2510824366613795
+CN : 0.003901058858833112
+C^ : 2.1434389334247866E-4
+CR : 0.723453508809534
+Cr : 0.021348651776910876
+Random Graph 35
+
+CF : 7334
+CN : 72
+C^ : 4
+CR : 24248
+Cr : 602
+CF : 0.2273403595784253
+CN : 0.002231866088034718
+C^ : 1.2399256044637322E-4
+CR : 0.7516429014259145
+Cr : 0.01866088034717917
+Random Graph 36
+
+CF : 8550
+CN : 64
+C^ : 2
+CR : 26748
+Cr : 632
+CF : 0.2375263918213135
+CN : 0.0017779753305922881
+C^ : 5.5561729081009004E-5
+CR : 0.7430825647294144
+Cr : 0.017557506389598843
+Random Graph 37
+
+CF : 8452
+CN : 40
+CR : 24582
+Cr : 772
+CF : 0.24971931690598595
+CN : 0.0011818235537434261
+CR : 0.7262896649530225
+Cr : 0.022809194587248123
+Random Graph 38
+
+CF : 8538
+CR : 26850
+Cr : 802
+CF : 0.2359215252832274
+CR : 0.7419176568112739
+Cr : 0.022160817905498755
+Random Graph 39
+
+CF : 7460
+CN : 62
+C^ : 2
+CR : 25168
+Cr : 562
+CF : 0.22433391471702652
+CN : 0.0018644373609189872
+C^ : 6.0143140674806036E-5
+CR : 0.7568412822517592
+Cr : 0.016900222529620496
+Random Graph 40
+
+CF : 7942
+CN : 100
+C^ : 2
+CR : 24590
+Cr : 674
+CF : 0.23844121532364598
+CN : 0.0030022817341179295
+C^ : 6.0045634682358595E-5
+CR : 0.7382610784195989
+Cr : 0.020235378887954847
+Random Graph 41
+
+CF : 9314
+CN : 38
+CR : 28806
+Cr : 980
+CF : 0.23797843528029025
+CN : 9.70923399253922E-4
+CR : 0.7360110378660125
+Cr : 0.02503960345444325
+Random Graph 42
+
+CF : 7136
+CN : 36
+CR : 24144
+Cr : 506
+CF : 0.22424737602916223
+CN : 0.0011312928162906166
+CR : 0.7587203821255735
+Cr : 0.015900949028973665
+Random Graph 43
+
+CF : 10782
+CN : 70
+C^ : 2
+CR : 32580
+Cr : 1150
+CF : 0.24183563610263772
+CN : 0.0015700699802619774
+C^ : 4.485914229319936E-5
+CR : 0.7307554279562175
+Cr : 0.025794006818589628
+Random Graph 44
+
+CF : 7380
+CN : 70
+CR : 24332
+Cr : 614
+CF : 0.22780590196320533
+CN : 0.00216076058772688
+CR : 0.7510803802938635
+Cr : 0.018952957155204345
+Random Graph 45
+
+CF : 6958
+CN : 32
+Cr : 518
+CR : 23166
+CF : 0.2268370607028754
+CN : 0.00104322879311469
+Cr : 0.016887266088544045
+CR : 0.7552324444154659
+Random Graph 46
+
+CF : 10164
+CN : 42
+CR : 30808
+Cr : 1080
+CF : 0.24145959044044282
+CN : 9.97766902646458E-4
+CR : 0.7318857794460019
+Cr : 0.025656863210908917
+Random Graph 47
+
+CF : 6186
+CN : 42
+CR : 20746
+Cr : 540
+CF : 0.22483099512975213
+CN : 0.0015264956022388602
+CR : 0.7540161372392237
+Cr : 0.019626372028785345
+Random Graph 48
+
+CF : 8546
+CN : 58
+CR : 27544
+Cr : 746
+CF : 0.23163658047378977
+CN : 0.0015720713395132
+CR : 0.7465712581991651
+Cr : 0.020220089987531848
+Random Graph 49
+
+CF : 9504
+CN : 52
+C^ : 4
+CR : 29912
+Cr : 1012
+CF : 0.23475941112538287
+CN : 0.0012844580575041991
+C^ : 9.880446596186147E-5
+CR : 0.7388597964628001
+Cr : 0.024997529888350953
+Random Graph 50
+
+CF : 10976
+CN : 68
+CR : 33260
+Cr : 1140
+CF : 0.24152803450400492
+CN : 0.0014963471525393892
+CR : 0.7318897984332365
+Cr : 0.02508581991021917
+Random Graph 51
+
+CF : 6994
+CN : 76
+C^ : 2
+CR : 24262
+Cr : 552
+CF : 0.2193439126889544
+CN : 0.002383491187354952
+C^ : 6.272345229881452E-5
+CR : 0.760898199836919
+Cr : 0.01731167283447281
+Random Graph 52
+
+CF : 9966
+CN : 46
+CR : 31972
+Cr : 1082
+CF : 0.2314122509636372
+CN : 0.0010681279895973623
+CR : 0.7423953931175405
+Cr : 0.02512422792922491
+Random Graph 53
+
+CF : 8672
+CN : 48
+CR : 27800
+Cr : 818
+CF : 0.23225668220043924
+CN : 0.0012855535915153463
+CR : 0.7445497884193047
+Cr : 0.021907975788740694
+Random Graph 54
+
+CF : 8750
+CN : 70
+C^ : 2
+CR : 29006
+Cr : 594
+CF : 0.2277341106657644
+CN : 0.0018218728853261151
+C^ : 5.205351100931758E-5
+CR : 0.7549320701681328
+Cr : 0.01545989276976732
+Random Graph 55
+
+CF : 9224
+CN : 44
+CR : 29904
+Cr : 892
+CF : 0.23023162939297126
+CN : 0.0010982428115015974
+CR : 0.7464057507987221
+Cr : 0.022264376996805113
+Random Graph 56
+
+CF : 6510
+CN : 12
+CR : 20170
+Cr : 546
+CF : 0.23900433218297967
+CN : 4.40560980982451E-4
+CR : 0.7405095822013363
+Cr : 0.02004552463470152
+Random Graph 57
+
+CF : 8098
+CN : 24
+CR : 26866
+Cr : 666
+CF : 0.22712739103606888
+CN : 6.731362539967466E-4
+CR : 0.7535199416615247
+Cr : 0.018679531048409716
+Random Graph 58
+
+CF : 6528
+CN : 40
+CR : 22788
+Cr : 538
+CF : 0.21837157958118686
+CN : 0.0013380611493945273
+CR : 0.7622934368100622
+Cr : 0.01799692245935639
+Random Graph 59
+
+CF : 6482
+CN : 40
+Cr : 530
+CR : 19930
+CF : 0.2402342302275591
+CN : 0.0014824697946779334
+Cr : 0.019642724779482618
+CR : 0.7386405751982803
+Random Graph 60
+
+CF : 10272
+CN : 140
+C^ : 4
+CR : 33824
+Cr : 862
+CF : 0.22775043235333245
+CN : 0.00310407520730788
+C^ : 8.868786306593942E-5
+CR : 0.7499445700855838
+Cr : 0.019112234490709947
+Random Graph 61
+
+CF : 7822
+CN : 78
+C^ : 8
+CR : 25672
+Cr : 592
+CF : 0.22890085450076086
+CN : 0.0022825705255764953
+C^ : 2.3410979749502515E-4
+CR : 0.7512583401615358
+Cr : 0.01732412501463186
+Random Graph 62
+
+CF : 11196
+CN : 108
+C^ : 6
+CR : 33254
+Cr : 1086
+CF : 0.24525739320920042
+CN : 0.002365826944140197
+C^ : 1.3143483023001095E-4
+CR : 0.7284556407447974
+Cr : 0.023789704271631983
+Random Graph 63
+
+CF : 7816
+CN : 48
+C^ : 4
+CR : 25954
+Cr : 672
+CF : 0.22659013161709282
+CN : 0.0013915463558879806
+C^ : 1.1596219632399837E-4
+CR : 0.7524207108482635
+Cr : 0.019481648982431727
+Random Graph 64
+
+CF : 7744
+CN : 130
+C^ : 6
+CR : 25796
+Cr : 646
+CF : 0.22562787716333546
+CN : 0.0037876580618845055
+C^ : 1.7481498747159256E-4
+CR : 0.7515879028028669
+Cr : 0.018821746984441466
+Random Graph 65
+
+CF : 14106
+CN : 56
+C^ : 2
+CR : 36780
+Cr : 1368
+CF : 0.26965132283223736
+CN : 0.0010705000764642911
+C^ : 3.82321455880104E-5
+CR : 0.7030891573635112
+Cr : 0.026150787582199114
+Random Graph 66
+
+CF : 8044
+CN : 54
+CR : 26626
+Cr : 696
+CF : 0.22710333145115755
+CN : 0.0015245623941276115
+CR : 0.7517221908526256
+Cr : 0.019649915302089215
+Random Graph 67
+
+CF : 7704
+CN : 96
+C^ : 6
+CR : 25724
+Cr : 624
+CF : 0.22556655150202026
+CN : 0.002810798149557885
+C^ : 1.756748843473678E-4
+CR : 0.7531767874919483
+Cr : 0.01827018797212625
+Random Graph 68
+
+CF : 7994
+CN : 40
+CR : 23734
+Cr : 622
+CF : 0.2468045693115159
+CN : 0.001234949058351343
+CR : 0.7327570237727694
+Cr : 0.019203457857363385
+Random Graph 69
+
+CF : 7276
+CN : 22
+C^ : 2
+CR : 24344
+Cr : 648
+CF : 0.22531896444939922
+CN : 6.812832899789422E-4
+C^ : 6.19348445435402E-5
+CR : 0.7538709277839712
+Cr : 0.020066889632107024
+Random Graph 70
+
+CF : 7412
+CN : 22
+C^ : 2
+CR : 24540
+Cr : 584
+CF : 0.22764127764127765
+CN : 6.756756756756757E-4
+C^ : 6.142506142506142E-5
+CR : 0.7536855036855037
+Cr : 0.017936117936117935
+Random Graph 71
+
+CF : 16158
+C^ : 4
+CN : 166
+Cr : 1978
+CR : 43060
+CF : 0.2633054134211127
+C^ : 6.518267444513249E-5
+CN : 0.0027050809894729982
+Cr : 0.032232832513118016
+CR : 0.7016914904018512
+Random Graph 72
+
+CF : 6646
+CN : 94
+C^ : 2
+CR : 22476
+Cr : 596
+CF : 0.2229154088683169
+CN : 0.0031528811967532033
+C^ : 6.708257865432348E-5
+CR : 0.7538740189172872
+Cr : 0.019990608438988394
+Random Graph 73
+
+CF : 7554
+CN : 18
+CR : 25418
+Cr : 648
+CF : 0.22456745347523635
+CN : 5.351091028004043E-4
+CR : 0.7556335097211487
+Cr : 0.019263927700814556
+Random Graph 74
+
+CF : 8318
+CN : 46
+C^ : 2
+CR : 26890
+Cr : 804
+CF : 0.23067110371602884
+CN : 0.0012756516916250693
+C^ : 5.5463117027176924E-5
+CR : 0.7457016084303938
+Cr : 0.022296173044925125
+Random Graph 75
+
+CF : 6944
+CN : 124
+C^ : 2
+Cr : 504
+CR : 21836
+CF : 0.2361101666099966
+CN : 0.004216252975178511
+C^ : 6.80040802448147E-5
+Cr : 0.0171370282216933
+CR : 0.7424685481128868
+Random Graph 76
+
+CF : 7752
+CN : 52
+C^ : 2
+CR : 26038
+Cr : 708
+CF : 0.2243574901597592
+CN : 0.0015049780041676314
+C^ : 5.788376939106274E-5
+CR : 0.7535887937022459
+Cr : 0.020490854364436213
+Random Graph 77
+
+CF : 8008
+CN : 50
+C^ : 2
+CR : 23892
+Cr : 626
+CF : 0.24581005586592178
+CN : 0.0015347780710909204
+C^ : 6.139112284363682E-5
+CR : 0.7333783534900853
+Cr : 0.01921542145005832
+Random Graph 78
+
+CF : 8714
+CN : 34
+CR : 26380
+Cr : 802
+CF : 0.24252713609796828
+CN : 9.462844419704982E-4
+CR : 0.7342053993876984
+Cr : 0.022321180072362928
+Random Graph 79
+
+CF : 8176
+CN : 130
+C^ : 6
+CR : 26220
+Cr : 690
+CF : 0.23212764749304413
+CN : 0.0036908750212935096
+C^ : 1.7034807790585428E-4
+CR : 0.7444211004485832
+Cr : 0.019590028959173243
+Random Graph 80
+
+CF : 7348
+CN : 88
+C^ : 2
+CR : 23978
+Cr : 726
+CF : 0.22861054072553047
+CN : 0.0027378507871321013
+C^ : 6.222388152572957E-5
+CR : 0.7460021156119718
+Cr : 0.022587268993839837
+Random Graph 81
+
+CF : 11998
+CN : 98
+C^ : 2
+CR : 36140
+Cr : 1154
+CF : 0.2429138321995465
+CN : 0.001984126984126984
+C^ : 4.049238743116294E-5
+CR : 0.7316974408811143
+Cr : 0.023364107547781017
+Random Graph 82
+
+CF : 8908
+CN : 40
+CR : 28730
+Cr : 714
+CF : 0.2320275057303605
+CN : 0.0010418837257762034
+CR : 0.7483329860387581
+Cr : 0.01859762450510523
+Random Graph 83
+
+CF : 8596
+CN : 14
+CR : 26126
+Cr : 668
+CF : 0.24279742401988477
+CN : 3.95435544006327E-4
+CR : 0.737939215907807
+Cr : 0.018867924528301886
+Random Graph 84
+
+CF : 8832
+CN : 74
+CR : 25678
+Cr : 726
+CF : 0.25012744265080716
+CN : 0.002095723591050694
+CR : 0.7272160860945908
+Cr : 0.020560747663551402
+Random Graph 85
+
+CF : 9170
+CN : 128
+C^ : 4
+CR : 29334
+Cr : 714
+CF : 0.23303684879288436
+CN : 0.003252858958068615
+C^ : 1.0165184243964421E-4
+CR : 0.7454637865311309
+Cr : 0.018144853875476492
+Random Graph 86
+
+CF : 7238
+CN : 36
+C^ : 2
+CR : 24424
+Cr : 514
+CF : 0.22468491960017384
+CN : 0.0011175265412553548
+C^ : 6.208480784751971E-5
+CR : 0.7581796734339107
+Cr : 0.015955795616812565
+Random Graph 87
+
+CF : 10594
+CN : 70
+C^ : 2
+CR : 31800
+Cr : 1042
+CF : 0.24349544911280685
+CN : 0.0016088995127332905
+C^ : 4.5968557506665444E-5
+CR : 0.7309000643559805
+Cr : 0.023949618460972693
+Random Graph 88
+
+CF : 8920
+CN : 54
+C^ : 2
+CR : 28356
+Cr : 854
+CF : 0.23359346357303723
+CN : 0.0014141308332896872
+C^ : 5.23752160477662E-5
+CR : 0.7425758131252291
+Cr : 0.022364217252396165
+Random Graph 89
+
+CF : 7864
+CN : 10
+CR : 26614
+Cr : 512
+CF : 0.2246857142857143
+CN : 2.8571428571428574E-4
+CR : 0.7604
+Cr : 0.014628571428571428
+Random Graph 90
+
+CF : 10392
+CN : 118
+C^ : 4
+CR : 31816
+Cr : 1104
+CF : 0.23925956623843073
+CN : 0.0027167656674494636
+C^ : 9.209375143896487E-5
+CR : 0.7325136989455265
+Cr : 0.025417875397154302
+Random Graph 91
+
+CF : 8184
+CN : 86
+C^ : 2
+CR : 25898
+Cr : 770
+CF : 0.23423010875787065
+CN : 0.0024613623354321694
+C^ : 5.7240984544934173E-5
+CR : 0.7412135088723526
+Cr : 0.022037779049799658
+Random Graph 92
+
+CF : 7268
+CN : 36
+CR : 24168
+Cr : 524
+CF : 0.22715339417427177
+CN : 0.0011251406425803225
+CR : 0.7553444180522565
+Cr : 0.016377047130891362
+Random Graph 93
+
+CF : 9004
+CN : 36
+CR : 28668
+Cr : 890
+CF : 0.23327633556142804
+CN : 9.32690812995492E-4
+CR : 0.7427327840820768
+Cr : 0.02305818954349966
+Random Graph 94
+
+CF : 7894
+CN : 72
+C^ : 2
+CR : 25946
+Cr : 710
+CF : 0.22799214417744917
+CN : 0.0020794824399260627
+C^ : 5.77634011090573E-5
+CR : 0.7493646025878004
+Cr : 0.02050600739371534
+Random Graph 95
+
+CF : 7924
+CN : 32
+C^ : 2
+CR : 25846
+Cr : 646
+CF : 0.2300145137880987
+CN : 9.288824383164006E-4
+C^ : 5.8055152394775034E-5
+CR : 0.7502467343976778
+Cr : 0.018751814223512336
+Random Graph 96
+
+CF : 7750
+CN : 68
+C^ : 4
+Cr : 706
+CR : 25684
+CF : 0.22652870337893136
+CN : 0.001987606687711914
+C^ : 1.1691804045364199E-4
+Cr : 0.020636034140067813
+CR : 0.7507307377528353
+Random Graph 97
+
+CF : 10268
+CN : 88
+C^ : 4
+CR : 30100
+Cr : 900
+CF : 0.24825918762088975
+CN : 0.002127659574468085
+C^ : 9.671179883945841E-5
+CR : 0.7277562862669246
+Cr : 0.021760154738878143
+Random Graph 98
+
+CF : 9248
+CN : 54
+C^ : 2
+CR : 28652
+Cr : 820
+CF : 0.23849804002475758
+CN : 0.0013926139880338353
+C^ : 5.1578295853105015E-5
+CR : 0.7389106663915824
+Cr : 0.021147101299773055
+Random Graph 99
+
+CF : 11524
+CN : 212
+C^ : 14
+CR : 33496
+Cr : 1166
+CF : 0.248297854003275
+CN : 0.004567784193742997
+C^ : 3.0164612600189607E-4
+CR : 0.7217099026113936
+Cr : 0.025122813065586485
+Mean Subgraph Concentration: CF : 0.23481665787800585
+Mean Subgraph Concentration: CR : 0.7428115780632502
+Mean Subgraph Concentration: Cr : 0.020626493956957183
+Z-Score for motif CFfor size 4is:  18.28119163600663
+Significant Motif for size 4 subgraph is CF
+Z-Score for motif CF is 18.28119163600663
+Z-Score for motif CRfor size 4is:  -14.413336973008548
+Z-Score for motif Crfor size 4is:  -2.425161271951113
+
+Process finished with exit code 0

@@ -1,0 +1,11 @@
+*.class
+*.exe
+*.g6
+*.jar
+target/**
+.DS_Store
+src/main/nauty/nauty25r9/*.o
+src/main/nauty/nauty25r9/*.exe
+src/main/nauty/nauty25r9/*.g6
+src/main/nauty/nauty25r9/*.txt
+

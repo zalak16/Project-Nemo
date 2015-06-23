@@ -1,0 +1,1718 @@
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7533 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 55 milliseconds.
+mapping to ids took 38 milliseconds.
+#Nodes: 3722 #Edges: 5099
+Enumerating subgraph took 376 milliseconds.
+Number of subgraphs enumerated: 23135
+Total number of unique sub-graphs for which canonical labels need to be computed: 2
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 267 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 1
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 11753
+	SubGraph (g6) "Bo" has count: 11382
+Switching algorithm
+Input Graph
+Time taken to generate 1 random graphs is: 0
+
+ Graph 1
+
+
+ *****************************************************************************************************
+
+ Time taken to generate 1 random graphs is: 21878############# Random Graph 1####################
+Enumerating subgraph took 2145 milliseconds.
+Number of subgraphs enumerated: 11879
+Total number of unique sub-graphs for which canonical labels need to be computed: 3
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 2
+Cannonical Label (g6) "BW" has following Sub Graphs:
+	SubGraph (g6) "Bg" has count: 6938
+	SubGraph (g6) "Bo" has count: 4926
+Cannonical Label (g6) "Bw" has following Sub Graphs:
+	SubGraph (g6) "Bw" has count: 15
+zTime taken for 1 Random graph: 24179
+input Graph 
+
+BW : 23135
+BW : 1.0
+Random Graph 0
+
+BW : 23728
+Bw : 30
+BW : 0.9987372674467547
+Bw : 0.0012627325532452226
+Mean Subgraph Concentration: BW : 0.9987372674467547
+Z-Score for motif BWfor size 3is:  0.0
+Time taken to determine motfi Significance : 24970
+
+Process finished with exit code 0
+
+
+******************************4 ***************************************
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 78 milliseconds.
+mapping to ids took 55 milliseconds.
+#Nodes: 3722 #Edges: 5099
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerating subgraph took 2311 milliseconds.
+Number of subgraphs enumerated: 160213
+Total number of unique sub-graphs for which canonical labels need to be computed: 6
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 277 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 3
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 38178
+	SubGraph (g6) "Ci" has count: 34047
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 32517
+	SubGraph (g6) "Cp" has count: 22955
+	SubGraph (g6) "Cq" has count: 30471
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 2045
+Switching algorithm
+Input Graph
+Time taken to generate 1 random graphs is: 0
+
+ Graph 1
+
+
+ *****************************************************************************************************
+
+ Time taken to generate 1 random graphs is: 22423############# Random Graph 1####################
+Enumerated 50000 sub-graphs till now.
+Enumerating subgraph took 2813 milliseconds.
+Number of subgraphs enumerated: 86298
+Total number of unique sub-graphs for which canonical labels need to be computed: 13
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 5
+Cannonical Label (g6) "CF" has following Sub Graphs:
+	SubGraph (g6) "Cs" has count: 14695
+	SubGraph (g6) "Ci" has count: 18079
+Cannonical Label (g6) "CN" has following Sub Graphs:
+	SubGraph (g6) "Ct" has count: 46
+	SubGraph (g6) "Cu" has count: 53
+	SubGraph (g6) "Cx" has count: 63
+	SubGraph (g6) "Cy" has count: 50
+	SubGraph (g6) "Cj" has count: 58
+	SubGraph (g6) "C{" has count: 17
+Cannonical Label (g6) "C^" has following Sub Graphs:
+	SubGraph (g6) "Cz" has count: 1
+Cannonical Label (g6) "CR" has following Sub Graphs:
+	SubGraph (g6) "Ch" has count: 20971
+	SubGraph (g6) "Cp" has count: 18083
+	SubGraph (g6) "Cq" has count: 14061
+Cannonical Label (g6) "Cr" has following Sub Graphs:
+	SubGraph (g6) "Cr" has count: 121
+zTime taken for 1 Random graph: 25367
+input Graph 
+
+CF : 72225
+CR : 85943
+Cr : 2045
+CF : 0.4508061143602579
+CR : 0.5364296280576483
+Cr : 0.012764257582093838
+Random Graph 0
+
+CF : 65548
+CN : 574
+C^ : 2
+CR : 106230
+Cr : 242
+CF : 0.3797770516118566
+CN : 0.003325685415652738
+C^ : 1.15877540615078E-5
+CR : 0.6154835569769868
+Cr : 0.0014021182414424437
+Mean Subgraph Concentration: CF : 0.3797770516118566
+Mean Subgraph Concentration: CR : 0.6154835569769868
+Mean Subgraph Concentration: Cr : 0.0014021182414424437
+Z-Score for motif CFfor size 4is:  0.0
+Z-Score for motif CRfor size 4is:  0.0
+Z-Score for motif Crfor size 4is:  0.0
+Time taken to determine motfi Significance : 28211
+
+Process finished with exit code 0
+
+******************************************** 5 ********************************************
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 30 milliseconds.
+mapping to ids took 62 milliseconds.
+#Nodes: 3722 #Edges: 5099
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerating subgraph took 8620 milliseconds.
+Number of subgraphs enumerated: 1320946
+Total number of unique sub-graphs for which canonical labels need to be computed: 24
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 114 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 5
+Cannonical Label (g6) "D?{" has following Sub Graphs:
+	SubGraph (g6) "Ds_" has count: 144735
+	SubGraph (g6) "DiO" has count: 115804
+Cannonical Label (g6) "DFw" has following Sub Graphs:
+	SubGraph (g6) "DrW" has count: 876
+	SubGraph (g6) "Ds[" has count: 772
+Cannonical Label (g6) "D@s" has following Sub Graphs:
+	SubGraph (g6) "DsO" has count: 99445
+	SubGraph (g6) "DhG" has count: 102351
+	SubGraph (g6) "DqO" has count: 91451
+	SubGraph (g6) "DiG" has count: 95157
+	SubGraph (g6) "DsC" has count: 63932
+	SubGraph (g6) "DsG" has count: 87993
+	SubGraph (g6) "DpG" has count: 57861
+	SubGraph (g6) "DiC" has count: 72754
+Cannonical Label (g6) "DDW" has following Sub Graphs:
+	SubGraph (g6) "DpC" has count: 76133
+	SubGraph (g6) "DqC" has count: 97533
+	SubGraph (g6) "DqG" has count: 74702
+	SubGraph (g6) "DhC" has count: 99037
+Cannonical Label (g6) "DBw" has following Sub Graphs:
+	SubGraph (g6) "DrO" has count: 4221
+	SubGraph (g6) "DrC" has count: 7891
+	SubGraph (g6) "DsS" has count: 3184
+	SubGraph (g6) "DiK" has count: 6449
+	SubGraph (g6) "DrG" has count: 6969
+	SubGraph (g6) "DsW" has count: 4335
+	SubGraph (g6) "DqW" has count: 3886
+	SubGraph (g6) "DsK" has count: 3475
+Switching algorithm
+Input Graph
+Time taken to generate 1 random graphs is: 0
+
+ Graph 1
+
+
+ *****************************************************************************************************
+
+ Time taken to generate 1 random graphs is: 21477############# Random Graph 1####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerating subgraph took 8863 milliseconds.
+Number of subgraphs enumerated: 935090
+Total number of unique sub-graphs for which canonical labels need to be computed: 63
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 13
+Cannonical Label (g6) "D?{" has following Sub Graphs:
+	SubGraph (g6) "Ds_" has count: 59967
+	SubGraph (g6) "DiO" has count: 72715
+Cannonical Label (g6) "DJk" has following Sub Graphs:
+	SubGraph (g6) "DjK" has count: 3
+Cannonical Label (g6) "DFw" has following Sub Graphs:
+	SubGraph (g6) "DrW" has count: 56
+	SubGraph (g6) "Ds[" has count: 99
+Cannonical Label (g6) "D@s" has following Sub Graphs:
+	SubGraph (g6) "DsO" has count: 45078
+	SubGraph (g6) "DhG" has count: 73573
+	SubGraph (g6) "DqO" has count: 37963
+	SubGraph (g6) "DiG" has count: 67595
+	SubGraph (g6) "DsC" has count: 71229
+	SubGraph (g6) "DsG" has count: 61494
+	SubGraph (g6) "DpG" has count: 74566
+	SubGraph (g6) "DiC" has count: 83844
+Cannonical Label (g6) "DDW" has following Sub Graphs:
+	SubGraph (g6) "DpC" has count: 76925
+	SubGraph (g6) "DqC" has count: 54298
+	SubGraph (g6) "DqG" has count: 63382
+	SubGraph (g6) "DhC" has count: 80745
+Cannonical Label (g6) "DBw" has following Sub Graphs:
+	SubGraph (g6) "DrO" has count: 504
+	SubGraph (g6) "DrC" has count: 1335
+	SubGraph (g6) "DsS" has count: 511
+	SubGraph (g6) "DiK" has count: 722
+	SubGraph (g6) "DrG" has count: 1461
+	SubGraph (g6) "DsW" has count: 451
+	SubGraph (g6) "DqW" has count: 710
+	SubGraph (g6) "DsK" has count: 733
+Cannonical Label (g6) "DD[" has following Sub Graphs:
+	SubGraph (g6) "DjG" has count: 599
+	SubGraph (g6) "D{G" has count: 127
+	SubGraph (g6) "DtC" has count: 125
+	SubGraph (g6) "DyG" has count: 186
+	SubGraph (g6) "DuC" has count: 107
+	SubGraph (g6) "DtG" has count: 97
+	SubGraph (g6) "D{O" has count: 40
+	SubGraph (g6) "DjC" has count: 503
+	SubGraph (g6) "DuO" has count: 50
+Cannonical Label (g6) "Dd[" has following Sub Graphs:
+	SubGraph (g6) "DrS" has count: 3
+	SubGraph (g6) "DuW" has count: 1
+	SubGraph (g6) "DyK" has count: 1
+	SubGraph (g6) "DuK" has count: 2
+	SubGraph (g6) "DrK" has count: 3
+	SubGraph (g6) "Dq[" has count: 2
+Cannonical Label (g6) "DB{" has following Sub Graphs:
+	SubGraph (g6) "DjW" has count: 2
+	SubGraph (g6) "Di[" has count: 1
+Cannonical Label (g6) "D`[" has following Sub Graphs:
+	SubGraph (g6) "DhK" has count: 280
+	SubGraph (g6) "DqS" has count: 171
+	SubGraph (g6) "DuG" has count: 126
+	SubGraph (g6) "D{C" has count: 137
+	SubGraph (g6) "DpK" has count: 292
+	SubGraph (g6) "DxC" has count: 199
+	SubGraph (g6) "DtO" has count: 62
+	SubGraph (g6) "DyC" has count: 97
+Cannonical Label (g6) "D@{" has following Sub Graphs:
+	SubGraph (g6) "Dso" has count: 64
+	SubGraph (g6) "DxG" has count: 137
+	SubGraph (g6) "DiW" has count: 275
+	SubGraph (g6) "Dsc" has count: 37
+	SubGraph (g6) "DjO" has count: 227
+	SubGraph (g6) "D{_" has count: 243
+	SubGraph (g6) "Dsg" has count: 41
+	SubGraph (g6) "DyO" has count: 107
+	SubGraph (g6) "Dt_" has count: 146
+	SubGraph (g6) "DiS" has count: 380
+	SubGraph (g6) "Du_" has count: 93
+Cannonical Label (g6) "D`{" has following Sub Graphs:
+	SubGraph (g6) "DxK" has count: 1
+Cannonical Label (g6) "DqK" has following Sub Graphs:
+	SubGraph (g6) "DqK" has count: 167
+zTime taken for 1 Random graph: 30478
+input Graph 
+
+D?{ : 260539
+DFw : 1648
+D@s : 670944
+DDW : 347405
+DBw : 40410
+D?{ : 0.1972366773509288
+DFw : 0.0012475907417865682
+D@s : 0.5079268948162907
+DDW : 0.26299712478784143
+DBw : 0.030591712303152437
+Random Graph 0
+
+D?{ : 265364
+DJk : 6
+DFw : 310
+D@s : 1030684
+DDW : 550700
+DBw : 12854
+DD[ : 3668
+Dd[ : 24
+DB{ : 6
+D`[ : 2728
+D@{ : 3500
+D`{ : 2
+DqK : 334
+D?{ : 0.14189222427787698
+DJk : 3.2082473344811728E-6
+DFw : 1.657594456148606E-4
+D@s : 0.5511148659487322
+DDW : 0.2944636345164637
+DBw : 0.006873135206236833
+DD[ : 0.001961308537146157
+Dd[ : 1.2832989337924691E-5
+DB{ : 3.2082473344811728E-6
+D`[ : 0.0014586831214107733
+D@{ : 0.0018714776117806841
+D`{ : 1.069415778160391E-6
+DqK : 1.7859243495278528E-4
+Mean Subgraph Concentration: D?{ : 0.14189222427787698
+Mean Subgraph Concentration: DFw : 1.657594456148606E-4
+Mean Subgraph Concentration: D@s : 0.5511148659487322
+Mean Subgraph Concentration: DDW : 0.2944636345164637
+Mean Subgraph Concentration: DBw : 0.006873135206236833
+Z-Score for motif D?{for size 5is:  0.0
+Z-Score for motif DFwfor size 5is:  0.0
+Z-Score for motif D@sfor size 5is:  0.0
+Z-Score for motif DDWfor size 5is:  0.0
+Z-Score for motif DBwfor size 5is:  0.0
+Time taken to determine motfi Significance : 39393
+
+Process finished with exit code 0
+
+
+*************************************************** 6 "C:\Program Files\Java\jdk1.8.0_25\bin\java" -ea -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext\zipfs.jar;C:\Zalak\Github\Github_Repository\NetworkMotif\target\test-classes;C:\Zalak\Github\Github_Repository\NetworkMotif\target\classes;C:\Users\Zalak\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Zalak\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-graph-impl\2.0.1\jung-graph-impl-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-visualization\2.0.1\jung-visualization-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-api\2.0.1\jung-api-2.0.1.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-algorithms\2.0.1\jung-algorithms-2.0.1.jar;C:\Users\Zalak\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Zalak\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Zalak\.m2\repository\net\sf\jung\jung-io\2.0.1\jung-io-2.0.1.jar;C:\Users\Zalak\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.6\wstx-asl-3.2.6.jar;C:\Users\Zalak\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-client\2.4.0\hadoop-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\Zalak\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\Zalak\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Zalak\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Zalak\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\Zalak\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Zalak\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Zalak\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Zalak\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Zalak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Zalak\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Zalak\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Zalak\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Zalak\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\Zalak\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\Zalak\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\Zalak\.m2\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;C:\Users\Zalak\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Zalak\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Zalak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Zalak\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\Zalak\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\Zalak\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.4.0\hadoop-hdfs-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.4.0\hadoop-mapreduce-client-app-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.4.0\hadoop-mapreduce-client-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.4.0\hadoop-yarn-client-2.4.0.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.4.0\hadoop-yarn-server-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.4.0\hadoop-mapreduce-client-shuffle-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.4.0\hadoop-yarn-api-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.4.0\hadoop-mapreduce-client-core-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.4.0\hadoop-yarn-common-2.4.0.jar;C:\Users\Zalak\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Zalak\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Zalak\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Zalak\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Zalak\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.4.0\hadoop-mapreduce-client-jobclient-2.4.0.jar;C:\Users\Zalak\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.uw.nemo.NemoControllerTest
+loading for file took 23 milliseconds.
+mapping to ids took 33 milliseconds.
+#Nodes: 3722 #Edges: 5099
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerated 1350000 sub-graphs till now.
+Enumerated 1400000 sub-graphs till now.
+Enumerated 1450000 sub-graphs till now.
+Enumerated 1500000 sub-graphs till now.
+Enumerated 1550000 sub-graphs till now.
+Enumerated 1600000 sub-graphs till now.
+Enumerated 1650000 sub-graphs till now.
+Enumerated 1700000 sub-graphs till now.
+Enumerated 1750000 sub-graphs till now.
+Enumerated 1800000 sub-graphs till now.
+Enumerated 1850000 sub-graphs till now.
+Enumerated 1900000 sub-graphs till now.
+Enumerated 1950000 sub-graphs till now.
+Enumerated 2000000 sub-graphs till now.
+Enumerated 2050000 sub-graphs till now.
+Enumerated 2100000 sub-graphs till now.
+Enumerated 2150000 sub-graphs till now.
+Enumerated 2200000 sub-graphs till now.
+Enumerated 2250000 sub-graphs till now.
+Enumerated 2300000 sub-graphs till now.
+Enumerated 2350000 sub-graphs till now.
+Enumerated 2400000 sub-graphs till now.
+Enumerated 2450000 sub-graphs till now.
+Enumerated 2500000 sub-graphs till now.
+Enumerated 2550000 sub-graphs till now.
+Enumerated 2600000 sub-graphs till now.
+Enumerated 2650000 sub-graphs till now.
+Enumerated 2700000 sub-graphs till now.
+Enumerated 2750000 sub-graphs till now.
+Enumerated 2800000 sub-graphs till now.
+Enumerated 2850000 sub-graphs till now.
+Enumerated 2900000 sub-graphs till now.
+Enumerated 2950000 sub-graphs till now.
+Enumerated 3000000 sub-graphs till now.
+Enumerated 3050000 sub-graphs till now.
+Enumerated 3100000 sub-graphs till now.
+Enumerated 3150000 sub-graphs till now.
+Enumerated 3200000 sub-graphs till now.
+Enumerated 3250000 sub-graphs till now.
+Enumerated 3300000 sub-graphs till now.
+Enumerated 3350000 sub-graphs till now.
+Enumerated 3400000 sub-graphs till now.
+Enumerated 3450000 sub-graphs till now.
+Enumerated 3500000 sub-graphs till now.
+Enumerated 3550000 sub-graphs till now.
+Enumerated 3600000 sub-graphs till now.
+Enumerated 3650000 sub-graphs till now.
+Enumerated 3700000 sub-graphs till now.
+Enumerated 3750000 sub-graphs till now.
+Enumerated 3800000 sub-graphs till now.
+Enumerated 3850000 sub-graphs till now.
+Enumerated 3900000 sub-graphs till now.
+Enumerated 3950000 sub-graphs till now.
+Enumerated 4000000 sub-graphs till now.
+Enumerated 4050000 sub-graphs till now.
+Enumerated 4100000 sub-graphs till now.
+Enumerated 4150000 sub-graphs till now.
+Enumerated 4200000 sub-graphs till now.
+Enumerated 4250000 sub-graphs till now.
+Enumerated 4300000 sub-graphs till now.
+Enumerated 4350000 sub-graphs till now.
+Enumerated 4400000 sub-graphs till now.
+Enumerated 4450000 sub-graphs till now.
+Enumerated 4500000 sub-graphs till now.
+Enumerated 4550000 sub-graphs till now.
+Enumerated 4600000 sub-graphs till now.
+Enumerated 4650000 sub-graphs till now.
+Enumerated 4700000 sub-graphs till now.
+Enumerated 4750000 sub-graphs till now.
+Enumerated 4800000 sub-graphs till now.
+Enumerated 4850000 sub-graphs till now.
+Enumerated 4900000 sub-graphs till now.
+Enumerated 4950000 sub-graphs till now.
+Enumerated 5000000 sub-graphs till now.
+Enumerated 5050000 sub-graphs till now.
+Enumerated 5100000 sub-graphs till now.
+Enumerated 5150000 sub-graphs till now.
+Enumerated 5200000 sub-graphs till now.
+Enumerated 5250000 sub-graphs till now.
+Enumerated 5300000 sub-graphs till now.
+Enumerated 5350000 sub-graphs till now.
+Enumerated 5400000 sub-graphs till now.
+Enumerated 5450000 sub-graphs till now.
+Enumerated 5500000 sub-graphs till now.
+Enumerated 5550000 sub-graphs till now.
+Enumerated 5600000 sub-graphs till now.
+Enumerated 5650000 sub-graphs till now.
+Enumerated 5700000 sub-graphs till now.
+Enumerated 5750000 sub-graphs till now.
+Enumerated 5800000 sub-graphs till now.
+Enumerated 5850000 sub-graphs till now.
+Enumerated 5900000 sub-graphs till now.
+Enumerated 5950000 sub-graphs till now.
+Enumerated 6000000 sub-graphs till now.
+Enumerated 6050000 sub-graphs till now.
+Enumerated 6100000 sub-graphs till now.
+Enumerated 6150000 sub-graphs till now.
+Enumerated 6200000 sub-graphs till now.
+Enumerated 6250000 sub-graphs till now.
+Enumerated 6300000 sub-graphs till now.
+Enumerated 6350000 sub-graphs till now.
+Enumerated 6400000 sub-graphs till now.
+Enumerated 6450000 sub-graphs till now.
+Enumerated 6500000 sub-graphs till now.
+Enumerated 6550000 sub-graphs till now.
+Enumerated 6600000 sub-graphs till now.
+Enumerated 6650000 sub-graphs till now.
+Enumerated 6700000 sub-graphs till now.
+Enumerated 6750000 sub-graphs till now.
+Enumerated 6800000 sub-graphs till now.
+Enumerated 6850000 sub-graphs till now.
+Enumerated 6900000 sub-graphs till now.
+Enumerated 6950000 sub-graphs till now.
+Enumerated 7000000 sub-graphs till now.
+Enumerated 7050000 sub-graphs till now.
+Enumerated 7100000 sub-graphs till now.
+Enumerated 7150000 sub-graphs till now.
+Enumerated 7200000 sub-graphs till now.
+Enumerated 7250000 sub-graphs till now.
+Enumerated 7300000 sub-graphs till now.
+Enumerated 7350000 sub-graphs till now.
+Enumerated 7400000 sub-graphs till now.
+Enumerated 7450000 sub-graphs till now.
+Enumerated 7500000 sub-graphs till now.
+Enumerated 7550000 sub-graphs till now.
+Enumerated 7600000 sub-graphs till now.
+Enumerated 7650000 sub-graphs till now.
+Enumerated 7700000 sub-graphs till now.
+Enumerated 7750000 sub-graphs till now.
+Enumerated 7800000 sub-graphs till now.
+Enumerated 7850000 sub-graphs till now.
+Enumerated 7900000 sub-graphs till now.
+Enumerated 7950000 sub-graphs till now.
+Enumerated 8000000 sub-graphs till now.
+Enumerated 8050000 sub-graphs till now.
+Enumerated 8100000 sub-graphs till now.
+Enumerated 8150000 sub-graphs till now.
+Enumerated 8200000 sub-graphs till now.
+Enumerated 8250000 sub-graphs till now.
+Enumerated 8300000 sub-graphs till now.
+Enumerated 8350000 sub-graphs till now.
+Enumerated 8400000 sub-graphs till now.
+Enumerated 8450000 sub-graphs till now.
+Enumerated 8500000 sub-graphs till now.
+Enumerated 8550000 sub-graphs till now.
+Enumerated 8600000 sub-graphs till now.
+Enumerated 8650000 sub-graphs till now.
+Enumerated 8700000 sub-graphs till now.
+Enumerated 8750000 sub-graphs till now.
+Enumerated 8800000 sub-graphs till now.
+Enumerated 8850000 sub-graphs till now.
+Enumerated 8900000 sub-graphs till now.
+Enumerated 8950000 sub-graphs till now.
+Enumerated 9000000 sub-graphs till now.
+Enumerated 9050000 sub-graphs till now.
+Enumerated 9100000 sub-graphs till now.
+Enumerated 9150000 sub-graphs till now.
+Enumerated 9200000 sub-graphs till now.
+Enumerated 9250000 sub-graphs till now.
+Enumerated 9300000 sub-graphs till now.
+Enumerated 9350000 sub-graphs till now.
+Enumerated 9400000 sub-graphs till now.
+Enumerated 9450000 sub-graphs till now.
+Enumerated 9500000 sub-graphs till now.
+Enumerated 9550000 sub-graphs till now.
+Enumerated 9600000 sub-graphs till now.
+Enumerated 9650000 sub-graphs till now.
+Enumerated 9700000 sub-graphs till now.
+Enumerated 9750000 sub-graphs till now.
+Enumerated 9800000 sub-graphs till now.
+Enumerated 9850000 sub-graphs till now.
+Enumerated 9900000 sub-graphs till now.
+Enumerated 9950000 sub-graphs till now.
+Enumerated 10000000 sub-graphs till now.
+Enumerated 10050000 sub-graphs till now.
+Enumerated 10100000 sub-graphs till now.
+Enumerated 10150000 sub-graphs till now.
+Enumerated 10200000 sub-graphs till now.
+Enumerated 10250000 sub-graphs till now.
+Enumerated 10300000 sub-graphs till now.
+Enumerated 10350000 sub-graphs till now.
+Enumerated 10400000 sub-graphs till now.
+Enumerated 10450000 sub-graphs till now.
+Enumerated 10500000 sub-graphs till now.
+Enumerated 10550000 sub-graphs till now.
+Enumerated 10600000 sub-graphs till now.
+Enumerated 10650000 sub-graphs till now.
+Enumerated 10700000 sub-graphs till now.
+Enumerated 10750000 sub-graphs till now.
+Enumerated 10800000 sub-graphs till now.
+Enumerated 10850000 sub-graphs till now.
+Enumerated 10900000 sub-graphs till now.
+Enumerated 10950000 sub-graphs till now.
+Enumerated 11000000 sub-graphs till now.
+Enumerated 11050000 sub-graphs till now.
+Enumerated 11100000 sub-graphs till now.
+Enumerated 11150000 sub-graphs till now.
+Enumerated 11200000 sub-graphs till now.
+Enumerated 11250000 sub-graphs till now.
+Enumerated 11300000 sub-graphs till now.
+Enumerated 11350000 sub-graphs till now.
+Enumerated 11400000 sub-graphs till now.
+Enumerated 11450000 sub-graphs till now.
+Enumerated 11500000 sub-graphs till now.
+Enumerated 11550000 sub-graphs till now.
+Enumerated 11600000 sub-graphs till now.
+Enumerated 11650000 sub-graphs till now.
+Enumerated 11700000 sub-graphs till now.
+Enumerated 11750000 sub-graphs till now.
+Enumerated 11800000 sub-graphs till now.
+Enumerated 11850000 sub-graphs till now.
+Enumerated 11900000 sub-graphs till now.
+Enumerated 11950000 sub-graphs till now.
+Enumerating subgraph took 121907 milliseconds.
+Number of subgraphs enumerated: 11998268
+Total number of unique sub-graphs for which canonical labels need to be computed: 124
+LabelG Input file created
+Return code for labelg: 0
+Generating canonical labels took 190 milliseconds.
+Number of canonical labels for all enumerated subgraphs: 17
+Cannonical Label (g6) "Es\o" has following Sub Graphs:
+	SubGraph (g6) "Es\o" has count: 119
+Cannonical Label (g6) "ES\o" has following Sub Graphs:
+	SubGraph (g6) "Es\_" has count: 263
+	SubGraph (g6) "Es\O" has count: 212
+	SubGraph (g6) "Es[o" has count: 394
+	SubGraph (g6) "EsXo" has count: 310
+	SubGraph (g6) "EsTo" has count: 273
+	SubGraph (g6) "ErWW" has count: 577
+Cannonical Label (g6) "E@hO" has following Sub Graphs:
+	SubGraph (g6) "EqCG" has count: 312738
+	SubGraph (g6) "EqGO" has count: 244805
+	SubGraph (g6) "EhCG" has count: 314714
+	SubGraph (g6) "EqGG" has count: 255160
+	SubGraph (g6) "EpCG" has count: 241941
+Cannonical Label (g6) "EoSo" has following Sub Graphs:
+	SubGraph (g6) "EqGW" has count: 7289
+Cannonical Label (g6) "EAIW" has following Sub Graphs:
+	SubGraph (g6) "EpGO" has count: 197043
+	SubGraph (g6) "EhGG" has count: 230390
+	SubGraph (g6) "EqOG" has count: 226967
+	SubGraph (g6) "EsGO" has count: 184076
+	SubGraph (g6) "EpGG" has count: 141815
+	SubGraph (g6) "EhGO" has count: 320065
+	SubGraph (g6) "EiGO" has count: 246477
+	SubGraph (g6) "EqOO" has count: 289400
+	SubGraph (g6) "EsO_" has count: 272690
+	SubGraph (g6) "EsOO" has count: 196337
+Cannonical Label (g6) "E@hW" has following Sub Graphs:
+	SubGraph (g6) "EsK_" has count: 7117
+	SubGraph (g6) "EiKO" has count: 25152
+	SubGraph (g6) "EsSO" has count: 10184
+	SubGraph (g6) "EsPO" has count: 6717
+	SubGraph (g6) "EiGo" has count: 11148
+	SubGraph (g6) "ErOO" has count: 17463
+	SubGraph (g6) "EsKO" has count: 12224
+	SubGraph (g6) "ErGO" has count: 25929
+	SubGraph (g6) "EsX?" has count: 9162
+	SubGraph (g6) "EsGo" has count: 5947
+	SubGraph (g6) "EsW_" has count: 17736
+	SubGraph (g6) "EiK_" has count: 15603
+	SubGraph (g6) "EsT?" has count: 7560
+	SubGraph (g6) "EsP_" has count: 8218
+	SubGraph (g6) "EqWG" has count: 14151
+Cannonical Label (g6) "E?^o" has following Sub Graphs:
+	SubGraph (g6) "EqX_" has count: 1386
+	SubGraph (g6) "Es`W" has count: 955
+	SubGraph (g6) "Es`g" has count: 1194
+	SubGraph (g6) "ErW_" has count: 4055
+	SubGraph (g6) "ErX?" has count: 1375
+	SubGraph (g6) "Es_w" has count: 1008
+	SubGraph (g6) "Es[G" has count: 3787
+	SubGraph (g6) "EiOw" has count: 2513
+	SubGraph (g6) "Es`o" has count: 1206
+	SubGraph (g6) "ErP_" has count: 1221
+Cannonical Label (g6) "E?~o" has following Sub Graphs:
+	SubGraph (g6) "Es`w" has count: 351
+	SubGraph (g6) "ErX_" has count: 404
+Cannonical Label (g6) "E?Bw" has following Sub Graphs:
+	SubGraph (g6) "EiP?" has count: 409546
+	SubGraph (g6) "Esa?" has count: 521760
+Cannonical Label (g6) "EC\o" has following Sub Graphs:
+	SubGraph (g6) "Es\?" has count: 1414
+	SubGraph (g6) "Es[O" has count: 1940
+	SubGraph (g6) "Es[_" has count: 2812
+	SubGraph (g6) "EsKo" has count: 1274
+	SubGraph (g6) "ErWO" has count: 2913
+	SubGraph (g6) "EsX_" has count: 1752
+	SubGraph (g6) "EiKo" has count: 3369
+	SubGraph (g6) "EsTO" has count: 1059
+	SubGraph (g6) "EsPo" has count: 1557
+	SubGraph (g6) "ErWG" has count: 2592
+Cannonical Label (g6) "ECXo" has following Sub Graphs:
+	SubGraph (g6) "ErCG" has count: 21428
+	SubGraph (g6) "EhGW" has count: 20618
+	SubGraph (g6) "ErOG" has count: 9996
+	SubGraph (g6) "EqWO" has count: 11027
+	SubGraph (g6) "EqOW" has count: 18178
+	SubGraph (g6) "EsWO" has count: 9059
+	SubGraph (g6) "EpGW" has count: 13448
+	SubGraph (g6) "EsS_" has count: 9051
+	SubGraph (g6) "ErGG" has count: 18991
+	SubGraph (g6) "EsOo" has count: 11033
+Cannonical Label (g6) "E?Fg" has following Sub Graphs:
+	SubGraph (g6) "EpG_" has count: 160773
+	SubGraph (g6) "EiO_" has count: 288547
+	SubGraph (g6) "EiOO" has count: 245022
+	SubGraph (g6) "Es_G" has count: 202711
+	SubGraph (g6) "EqP?" has count: 292766
+	SubGraph (g6) "EhG_" has count: 370029
+	SubGraph (g6) "Es`?" has count: 352900
+	SubGraph (g6) "EiOG" has count: 190669
+	SubGraph (g6) "Es__" has count: 344913
+	SubGraph (g6) "Es_O" has count: 292699
+Cannonical Label (g6) "E?No" has following Sub Graphs:
+	SubGraph (g6) "ErG_" has count: 20098
+	SubGraph (g6) "EiOo" has count: 13161
+	SubGraph (g6) "Es_W" has count: 7026
+	SubGraph (g6) "EiOW" has count: 13059
+	SubGraph (g6) "Es`_" has count: 11182
+	SubGraph (g6) "EqX?" has count: 8237
+	SubGraph (g6) "Es`G" has count: 6072
+	SubGraph (g6) "Es_g" has count: 6356
+	SubGraph (g6) "ErCO" has count: 26281
+	SubGraph (g6) "EqP_" has count: 7715
+	SubGraph (g6) "EiOg" has count: 10817
+	SubGraph (g6) "Es`O" has count: 7915
+	SubGraph (g6) "ErP?" has count: 8852
+	SubGraph (g6) "Es_o" has count: 9712
+Cannonical Label (g6) "E?NO" has following Sub Graphs:
+	SubGraph (g6) "EsCG" has count: 228848
+	SubGraph (g6) "EiGG" has count: 301128
+	SubGraph (g6) "EqG_" has count: 197727
+	SubGraph (g6) "EpCO" has count: 274735
+	SubGraph (g6) "EsOG" has count: 348107
+	SubGraph (g6) "EiCG" has count: 250704
+	SubGraph (g6) "EqCO" has count: 336426
+	SubGraph (g6) "EqO_" has count: 236891
+	SubGraph (g6) "EsGG" has count: 322315
+	SubGraph (g6) "EhCO" has count: 303028
+Cannonical Label (g6) "E?dg" has following Sub Graphs:
+	SubGraph (g6) "EiCO" has count: 192464
+	SubGraph (g6) "EsG_" has count: 245385
+	SubGraph (g6) "EsCO" has count: 148844
+	SubGraph (g6) "EsP?" has count: 306542
+	SubGraph (g6) "EiG_" has count: 305036
+Cannonical Label (g6) "E?lo" has following Sub Graphs:
+	SubGraph (g6) "EiKG" has count: 25638
+	SubGraph (g6) "EsSG" has count: 13787
+	SubGraph (g6) "EqW_" has count: 14700
+	SubGraph (g6) "EsKG" has count: 14556
+	SubGraph (g6) "ErO_" has count: 15161
+	SubGraph (g6) "EsWG" has count: 17609
+Cannonical Label (g6) "E`dg" has following Sub Graphs:
+	SubGraph (g6) "ErOW" has count: 1355
+	SubGraph (g6) "EsXO" has count: 530
+	SubGraph (g6) "EsWo" has count: 1057
+	SubGraph (g6) "EsT_" has count: 525
+	SubGraph (g6) "EsSo" has count: 1055
+	SubGraph (g6) "ErGW" has count: 2547
+	SubGraph (g6) "EqWW" has count: 1418
+Switching algorithm
+Input Graph
+Time taken to generate 1 random graphs is: 0
+
+ Graph 1
+
+
+ *****************************************************************************************************
+
+ Time taken to generate 1 random graphs is: 21915############# Random Graph 1####################
+Enumerated 50000 sub-graphs till now.
+Enumerated 100000 sub-graphs till now.
+Enumerated 150000 sub-graphs till now.
+Enumerated 200000 sub-graphs till now.
+Enumerated 250000 sub-graphs till now.
+Enumerated 300000 sub-graphs till now.
+Enumerated 350000 sub-graphs till now.
+Enumerated 400000 sub-graphs till now.
+Enumerated 450000 sub-graphs till now.
+Enumerated 500000 sub-graphs till now.
+Enumerated 550000 sub-graphs till now.
+Enumerated 600000 sub-graphs till now.
+Enumerated 650000 sub-graphs till now.
+Enumerated 700000 sub-graphs till now.
+Enumerated 750000 sub-graphs till now.
+Enumerated 800000 sub-graphs till now.
+Enumerated 850000 sub-graphs till now.
+Enumerated 900000 sub-graphs till now.
+Enumerated 950000 sub-graphs till now.
+Enumerated 1000000 sub-graphs till now.
+Enumerated 1050000 sub-graphs till now.
+Enumerated 1100000 sub-graphs till now.
+Enumerated 1150000 sub-graphs till now.
+Enumerated 1200000 sub-graphs till now.
+Enumerated 1250000 sub-graphs till now.
+Enumerated 1300000 sub-graphs till now.
+Enumerated 1350000 sub-graphs till now.
+Enumerated 1400000 sub-graphs till now.
+Enumerated 1450000 sub-graphs till now.
+Enumerated 1500000 sub-graphs till now.
+Enumerated 1550000 sub-graphs till now.
+Enumerated 1600000 sub-graphs till now.
+Enumerated 1650000 sub-graphs till now.
+Enumerated 1700000 sub-graphs till now.
+Enumerated 1750000 sub-graphs till now.
+Enumerated 1800000 sub-graphs till now.
+Enumerated 1850000 sub-graphs till now.
+Enumerated 1900000 sub-graphs till now.
+Enumerated 1950000 sub-graphs till now.
+Enumerated 2000000 sub-graphs till now.
+Enumerated 2050000 sub-graphs till now.
+Enumerated 2100000 sub-graphs till now.
+Enumerated 2150000 sub-graphs till now.
+Enumerated 2200000 sub-graphs till now.
+Enumerated 2250000 sub-graphs till now.
+Enumerated 2300000 sub-graphs till now.
+Enumerated 2350000 sub-graphs till now.
+Enumerated 2400000 sub-graphs till now.
+Enumerated 2450000 sub-graphs till now.
+Enumerated 2500000 sub-graphs till now.
+Enumerated 2550000 sub-graphs till now.
+Enumerated 2600000 sub-graphs till now.
+Enumerated 2650000 sub-graphs till now.
+Enumerated 2700000 sub-graphs till now.
+Enumerated 2750000 sub-graphs till now.
+Enumerated 2800000 sub-graphs till now.
+Enumerated 2850000 sub-graphs till now.
+Enumerated 2900000 sub-graphs till now.
+Enumerated 2950000 sub-graphs till now.
+Enumerated 3000000 sub-graphs till now.
+Enumerated 3050000 sub-graphs till now.
+Enumerated 3100000 sub-graphs till now.
+Enumerated 3150000 sub-graphs till now.
+Enumerated 3200000 sub-graphs till now.
+Enumerated 3250000 sub-graphs till now.
+Enumerated 3300000 sub-graphs till now.
+Enumerated 3350000 sub-graphs till now.
+Enumerated 3400000 sub-graphs till now.
+Enumerated 3450000 sub-graphs till now.
+Enumerated 3500000 sub-graphs till now.
+Enumerated 3550000 sub-graphs till now.
+Enumerated 3600000 sub-graphs till now.
+Enumerated 3650000 sub-graphs till now.
+Enumerated 3700000 sub-graphs till now.
+Enumerated 3750000 sub-graphs till now.
+Enumerated 3800000 sub-graphs till now.
+Enumerated 3850000 sub-graphs till now.
+Enumerated 3900000 sub-graphs till now.
+Enumerated 3950000 sub-graphs till now.
+Enumerated 4000000 sub-graphs till now.
+Enumerated 4050000 sub-graphs till now.
+Enumerated 4100000 sub-graphs till now.
+Enumerated 4150000 sub-graphs till now.
+Enumerated 4200000 sub-graphs till now.
+Enumerated 4250000 sub-graphs till now.
+Enumerated 4300000 sub-graphs till now.
+Enumerated 4350000 sub-graphs till now.
+Enumerated 4400000 sub-graphs till now.
+Enumerated 4450000 sub-graphs till now.
+Enumerated 4500000 sub-graphs till now.
+Enumerated 4550000 sub-graphs till now.
+Enumerated 4600000 sub-graphs till now.
+Enumerated 4650000 sub-graphs till now.
+Enumerated 4700000 sub-graphs till now.
+Enumerated 4750000 sub-graphs till now.
+Enumerated 4800000 sub-graphs till now.
+Enumerated 4850000 sub-graphs till now.
+Enumerated 4900000 sub-graphs till now.
+Enumerated 4950000 sub-graphs till now.
+Enumerated 5000000 sub-graphs till now.
+Enumerated 5050000 sub-graphs till now.
+Enumerated 5100000 sub-graphs till now.
+Enumerated 5150000 sub-graphs till now.
+Enumerated 5200000 sub-graphs till now.
+Enumerated 5250000 sub-graphs till now.
+Enumerated 5300000 sub-graphs till now.
+Enumerated 5350000 sub-graphs till now.
+Enumerated 5400000 sub-graphs till now.
+Enumerated 5450000 sub-graphs till now.
+Enumerated 5500000 sub-graphs till now.
+Enumerated 5550000 sub-graphs till now.
+Enumerated 5600000 sub-graphs till now.
+Enumerated 5650000 sub-graphs till now.
+Enumerated 5700000 sub-graphs till now.
+Enumerated 5750000 sub-graphs till now.
+Enumerated 5800000 sub-graphs till now.
+Enumerated 5850000 sub-graphs till now.
+Enumerated 5900000 sub-graphs till now.
+Enumerated 5950000 sub-graphs till now.
+Enumerated 6000000 sub-graphs till now.
+Enumerated 6050000 sub-graphs till now.
+Enumerated 6100000 sub-graphs till now.
+Enumerated 6150000 sub-graphs till now.
+Enumerated 6200000 sub-graphs till now.
+Enumerated 6250000 sub-graphs till now.
+Enumerated 6300000 sub-graphs till now.
+Enumerated 6350000 sub-graphs till now.
+Enumerated 6400000 sub-graphs till now.
+Enumerated 6450000 sub-graphs till now.
+Enumerated 6500000 sub-graphs till now.
+Enumerated 6550000 sub-graphs till now.
+Enumerated 6600000 sub-graphs till now.
+Enumerated 6650000 sub-graphs till now.
+Enumerated 6700000 sub-graphs till now.
+Enumerated 6750000 sub-graphs till now.
+Enumerated 6800000 sub-graphs till now.
+Enumerated 6850000 sub-graphs till now.
+Enumerated 6900000 sub-graphs till now.
+Enumerated 6950000 sub-graphs till now.
+Enumerated 7000000 sub-graphs till now.
+Enumerated 7050000 sub-graphs till now.
+Enumerated 7100000 sub-graphs till now.
+Enumerated 7150000 sub-graphs till now.
+Enumerated 7200000 sub-graphs till now.
+Enumerated 7250000 sub-graphs till now.
+Enumerated 7300000 sub-graphs till now.
+Enumerated 7350000 sub-graphs till now.
+Enumerated 7400000 sub-graphs till now.
+Enumerated 7450000 sub-graphs till now.
+Enumerated 7500000 sub-graphs till now.
+Enumerated 7550000 sub-graphs till now.
+Enumerated 7600000 sub-graphs till now.
+Enumerated 7650000 sub-graphs till now.
+Enumerated 7700000 sub-graphs till now.
+Enumerated 7750000 sub-graphs till now.
+Enumerated 7800000 sub-graphs till now.
+Enumerated 7850000 sub-graphs till now.
+Enumerated 7900000 sub-graphs till now.
+Enumerated 7950000 sub-graphs till now.
+Enumerated 8000000 sub-graphs till now.
+Enumerated 8050000 sub-graphs till now.
+Enumerated 8100000 sub-graphs till now.
+Enumerated 8150000 sub-graphs till now.
+Enumerated 8200000 sub-graphs till now.
+Enumerated 8250000 sub-graphs till now.
+Enumerated 8300000 sub-graphs till now.
+Enumerated 8350000 sub-graphs till now.
+Enumerated 8400000 sub-graphs till now.
+Enumerated 8450000 sub-graphs till now.
+Enumerated 8500000 sub-graphs till now.
+Enumerated 8550000 sub-graphs till now.
+Enumerated 8600000 sub-graphs till now.
+Enumerated 8650000 sub-graphs till now.
+Enumerated 8700000 sub-graphs till now.
+Enumerated 8750000 sub-graphs till now.
+Enumerated 8800000 sub-graphs till now.
+Enumerated 8850000 sub-graphs till now.
+Enumerated 8900000 sub-graphs till now.
+Enumerated 8950000 sub-graphs till now.
+Enumerated 9000000 sub-graphs till now.
+Enumerated 9050000 sub-graphs till now.
+Enumerated 9100000 sub-graphs till now.
+Enumerated 9150000 sub-graphs till now.
+Enumerated 9200000 sub-graphs till now.
+Enumerated 9250000 sub-graphs till now.
+Enumerated 9300000 sub-graphs till now.
+Enumerated 9350000 sub-graphs till now.
+Enumerated 9400000 sub-graphs till now.
+Enumerated 9450000 sub-graphs till now.
+Enumerated 9500000 sub-graphs till now.
+Enumerated 9550000 sub-graphs till now.
+Enumerated 9600000 sub-graphs till now.
+Enumerated 9650000 sub-graphs till now.
+Enumerated 9700000 sub-graphs till now.
+Enumerated 9750000 sub-graphs till now.
+Enumerated 9800000 sub-graphs till now.
+Enumerated 9850000 sub-graphs till now.
+Enumerated 9900000 sub-graphs till now.
+Enumerated 9950000 sub-graphs till now.
+Enumerated 10000000 sub-graphs till now.
+Enumerated 10050000 sub-graphs till now.
+Enumerated 10100000 sub-graphs till now.
+Enumerated 10150000 sub-graphs till now.
+Enumerated 10200000 sub-graphs till now.
+Enumerated 10250000 sub-graphs till now.
+Enumerated 10300000 sub-graphs till now.
+Enumerated 10350000 sub-graphs till now.
+Enumerated 10400000 sub-graphs till now.
+Enumerated 10450000 sub-graphs till now.
+Enumerated 10500000 sub-graphs till now.
+Enumerated 10550000 sub-graphs till now.
+Enumerated 10600000 sub-graphs till now.
+Enumerated 10650000 sub-graphs till now.
+Enumerated 10700000 sub-graphs till now.
+Enumerated 10750000 sub-graphs till now.
+Enumerated 10800000 sub-graphs till now.
+Enumerated 10850000 sub-graphs till now.
+Enumerated 10900000 sub-graphs till now.
+Enumerated 10950000 sub-graphs till now.
+Enumerated 11000000 sub-graphs till now.
+Enumerated 11050000 sub-graphs till now.
+Enumerated 11100000 sub-graphs till now.
+Enumerated 11150000 sub-graphs till now.
+Enumerated 11200000 sub-graphs till now.
+Enumerated 11250000 sub-graphs till now.
+Enumerated 11300000 sub-graphs till now.
+Enumerated 11350000 sub-graphs till now.
+Enumerated 11400000 sub-graphs till now.
+Enumerated 11450000 sub-graphs till now.
+Enumerated 11500000 sub-graphs till now.
+Enumerated 11550000 sub-graphs till now.
+Enumerated 11600000 sub-graphs till now.
+Enumerated 11650000 sub-graphs till now.
+Enumerated 11700000 sub-graphs till now.
+Enumerated 11750000 sub-graphs till now.
+Enumerated 11800000 sub-graphs till now.
+Enumerated 11850000 sub-graphs till now.
+Enumerated 11900000 sub-graphs till now.
+Enumerated 11950000 sub-graphs till now.
+Enumerated 12000000 sub-graphs till now.
+Enumerated 12050000 sub-graphs till now.
+Enumerated 12100000 sub-graphs till now.
+Enumerated 12150000 sub-graphs till now.
+Enumerated 12200000 sub-graphs till now.
+Enumerated 12250000 sub-graphs till now.
+Enumerated 12300000 sub-graphs till now.
+Enumerated 12350000 sub-graphs till now.
+Enumerated 12400000 sub-graphs till now.
+Enumerated 12450000 sub-graphs till now.
+Enumerated 12500000 sub-graphs till now.
+Enumerated 12550000 sub-graphs till now.
+Enumerated 12600000 sub-graphs till now.
+Enumerated 12650000 sub-graphs till now.
+Enumerated 12700000 sub-graphs till now.
+Enumerated 12750000 sub-graphs till now.
+Enumerated 12800000 sub-graphs till now.
+Enumerating subgraph took 236543 milliseconds.
+Number of subgraphs enumerated: 12812508
+Total number of unique sub-graphs for which canonical labels need to be computed: 448
+LabelG Input file created
+Return code for labelg: 0
+Number of canonical labels for all enumerated subgraphs: 51
+Cannonical Label (g6) "ED^_" has following Sub Graphs:
+	SubGraph (g6) "Eq[o" has count: 2
+	SubGraph (g6) "EuWW" has count: 1
+	SubGraph (g6) "ErOw" has count: 1
+	SubGraph (g6) "EuWo" has count: 1
+	SubGraph (g6) "EqWw" has count: 2
+Cannonical Label (g6) "ECSw" has following Sub Graphs:
+	SubGraph (g6) "EuOO" has count: 1608
+	SubGraph (g6) "EtGO" has count: 2921
+	SubGraph (g6) "E{O_" has count: 391
+	SubGraph (g6) "EjGO" has count: 4256
+Cannonical Label (g6) "E@NW" has following Sub Graphs:
+	SubGraph (g6) "EiWg" has count: 2
+	SubGraph (g6) "EiSW" has count: 4
+Cannonical Label (g6) "E?lw" has following Sub Graphs:
+	SubGraph (g6) "Ei[G" has count: 7
+	SubGraph (g6) "EjSO" has count: 9
+	SubGraph (g6) "EjW_" has count: 8
+Cannonical Label (g6) "EKSw" has following Sub Graphs:
+	SubGraph (g6) "ErSG" has count: 20
+	SubGraph (g6) "Eq[O" has count: 30
+	SubGraph (g6) "E{S_" has count: 2
+	SubGraph (g6) "EtWO" has count: 2
+	SubGraph (g6) "ErKG" has count: 89
+	SubGraph (g6) "EuWO" has count: 24
+	SubGraph (g6) "E{Og" has count: 6
+	SubGraph (g6) "EuOo" has count: 15
+	SubGraph (g6) "EjGW" has count: 101
+	SubGraph (g6) "E{Oo" has count: 1
+	SubGraph (g6) "EuOW" has count: 19
+	SubGraph (g6) "EtS_" has count: 2
+	SubGraph (g6) "EtGW" has count: 37
+Cannonical Label (g6) "EPVW" has following Sub Graphs:
+	SubGraph (g6) "ErKW" has count: 1
+Cannonical Label (g6) "E@^o" has following Sub Graphs:
+	SubGraph (g6) "Er[_" has count: 3
+	SubGraph (g6) "EqXg" has count: 2
+	SubGraph (g6) "EjOw" has count: 3
+Cannonical Label (g6) "EC\o" has following Sub Graphs:
+	SubGraph (g6) "Es\?" has count: 21
+	SubGraph (g6) "EsKo" has count: 124
+	SubGraph (g6) "Es[_" has count: 93
+	SubGraph (g6) "Es[O" has count: 76
+	SubGraph (g6) "ErWO" has count: 216
+	SubGraph (g6) "EsX_" has count: 45
+	SubGraph (g6) "EiKo" has count: 211
+	SubGraph (g6) "EsTO" has count: 80
+	SubGraph (g6) "ErWG" has count: 181
+	SubGraph (g6) "EsPo" has count: 32
+Cannonical Label (g6) "ECXo" has following Sub Graphs:
+	SubGraph (g6) "ErCG" has count: 3736
+	SubGraph (g6) "EhGW" has count: 3388
+	SubGraph (g6) "ErOG" has count: 1696
+	SubGraph (g6) "EqOW" has count: 1789
+	SubGraph (g6) "EqWO" has count: 2136
+	SubGraph (g6) "EsWO" has count: 1906
+	SubGraph (g6) "EpGW" has count: 3273
+	SubGraph (g6) "EsS_" has count: 1475
+	SubGraph (g6) "ErGG" has count: 3840
+	SubGraph (g6) "EsOo" has count: 1569
+Cannonical Label (g6) "EELg" has following Sub Graphs:
+	SubGraph (g6) "EuWG" has count: 13
+	SubGraph (g6) "EtSG" has count: 15
+	SubGraph (g6) "EsPg" has count: 4
+	SubGraph (g6) "E{SG" has count: 14
+	SubGraph (g6) "EuKG" has count: 12
+	SubGraph (g6) "EiKW" has count: 62
+	SubGraph (g6) "Eq[_" has count: 12
+	SubGraph (g6) "EyKG" has count: 40
+	SubGraph (g6) "EsSW" has count: 19
+	SubGraph (g6) "E{KG" has count: 23
+	SubGraph (g6) "E{SO" has count: 29
+	SubGraph (g6) "ErS_" has count: 6
+	SubGraph (g6) "EuW_" has count: 22
+	SubGraph (g6) "EyKO" has count: 44
+	SubGraph (g6) "EsKW" has count: 39
+	SubGraph (g6) "E{KO" has count: 2
+	SubGraph (g6) "EtT?" has count: 2
+	SubGraph (g6) "EqWg" has count: 67
+	SubGraph (g6) "EsWg" has count: 4
+	SubGraph (g6) "EiKg" has count: 18
+	SubGraph (g6) "EsTG" has count: 3
+	SubGraph (g6) "EuK_" has count: 10
+	SubGraph (g6) "EsKg" has count: 5
+	SubGraph (g6) "ErOo" has count: 19
+	SubGraph (g6) "EtPO" has count: 1
+	SubGraph (g6) "EiGw" has count: 13
+	SubGraph (g6) "EsPW" has count: 2
+	SubGraph (g6) "EuGo" has count: 11
+	SubGraph (g6) "EtWG" has count: 3
+	SubGraph (g6) "EsGw" has count: 8
+	SubGraph (g6) "EtP_" has count: 2
+Cannonical Label (g6) "E_lo" has following Sub Graphs:
+	SubGraph (g6) "EqKo" has count: 10
+	SubGraph (g6) "EsSg" has count: 6
+	SubGraph (g6) "ErOg" has count: 6
+	SubGraph (g6) "EqWo" has count: 12
+	SubGraph (g6) "EqOw" has count: 10
+	SubGraph (g6) "EsOw" has count: 3
+	SubGraph (g6) "EsWW" has count: 4
+Cannonical Label (g6) "E?Nw" has following Sub Graphs:
+	SubGraph (g6) "EjPO" has count: 1
+	SubGraph (g6) "EiTG" has count: 6
+	SubGraph (g6) "EiX_" has count: 1
+	SubGraph (g6) "EiPW" has count: 9
+	SubGraph (g6) "EiPg" has count: 1
+	SubGraph (g6) "EiTO" has count: 8
+Cannonical Label (g6) "E`LW" has following Sub Graphs:
+	SubGraph (g6) "EpKW" has count: 16
+	SubGraph (g6) "EhKW" has count: 5
+Cannonical Label (g6) "E?Fw" has following Sub Graphs:
+	SubGraph (g6) "EyP?" has count: 424
+	SubGraph (g6) "EiPO" has count: 1568
+	SubGraph (g6) "Esi?" has count: 491
+	SubGraph (g6) "Ese?" has count: 720
+	SubGraph (g6) "ExG_" has count: 4164
+	SubGraph (g6) "Esb?" has count: 93
+	SubGraph (g6) "EiX?" has count: 1168
+	SubGraph (g6) "Eta?" has count: 706
+	SubGraph (g6) "Esa_" has count: 139
+	SubGraph (g6) "EiT?" has count: 1192
+	SubGraph (g6) "Eua?" has count: 931
+	SubGraph (g6) "EiP_" has count: 809
+	SubGraph (g6) "EjP?" has count: 1702
+	SubGraph (g6) "E{a?" has count: 728
+	SubGraph (g6) "EsaG" has count: 519
+	SubGraph (g6) "EiPG" has count: 1087
+	SubGraph (g6) "EsaO" has count: 139
+	SubGraph (g6) "Esq?" has count: 420
+Cannonical Label (g6) "E@~o" has following Sub Graphs:
+	SubGraph (g6) "Er\_" has count: 1
+Cannonical Label (g6) "E?Bw" has following Sub Graphs:
+	SubGraph (g6) "EiP?" has count: 316123
+	SubGraph (g6) "Esa?" has count: 202629
+Cannonical Label (g6) "EBzo" has following Sub Graphs:
+	SubGraph (g6) "ErWw" has count: 1
+Cannonical Label (g6) "EGFw" has following Sub Graphs:
+	SubGraph (g6) "ExGg" has count: 37
+	SubGraph (g6) "ExK_" has count: 27
+	SubGraph (g6) "ExGo" has count: 33
+	SubGraph (g6) "EiXO" has count: 18
+	SubGraph (g6) "EiT_" has count: 5
+Cannonical Label (g6) "E@vo" has following Sub Graphs:
+	SubGraph (g6) "E{TO" has count: 1
+	SubGraph (g6) "ErWo" has count: 3
+	SubGraph (g6) "ErXO" has count: 1
+	SubGraph (g6) "Es[g" has count: 2
+	SubGraph (g6) "Es[W" has count: 1
+	SubGraph (g6) "ErWg" has count: 2
+	SubGraph (g6) "E{`W" has count: 1
+	SubGraph (g6) "ErXG" has count: 2
+Cannonical Label (g6) "EGcw" has following Sub Graphs:
+	SubGraph (g6) "EqSG" has count: 540
+	SubGraph (g6) "EuO_" has count: 452
+	SubGraph (g6) "EjGG" has count: 1703
+	SubGraph (g6) "EpKG" has count: 2352
+	SubGraph (g6) "EhKO" has count: 1761
+	SubGraph (g6) "EqSO" has count: 460
+	SubGraph (g6) "EjCG" has count: 2266
+	SubGraph (g6) "EuOG" has count: 520
+	SubGraph (g6) "EpKO" has count: 1779
+	SubGraph (g6) "EtOO" has count: 1513
+	SubGraph (g6) "EtGG" has count: 764
+	SubGraph (g6) "E{OG" has count: 362
+	SubGraph (g6) "EtCG" has count: 1426
+	SubGraph (g6) "EuCG" has count: 1119
+	SubGraph (g6) "EyGG" has count: 2036
+	SubGraph (g6) "E{OO" has count: 868
+	SubGraph (g6) "E{GG" has count: 432
+	SubGraph (g6) "EuGO" has count: 1136
+	SubGraph (g6) "EyGO" has count: 1975
+	SubGraph (g6) "EtO_" has count: 1117
+	SubGraph (g6) "EhKG" has count: 2625
+	SubGraph (g6) "E{GO" has count: 755
+Cannonical Label (g6) "E@ro" has following Sub Graphs:
+	SubGraph (g6) "ErCW" has count: 9
+	SubGraph (g6) "ExGW" has count: 13
+	SubGraph (g6) "EqXO" has count: 5
+	SubGraph (g6) "ErPG" has count: 2
+	SubGraph (g6) "Esd_" has count: 3
+	SubGraph (g6) "ErGg" has count: 19
+	SubGraph (g6) "Esoo" has count: 5
+	SubGraph (g6) "E{_W" has count: 6
+	SubGraph (g6) "EshO" has count: 1
+	SubGraph (g6) "EqT_" has count: 2
+	SubGraph (g6) "Et`G" has count: 1
+	SubGraph (g6) "Eu_g" has count: 1
+	SubGraph (g6) "EyOW" has count: 5
+Cannonical Label (g6) "EDZW" has following Sub Graphs:
+	SubGraph (g6) "EtSW" has count: 1
+	SubGraph (g6) "EyGw" has count: 1
+	SubGraph (g6) "EuKW" has count: 1
+Cannonical Label (g6) "E?dg" has following Sub Graphs:
+	SubGraph (g6) "EiCO" has count: 387438
+	SubGraph (g6) "EsG_" has count: 233787
+	SubGraph (g6) "EsCO" has count: 411362
+	SubGraph (g6) "EsP?" has count: 145132
+	SubGraph (g6) "EiG_" has count: 278447
+Cannonical Label (g6) "E?lo" has following Sub Graphs:
+	SubGraph (g6) "EiKG" has count: 5051
+	SubGraph (g6) "EsSG" has count: 1890
+	SubGraph (g6) "EqW_" has count: 4004
+	SubGraph (g6) "EsKG" has count: 3392
+	SubGraph (g6) "ErO_" has count: 2347
+	SubGraph (g6) "EsWG" has count: 2459
+Cannonical Label (g6) "E@pw" has following Sub Graphs:
+	SubGraph (g6) "EtCW" has count: 21
+	SubGraph (g6) "EuCW" has count: 8
+	SubGraph (g6) "EyGg" has count: 33
+	SubGraph (g6) "EjGg" has count: 3
+	SubGraph (g6) "ExKO" has count: 42
+	SubGraph (g6) "EjCW" has count: 8
+	SubGraph (g6) "ExKG" has count: 60
+Cannonical Label (g6) "E?NW" has following Sub Graphs:
+	SubGraph (g6) "EiSO" has count: 2611
+	SubGraph (g6) "Eu_O" has count: 286
+	SubGraph (g6) "EjOO" has count: 1911
+	SubGraph (g6) "Esg_" has count: 444
+	SubGraph (g6) "EiW_" has count: 1519
+	SubGraph (g6) "Eu`?" has count: 383
+	SubGraph (g6) "Et__" has count: 818
+	SubGraph (g6) "EjCO" has count: 2968
+	SubGraph (g6) "E{`?" has count: 556
+	SubGraph (g6) "EjO_" has count: 1422
+	SubGraph (g6) "E{__" has count: 491
+	SubGraph (g6) "EtCO" has count: 2676
+	SubGraph (g6) "EjG_" has count: 2081
+	SubGraph (g6) "EuCO" has count: 1847
+	SubGraph (g6) "EuP?" has count: 418
+	SubGraph (g6) "E{P?" has count: 182
+	SubGraph (g6) "EyO_" has count: 2115
+	SubGraph (g6) "EtG_" has count: 1063
+	SubGraph (g6) "EsoG" has count: 477
+	SubGraph (g6) "EyG_" has count: 3885
+	SubGraph (g6) "E{G_" has count: 156
+	SubGraph (g6) "EsgG" has count: 639
+	SubGraph (g6) "EscG" has count: 1304
+	SubGraph (g6) "EiWG" has count: 2298
+	SubGraph (g6) "EiSG" has count: 3134
+	SubGraph (g6) "EscO" has count: 1150
+	SubGraph (g6) "Esp?" has count: 262
+	SubGraph (g6) "Et_O" has count: 671
+Cannonical Label (g6) "E`ow" has following Sub Graphs:
+	SubGraph (g6) "ExCW" has count: 4
+	SubGraph (g6) "E{CW" has count: 4
+Cannonical Label (g6) "E_Lw" has following Sub Graphs:
+	SubGraph (g6) "EhGw" has count: 3
+	SubGraph (g6) "EpKg" has count: 2
+	SubGraph (g6) "EhKo" has count: 3
+	SubGraph (g6) "EpGw" has count: 3
+	SubGraph (g6) "EpKo" has count: 1
+	SubGraph (g6) "EhKg" has count: 6
+Cannonical Label (g6) "EAMw" has following Sub Graphs:
+	SubGraph (g6) "EjS_" has count: 8
+	SubGraph (g6) "EjWG" has count: 3
+	SubGraph (g6) "Ei[_" has count: 2
+	SubGraph (g6) "Ei[O" has count: 2
+	SubGraph (g6) "EjSG" has count: 3
+	SubGraph (g6) "EjK_" has count: 4
+	SubGraph (g6) "EjKO" has count: 17
+	SubGraph (g6) "EjWO" has count: 8
+	SubGraph (g6) "EjGo" has count: 18
+Cannonical Label (g6) "E?^o" has following Sub Graphs:
+	SubGraph (g6) "EqX_" has count: 194
+	SubGraph (g6) "ErW_" has count: 239
+	SubGraph (g6) "Es`W" has count: 14
+	SubGraph (g6) "Es`g" has count: 15
+	SubGraph (g6) "ErX?" has count: 59
+	SubGraph (g6) "Es_w" has count: 34
+	SubGraph (g6) "Es[G" has count: 89
+	SubGraph (g6) "EiOw" has count: 130
+	SubGraph (g6) "Es`o" has count: 34
+	SubGraph (g6) "ErP_" has count: 52
+Cannonical Label (g6) "EAN_" has following Sub Graphs:
+	SubGraph (g6) "EqKO" has count: 1493
+	SubGraph (g6) "EqK_" has count: 597
+	SubGraph (g6) "EiGW" has count: 982
+	SubGraph (g6) "EqOg" has count: 723
+	SubGraph (g6) "EqGo" has count: 1000
+	SubGraph (g6) "EsOW" has count: 589
+	SubGraph (g6) "EsOg" has count: 427
+	SubGraph (g6) "EqKG" has count: 1440
+	SubGraph (g6) "EqOo" has count: 486
+	SubGraph (g6) "EsGW" has count: 969
+Cannonical Label (g6) "EIMw" has following Sub Graphs:
+	SubGraph (g6) "Er[O" has count: 9
+	SubGraph (g6) "EjWW" has count: 1
+	SubGraph (g6) "Ei[o" has count: 1
+	SubGraph (g6) "Er[G" has count: 11
+Cannonical Label (g6) "ETXW" has following Sub Graphs:
+	SubGraph (g6) "EuWg" has count: 1
+Cannonical Label (g6) "EGEw" has following Sub Graphs:
+	SubGraph (g6) "Esh?" has count: 205
+	SubGraph (g6) "E{_O" has count: 947
+	SubGraph (g6) "Esd?" has count: 623
+	SubGraph (g6) "Esc_" has count: 627
+	SubGraph (g6) "EyOG" has count: 499
+	SubGraph (g6) "Et`?" has count: 510
+	SubGraph (g6) "EiS_" has count: 1114
+	SubGraph (g6) "Eu__" has count: 487
+	SubGraph (g6) "ExGG" has count: 3583
+	SubGraph (g6) "EyOO" has count: 434
+	SubGraph (g6) "EqT?" has count: 342
+	SubGraph (g6) "EhK_" has count: 887
+	SubGraph (g6) "ExGO" has count: 3069
+	SubGraph (g6) "EpK_" has count: 1244
+	SubGraph (g6) "EqPG" has count: 253
+	SubGraph (g6) "EhGg" has count: 1349
+	SubGraph (g6) "EpGg" has count: 1706
+	SubGraph (g6) "EqPO" has count: 252
+	SubGraph (g6) "EhGo" has count: 927
+	SubGraph (g6) "EsoO" has count: 212
+	SubGraph (g6) "EpGo" has count: 1431
+	SubGraph (g6) "Et_G" has count: 1476
+	SubGraph (g6) "EsgO" has count: 257
+	SubGraph (g6) "Eu_G" has count: 790
+	SubGraph (g6) "EiWO" has count: 1173
+	SubGraph (g6) "EjOG" has count: 1233
+	SubGraph (g6) "E{_G" has count: 1189
+	SubGraph (g6) "Eso_" has count: 196
+Cannonical Label (g6) "EANg" has following Sub Graphs:
+	SubGraph (g6) "EqPg" has count: 21
+	SubGraph (g6) "EiWW" has count: 15
+	SubGraph (g6) "Esog" has count: 1
+	SubGraph (g6) "ErSO" has count: 20
+	SubGraph (g6) "Eu_W" has count: 1
+	SubGraph (g6) "EtSO" has count: 21
+	SubGraph (g6) "EqPo" has count: 2
+	SubGraph (g6) "EshG" has count: 1
+	SubGraph (g6) "EspO" has count: 2
+	SubGraph (g6) "EjOW" has count: 5
+	SubGraph (g6) "Eq\?" has count: 1
+	SubGraph (g6) "ErKO" has count: 89
+	SubGraph (g6) "Escg" has count: 1
+	SubGraph (g6) "EuKO" has count: 39
+	SubGraph (g6) "EuX?" has count: 2
+	SubGraph (g6) "Et_g" has count: 7
+	SubGraph (g6) "EtW_" has count: 2
+	SubGraph (g6) "Eu`G" has count: 8
+	SubGraph (g6) "Esgo" has count: 3
+	SubGraph (g6) "EiSg" has count: 7
+	SubGraph (g6) "EsdO" has count: 3
+	SubGraph (g6) "ErT?" has count: 2
+	SubGraph (g6) "EqXG" has count: 16
+	SubGraph (g6) "EiWo" has count: 11
+	SubGraph (g6) "E{`G" has count: 8
+	SubGraph (g6) "EjOg" has count: 17
+	SubGraph (g6) "E{_g" has count: 1
+	SubGraph (g6) "ErK_" has count: 29
+	SubGraph (g6) "EiSo" has count: 15
+	SubGraph (g6) "E{T?" has count: 1
+	SubGraph (g6) "Esh_" has count: 8
+	SubGraph (g6) "E{`O" has count: 14
+	SubGraph (g6) "E{_o" has count: 7
+	SubGraph (g6) "EyK_" has count: 49
+	SubGraph (g6) "E{K_" has count: 1
+	SubGraph (g6) "EyOg" has count: 33
+	SubGraph (g6) "ErPO" has count: 7
+	SubGraph (g6) "Et`_" has count: 15
+	SubGraph (g6) "ErGo" has count: 88
+	SubGraph (g6) "E{PO" has count: 2
+	SubGraph (g6) "EyOo" has count: 10
+	SubGraph (g6) "EsoW" has count: 1
+	SubGraph (g6) "Eq[G" has count: 23
+	SubGraph (g6) "EyGo" has count: 28
+	SubGraph (g6) "EuP_" has count: 2
+	SubGraph (g6) "E{Go" has count: 2
+	SubGraph (g6) "EsgW" has count: 10
+Cannonical Label (g6) "E?Fg" has following Sub Graphs:
+	SubGraph (g6) "EpG_" has count: 374044
+	SubGraph (g6) "EiO_" has count: 297167
+	SubGraph (g6) "EiOO" has count: 357340
+	SubGraph (g6) "Es_G" has count: 357785
+	SubGraph (g6) "EqP?" has count: 160846
+	SubGraph (g6) "EhG_" has count: 302216
+	SubGraph (g6) "Es`?" has count: 171582
+	SubGraph (g6) "EiOG" has count: 405637
+	SubGraph (g6) "Es_O" has count: 269188
+	SubGraph (g6) "Es__" has count: 224677
+Cannonical Label (g6) "E?No" has following Sub Graphs:
+	SubGraph (g6) "EiOo" has count: 1662
+	SubGraph (g6) "ErG_" has count: 4625
+	SubGraph (g6) "Es_W" has count: 1481
+	SubGraph (g6) "EiOW" has count: 3838
+	SubGraph (g6) "Es`_" has count: 1284
+	SubGraph (g6) "EqX?" has count: 1478
+	SubGraph (g6) "Es`G" has count: 911
+	SubGraph (g6) "Es_g" has count: 914
+	SubGraph (g6) "ErCO" has count: 3891
+	SubGraph (g6) "EqP_" has count: 1768
+	SubGraph (g6) "EiOg" has count: 1586
+	SubGraph (g6) "Es`O" has count: 805
+	SubGraph (g6) "ErP?" has count: 955
+	SubGraph (g6) "Es_o" has count: 1256
+Cannonical Label (g6) "E`dg" has following Sub Graphs:
+	SubGraph (g6) "EsXO" has count: 18
+	SubGraph (g6) "ErOW" has count: 36
+	SubGraph (g6) "EsWo" has count: 23
+	SubGraph (g6) "EsT_" has count: 14
+	SubGraph (g6) "EsSo" has count: 27
+	SubGraph (g6) "ErGW" has count: 99
+	SubGraph (g6) "EqWW" has count: 52
+Cannonical Label (g6) "ES\o" has following Sub Graphs:
+	SubGraph (g6) "Es\_" has count: 2
+	SubGraph (g6) "Es\O" has count: 3
+	SubGraph (g6) "Es[o" has count: 6
+	SubGraph (g6) "EsXo" has count: 1
+	SubGraph (g6) "EsTo" has count: 2
+	SubGraph (g6) "ErWW" has count: 25
+Cannonical Label (g6) "E@hO" has following Sub Graphs:
+	SubGraph (g6) "EqCG" has count: 242689
+	SubGraph (g6) "EqGO" has count: 301386
+	SubGraph (g6) "EhCG" has count: 365600
+	SubGraph (g6) "EqGG" has count: 303339
+	SubGraph (g6) "EpCG" has count: 352207
+Cannonical Label (g6) "E@ow" has following Sub Graphs:
+	SubGraph (g6) "EyCO" has count: 442
+	SubGraph (g6) "EsCW" has count: 1359
+	SubGraph (g6) "E{CO" has count: 1209
+	SubGraph (g6) "EiGg" has count: 537
+	SubGraph (g6) "EsPG" has count: 68
+	SubGraph (g6) "EiCW" has count: 1230
+	SubGraph (g6) "EuG_" has count: 279
+	SubGraph (g6) "ExCO" has count: 1611
+	SubGraph (g6) "EsGg" has count: 347
+	SubGraph (g6) "EtP?" has count: 477
+Cannonical Label (g6) "E_lw" has following Sub Graphs:
+	SubGraph (g6) "ErKo" has count: 1
+	SubGraph (g6) "EqPw" has count: 1
+Cannonical Label (g6) "EoSo" has following Sub Graphs:
+	SubGraph (g6) "EqGW" has count: 1003
+Cannonical Label (g6) "EAIW" has following Sub Graphs:
+	SubGraph (g6) "EpGO" has count: 334268
+	SubGraph (g6) "EhGG" has count: 394749
+	SubGraph (g6) "EqOG" has count: 209094
+	SubGraph (g6) "EsGO" has count: 376321
+	SubGraph (g6) "EpGG" has count: 433767
+	SubGraph (g6) "EhGO" has count: 305246
+	SubGraph (g6) "EiGO" has count: 364895
+	SubGraph (g6) "EqOO" has count: 171945
+	SubGraph (g6) "EsO_" has count: 208552
+	SubGraph (g6) "EsOO" has count: 276983
+Cannonical Label (g6) "E@hW" has following Sub Graphs:
+	SubGraph (g6) "EsK_" has count: 1260
+	SubGraph (g6) "EiKO" has count: 5189
+	SubGraph (g6) "EsSO" has count: 2400
+	SubGraph (g6) "EiGo" has count: 2797
+	SubGraph (g6) "ErOO" has count: 1938
+	SubGraph (g6) "EsPO" has count: 1061
+	SubGraph (g6) "EsKO" has count: 3485
+	SubGraph (g6) "EsX?" has count: 655
+	SubGraph (g6) "ErGO" has count: 6039
+	SubGraph (g6) "EsGo" has count: 2123
+	SubGraph (g6) "EsW_" has count: 1956
+	SubGraph (g6) "EiK_" has count: 1742
+	SubGraph (g6) "EsT?" has count: 763
+	SubGraph (g6) "EsP_" has count: 847
+	SubGraph (g6) "EqWG" has count: 3519
+Cannonical Label (g6) "E?~o" has following Sub Graphs:
+	SubGraph (g6) "ErX_" has count: 8
+Cannonical Label (g6) "EoSw" has following Sub Graphs:
+	SubGraph (g6) "EqSg" has count: 2
+	SubGraph (g6) "EuGW" has count: 6
+	SubGraph (g6) "EyGW" has count: 2
+	SubGraph (g6) "EtOW" has count: 3
+	SubGraph (g6) "E{GW" has count: 1
+	SubGraph (g6) "EqKg" has count: 4
+	SubGraph (g6) "EqSo" has count: 1
+	SubGraph (g6) "EqKW" has count: 11
+	SubGraph (g6) "EqGw" has count: 9
+	SubGraph (g6) "E{OW" has count: 1
+Cannonical Label (g6) "EiKw" has following Sub Graphs:
+	SubGraph (g6) "EiKw" has count: 2
+	SubGraph (g6) "EsTW" has count: 1
+	SubGraph (g6) "EsKw" has count: 7
+Cannonical Label (g6) "E@po" has following Sub Graphs:
+	SubGraph (g6) "EqCW" has count: 827
+	SubGraph (g6) "EuGG" has count: 449
+	SubGraph (g6) "ExCG" has count: 1735
+	SubGraph (g6) "EtOG" has count: 517
+	SubGraph (g6) "EhCW" has count: 930
+	SubGraph (g6) "EqS_" has count: 262
+	SubGraph (g6) "EyCG" has count: 504
+	SubGraph (g6) "E{CG" has count: 1091
+	SubGraph (g6) "EqGg" has count: 1237
+	SubGraph (g6) "EpCW" has count: 897
+Cannonical Label (g6) "E?NO" has following Sub Graphs:
+	SubGraph (g6) "EsCG" has count: 359404
+	SubGraph (g6) "EiGG" has count: 307407
+	SubGraph (g6) "EqG_" has count: 336617
+	SubGraph (g6) "EpCO" has count: 322500
+	SubGraph (g6) "EsOG" has count: 201330
+	SubGraph (g6) "EiCG" has count: 411789
+	SubGraph (g6) "EqCO" has count: 230693
+	SubGraph (g6) "EqO_" has count: 243525
+	SubGraph (g6) "EsGG" has count: 274451
+	SubGraph (g6) "EhCO" has count: 333059
+Cannonical Label (g6) "E@lo" has following Sub Graphs:
+	SubGraph (g6) "EjKG" has count: 4
+zTime taken for 1 Random graph: 258723
+input Graph 
+
+Es\o : 119
+ES\o : 2029
+E@hO : 1369358
+EoSo : 7289
+EAIW : 2305260
+E@hW : 194311
+E?^o : 18700
+E?~o : 755
+E?Bw : 931306
+EC\o : 20682
+ECXo : 142829
+E?Fg : 2741029
+E?No : 156483
+E?NO : 2799909
+E?dg : 1198271
+E?lo : 101451
+E`dg : 8487
+Es\o : 9.918098178837146E-6
+ES\o : 1.691077412173157E-4
+E@hO : 0.11412963937795022
+EoSo : 6.07504349794487E-4
+EAIW : 0.1921327311575304
+E@hW : 0.0161949208002355
+E?^o : 0.0015585582852458372
+E?~o : 6.292574894976508E-5
+E?Bw : 0.07762003649193366
+EC\o : 0.0017237487944093265
+ECXo : 0.011904134830127148
+E?Fg : 0.2284520565801664
+E?No : 0.013042132414445151
+E?NO : 0.2333594315446196
+E?dg : 0.09987033128448206
+E?lo : 0.008455470406228632
+E`dg : 7.073520944856375E-4
+Random Graph 0
+
+ED^_ : 14
+ECSw : 18352
+E@NW : 12
+E?lw : 48
+EKSw : 696
+EPVW : 2
+E@^o : 16
+EC\o : 2158
+ECXo : 49616
+EELg : 1048
+E_lo : 102
+E?Nw : 52
+E`LW : 42
+E?Fw : 34000
+E@~o : 2
+E?Bw : 1037504
+EBzo : 2
+EGFw : 240
+E@vo : 26
+EGcw : 55922
+E@ro : 144
+EDZW : 6
+E?dg : 2912332
+E?lo : 38286
+E@pw : 350
+E?NW : 75534
+E`ow : 16
+E_Lw : 36
+EAMw : 130
+E?^o : 1720
+EAN_ : 17412
+EIMw : 44
+ETXW : 2
+EGEw : 54030
+EANg : 1302
+E?Fg : 5840964
+E?No : 52908
+E`dg : 538
+ES\o : 78
+E@hO : 3130442
+E@ow : 15118
+E_lw : 4
+EoSo : 2006
+EAIW : 6151640
+E@hW : 71548
+E?~o : 16
+EoSw : 80
+EiKw : 20
+E@po : 16898
+E?NO : 6041550
+E@lo : 8
+ED^_ : 5.463411222845675E-7
+ECSw : 7.161751625833131E-4
+E@NW : 4.6829239052962933E-7
+E?lw : 1.8731695621185173E-6
+EKSw : 2.71609586507185E-5
+EPVW : 7.804873175493822E-8
+E@^o : 6.243898540395058E-7
+EC\o : 8.421458156357834E-5
+ECXo : 0.0019362329373765073
+EELg : 4.089753543958763E-5
+E_lo : 3.980485319501849E-6
+E?Nw : 2.0292670256283938E-6
+E`LW : 1.6390233668537026E-6
+E?Fw : 0.0013268284398339498
+E@~o : 7.804873175493822E-8
+E?Bw : 0.040487935695337714
+EBzo : 7.804873175493822E-8
+EGFw : 9.365847810592587E-6
+E@vo : 1.0146335128141969E-6
+EGcw : 0.0021823205885998275
+E@ro : 5.619508686355552E-6
+EDZW : 2.3414619526481466E-7
+E?dg : 0.11365190952466137
+E?lo : 0.0014940868719847823
+E@pw : 1.365852805711419E-5
+E?NW : 0.002947666452188752
+E`ow : 6.243898540395058E-7
+E_Lw : 1.404877171588888E-6
+EAMw : 5.073167564070984E-6
+E?^o : 6.712190930924687E-5
+EAN_ : 6.794922586584922E-4
+EIMw : 1.7170720986086409E-6
+ETXW : 7.804873175493822E-8
+EGEw : 0.0021084864883596562
+EANg : 5.080972437246478E-5
+E?Fg : 0.22793991621312548
+E?No : 0.002064701149845136
+E`dg : 2.099510884207838E-5
+ES\o : 3.0439005384425906E-6
+E@hO : 0.12216351396619615
+E@ow : 5.89970363335578E-4
+E_lw : 1.5609746350987644E-7
+EoSo : 7.828287795020304E-5
+EAIW : 0.24006385010647407
+E@hW : 0.00279211532980116
+E?~o : 6.243898540395058E-7
+EoSw : 3.121949270197529E-6
+EiKw : 7.804873175493822E-7
+E@po : 6.59433734597473E-4
+E?NO : 0.2357676576670235
+E@lo : 3.121949270197529E-7
+Mean Subgraph Concentration: Es\o : 0.0
+Mean Subgraph Concentration: ES\o : 3.0439005384425906E-6
+Mean Subgraph Concentration: E@hO : 0.12216351396619615
+Mean Subgraph Concentration: EoSo : 7.828287795020304E-5
+Mean Subgraph Concentration: EAIW : 0.24006385010647407
+Mean Subgraph Concentration: E@hW : 0.00279211532980116
+Mean Subgraph Concentration: E?^o : 6.712190930924687E-5
+Mean Subgraph Concentration: E?~o : 6.243898540395058E-7
+Mean Subgraph Concentration: E?Bw : 0.040487935695337714
+Mean Subgraph Concentration: EC\o : 8.421458156357834E-5
+Mean Subgraph Concentration: ECXo : 0.0019362329373765073
+Mean Subgraph Concentration: E?Fg : 0.22793991621312548
+Mean Subgraph Concentration: E?No : 0.002064701149845136
+Mean Subgraph Concentration: E?NO : 0.2357676576670235
+Mean Subgraph Concentration: E?dg : 0.11365190952466137
+Mean Subgraph Concentration: E?lo : 0.0014940868719847823
+Mean Subgraph Concentration: E`dg : 2.099510884207838E-5
+Z-Score for motif Es\ofor size 6is:  0.0
+Z-Score for motif ES\ofor size 6is:  0.0
+Z-Score for motif E@hOfor size 6is:  0.0
+Z-Score for motif EoSofor size 6is:  0.0
+Z-Score for motif EAIWfor size 6is:  0.0
+Z-Score for motif E@hWfor size 6is:  0.0
+Z-Score for motif E?^ofor size 6is:  0.0
+Z-Score for motif E?~ofor size 6is:  0.0
+Z-Score for motif E?Bwfor size 6is:  0.0
+Z-Score for motif EC\ofor size 6is:  0.0
+Z-Score for motif ECXofor size 6is:  0.0
+Z-Score for motif E?Fgfor size 6is:  0.0
+Z-Score for motif E?Nofor size 6is:  0.0
+Z-Score for motif E?NOfor size 6is:  0.0
+Z-Score for motif E?dgfor size 6is:  0.0
+Z-Score for motif E?lofor size 6is:  0.0
+Z-Score for motif E`dgfor size 6is:  0.0
+Time taken to determine motfi Significance : 381013
+
+Process finished with exit code 0
+
+

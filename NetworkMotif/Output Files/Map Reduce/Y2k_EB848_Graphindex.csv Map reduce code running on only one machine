@@ -1,0 +1,1959 @@
+capacity-scheduler/*.jar
+STARTUP_MSG:   build = https://git-wip-us.apache.org/repos/asf/hadoop.git -r e34                                                                                        96499ecb8d220fba99dc5ed4c99c8f9e33bb1; compiled by 'jenkins' on 2014-11-13T21:10                                                                                        Z
+STARTUP_MSG:   java = 1.7.0_60
+************************************************************/
+15/05/22 23:23:53 INFO namenode.NameNode: registered UNIX signal handlers for [T                                                                                        ERM, HUP, INT]
+15/05/22 23:23:53 INFO namenode.NameNode: createNameNode [-format]
+15/05/22 23:23:54 WARN common.Util: Path /tmp/hadoop-zalak/dfs/name should be sp                                                                                        ecified as a URI in configuration files. Please update hdfs configuration.
+15/05/22 23:23:54 WARN common.Util: Path /tmp/hadoop-zalak/dfs/name should be sp                                                                                        ecified as a URI in configuration files. Please update hdfs configuration.
+Formatting using clusterid: CID-c92e6022-8873-4c6e-acf5-df9682abf234
+15/05/22 23:23:54 INFO namenode.FSNamesystem: No KeyProvider found.
+15/05/22 23:23:54 INFO namenode.FSNamesystem: fsLock is fair:true
+15/05/22 23:23:54 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.lim                                                                                        it=1000
+15/05/22 23:23:54 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.re                                                                                        gistration.ip-hostname-check=true
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.                                                                                        block.deletion.sec is set to 000:00:00:00.000
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: The block deletion will sta                                                                                        rt around 2015 May 22 23:23:54
+15/05/22 23:23:54 INFO util.GSet: Computing capacity for map BlocksMap
+15/05/22 23:23:54 INFO util.GSet: VM type       = 64-bit
+15/05/22 23:23:54 INFO util.GSet: 2.0% max memory 889 MB = 17.8 MB
+15/05/22 23:23:54 INFO util.GSet: capacity      = 2^21 = 2097152 entries
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: dfs.block.access.token.enab                                                                                        le=false
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: defaultReplication                                                                                                 = 1
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: maxReplication                                                                                                     = 512
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: minReplication                                                                                                     = 1
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: maxReplicationStreams                                                                                              = 2
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks                                                                                          = false
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: replicationRecheckInterval                                                                                         = 3000
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: encryptDataTransfer                                                                                                = false
+15/05/22 23:23:54 INFO blockmanagement.BlockManager: maxNumBlocksToLog                                                                                                  = 1000
+15/05/22 23:23:54 INFO namenode.FSNamesystem: fsOwner             = zalak (auth:                                                                                        SIMPLE)
+15/05/22 23:23:54 INFO namenode.FSNamesystem: supergroup          = supergroup
+15/05/22 23:23:54 INFO namenode.FSNamesystem: isPermissionEnabled = true
+15/05/22 23:23:54 INFO namenode.FSNamesystem: HA Enabled: false
+15/05/22 23:23:54 INFO namenode.FSNamesystem: Append Enabled: true
+15/05/22 23:23:54 INFO util.GSet: Computing capacity for map INodeMap
+15/05/22 23:23:54 INFO util.GSet: VM type       = 64-bit
+15/05/22 23:23:54 INFO util.GSet: 1.0% max memory 889 MB = 8.9 MB
+15/05/22 23:23:54 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+15/05/22 23:23:54 INFO namenode.NameNode: Caching file names occuring more than                                                                                         10 times
+15/05/22 23:23:54 INFO util.GSet: Computing capacity for map cachedBlocks
+15/05/22 23:23:54 INFO util.GSet: VM type       = 64-bit
+15/05/22 23:23:54 INFO util.GSet: 0.25% max memory 889 MB = 2.2 MB
+15/05/22 23:23:54 INFO util.GSet: capacity      = 2^18 = 262144 entries
+15/05/22 23:23:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pc                                                                                        t = 0.9990000128746033
+15/05/22 23:23:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanode                                                                                        s = 0
+15/05/22 23:23:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension                                                                                             = 30000
+15/05/22 23:23:54 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+15/05/22 23:23:54 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total                                                                                         heap and retry cache entry expiry time is 600000 millis
+15/05/22 23:23:54 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+15/05/22 23:23:54 INFO util.GSet: VM type       = 64-bit
+15/05/22 23:23:54 INFO util.GSet: 0.029999999329447746% max memory 889 MB = 273.                                                                                        1 KB
+15/05/22 23:23:54 INFO util.GSet: capacity      = 2^15 = 32768 entries
+15/05/22 23:23:54 INFO namenode.NNConf: ACLs enabled? false
+15/05/22 23:23:54 INFO namenode.NNConf: XAttrs enabled? true
+15/05/22 23:23:54 INFO namenode.NNConf: Maximum size of an xattr: 16384
+15/05/22 23:23:54 INFO namenode.FSImage: Allocated new BlockPoolId: BP-496566859                                                                                        -69.91.198.161-1432362234832
+15/05/22 23:23:54 INFO common.Storage: Storage directory /tmp/hadoop-zalak/dfs/n                                                                                        ame has been successfully formatted.
+15/05/22 23:23:55 INFO namenode.NNStorageRetentionManager: Going to retain 1 ima                                                                                        ges with txid >= 0
+15/05/22 23:23:55 INFO util.ExitUtil: Exiting with status 0
+15/05/22 23:23:55 INFO namenode.NameNode: SHUTDOWN_MSG:
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at uw1-320-10.uwb.edu/69.91.198.161
+************************************************************/
+zalak@uw1-320-10:~/hadoop-2.6.0$ ./s
+sbin/  share/
+zalak@uw1-320-10:~/hadoop-2.6.0$ ./sbin/start-dfs.sh
+Starting namenodes on [uw1-320-10]
+uw1-320-10: starting namenode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-namenode-uw1-320-10.out
+uw1-320-12: starting datanode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-datanode-uw1-320-12.out
+uw1-320-13: starting datanode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-datanode-uw1-320-13.out
+uw1-320-10: starting datanode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-datanode-uw1-320-10.out
+uw1-320-11: starting datanode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-datanode-uw1-320-11.out
+uw1-320-14: starting datanode, logging to /net/metis/home/zalak/hadoop-2.6.0/log                                                                                        s/hadoop-zalak-datanode-uw1-320-14.out
+Starting secondary namenodes [0.0.0.0]
+zalak@0.0.0.0's password:
+0.0.0.0: starting secondarynamenode, logging to /net/metis/home/zalak/hadoop-2.6                                                                                        .0/logs/hadoop-zalak-secondarynamenode-uw1-320-10.out
+zalak@uw1-320-10:~/hadoop-2.6.0$ ./bin/hdfs dfs -mkdir /user
+zalak@uw1-320-10:~/hadoop-2.6.0$ ./bin/hdfs dfs -mkdir /user/zalak
+zalak@uw1-320-10:~/hadoop-2.6.0$ ./bin/hdfs dfs -chown zalak:zalak /user/zalak
+zalak@uw1-320-10:~/hadoop-2.6.0$ cd ..
+zalak@uw1-320-10:~$ cd Network\ Motif/NetworkMotif/src/main/java/
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ls
+compile.sh               InputGraphs.g6  numberRandomGraphs.txt
+edu                      labelg          OutputGraphs.g6
+full_scere_20140427.csv  mapperfile      part-r-00000
+InputGraph1.csv          nemo.jar        _SUCCESS
+InputGraph2.csv          Nodes_2000.csv  Y2k_GO5_Graphindex.csv
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ./bin/hdfs dfs -put Y2k_GO5_Graphindex.csv /user/zalak
+-bash: ./bin/hdfs: No such file or directory
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ./bin/hdfs dfs -put Y2k_GO5_Graphindex.csv /user/zalak/
+-bash: ./bin/hdfs: No such file or directory
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hdfs dfs -put Y2k_GO5_Graphindex.csv /user/zalak/
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hdfs dfs -put labelg /user/zalak/
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hdfs dfs -put labelg /user/
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hdfs dfs -put labelg /
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ./compile.sh
+Compiling
+Compilation done
+adding: META-INF/ (in=0) (out=0) (stored 0%)
+adding: META-INF/MANIFEST.MF (in=56) (out=56) (stored 0%)
+adding: labelg (in=347137) (out=167680) (deflated 51%)
+adding: edu/uw/nemo/nauty/NautyLabeler.class (in=1638) (out=897) (deflated 45%)
+adding: edu/uw/nemo/labeler/FormatType.class (in=915) (out=491) (deflated 46%)
+adding: edu/uw/nemo/labeler/GraphFormat.class (in=4847) (out=2710) (deflated 44%)
+adding: edu/uw/nemo/labeler/GraphLabel.class (in=8486) (out=4133) (deflated 51%)
+adding: edu/uw/nemo/esu/DirectCalculator.class (in=865) (out=508) (deflated 41%)
+adding: edu/uw/nemo/esu/ESUGen.class (in=4893) (out=2415) (deflated 50%)
+adding: edu/uw/nemo/esu/ESUGen$ExclusiveNeighbourhood.class (in=1780) (out=916) (deflated 48%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/NemoControllerRandomGraphs.class (in=4154) (out=1960) (deflated 52%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/RandomGraphCanonicalLabelling.class (in=993) (out=482) (deflated 51%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/SwitchingAlgorithm/ConvertDataStructure.class (in=3520) (out=1676) (deflated 52%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/SwitchingAlgorithm/SwitchingAlgoirthmGenerateGraph.class (in=5244) (out=2612) (deflated 50%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/BooleanTwoDArrayWritable.class (in=698) (out=443) (deflated 36%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/GraphGeneratorJob.class (in=5316) (out=2645) (deflated 50%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain.class (in=1632) (out=994) (deflated 39%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.class (in=5323) (out=2324) (deflated 56%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphReducer.class (in=6012) (out=2738) (deflated 54%)
+adding: edu/uw/nemo/model/AdjacencyMapping.class (in=1570) (out=849) (deflated 45%)
+adding: edu/uw/nemo/model/AdjacentVertexWithEdge.class (in=700) (out=454) (deflated 35%)
+adding: edu/uw/nemo/model/Mapping.class (in=1784) (out=866) (deflated 51%)
+adding: edu/uw/nemo/model/NeighbourhoodCache$CacheKey.class (in=1426) (out=843) (deflated 40%)
+adding: edu/uw/nemo/model/NeighbourhoodCache.class (in=1954) (out=922) (deflated 52%)
+adding: edu/uw/nemo/model/SubGraph.class (in=2205) (out=1293) (deflated 41%)
+adding: edu/uw/nemo/io/Parser.class (in=4369) (out=2138) (deflated 51%)
+Total:
+------
+(in = 417501) (out = 207567) (deflated 50%)
+copying
+Copying nemo.jar
+rm: `/user/zalak/logdir/*': No such file or directory
+rmdir: `/user/zalak/logdir': No such file or directory
+rmdir: `/user/zalak/output1/_temporary/0': No such file or directory
+rmdir: `/user/zalak/output1/_temporary': No such file or directory
+rm: `/user/zalak/output1/*': No such file or directory
+rmdir: `/user/zalak/output1': No such file or directory
+rm: `/user/zalak/RandomGraphGenerator/*': No such file or directory
+rmdir: `/user/zalak/RandomGraphGenerator': No such file or directory
+Found 2 items
+-rw-r--r--   1 zalak zalak      24527 2015-05-22 23:27 /user/zalak/Y2k_GO5_Graphindex.csv
+-rw-r--r--   1 zalak zalak     347137 2015-05-22 23:27 /user/zalak/labelg
+Copying nemo.jar
+rm: `/user/zalak/nemo.jar': No such file or directory
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hdfs dfs -ls /user/zalak/
+Found 3 items
+-rw-r--r--   1 zalak zalak      24527 2015-05-22 23:27 /user/zalak/Y2k_GO5_Graphindex.csv
+-rw-r--r--   1 zalak zalak     347137 2015-05-22 23:27 /user/zalak/labelg
+-rw-r--r--   1 zalak zalak     207567 2015-05-22 23:28 /user/zalak/nemo.jar
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ./compile.sh
+Compiling
+Compilation done
+adding: META-INF/ (in=0) (out=0) (stored 0%)
+adding: META-INF/MANIFEST.MF (in=56) (out=56) (stored 0%)
+adding: labelg (in=347137) (out=167680) (deflated 51%)
+adding: edu/uw/nemo/nauty/NautyLabeler.class (in=1638) (out=897) (deflated 45%)
+adding: edu/uw/nemo/labeler/FormatType.class (in=915) (out=491) (deflated 46%)
+adding: edu/uw/nemo/labeler/GraphFormat.class (in=4847) (out=2710) (deflated 44%)
+adding: edu/uw/nemo/labeler/GraphLabel.class (in=8486) (out=4133) (deflated 51%)
+adding: edu/uw/nemo/esu/DirectCalculator.class (in=865) (out=508) (deflated 41%)
+adding: edu/uw/nemo/esu/ESUGen.class (in=4893) (out=2415) (deflated 50%)
+adding: edu/uw/nemo/esu/ESUGen$ExclusiveNeighbourhood.class (in=1780) (out=916) (deflated 48%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/NemoControllerRandomGraphs.class (in=4154) (out=1960) (deflated 52%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/RandomGraphCanonicalLabelling.class (in=993) (out=482) (deflated 51%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/SwitchingAlgorithm/ConvertDataStructure.class (in=3520) (out=1676) (deflated 52%)
+adding: edu/uw/nemo/motifSignificant/explicitMethod/SwitchingAlgorithm/SwitchingAlgoirthmGenerateGraph.class (in=5244) (out=2612) (deflated 50%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/BooleanTwoDArrayWritable.class (in=698) (out=443) (deflated 36%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/GraphGeneratorJob.class (in=5316) (out=2646) (deflated 50%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain.class (in=1632) (out=994) (deflated 39%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphMapper.class (in=5323) (out=2324) (deflated 56%)
+adding: edu/uw/nemo/motifSignificant/mapreduce/SwitchingAlgorithmGenerateGraphReducer.class (in=6012) (out=2738) (deflated 54%)
+adding: edu/uw/nemo/model/AdjacencyMapping.class (in=1570) (out=849) (deflated 45%)
+adding: edu/uw/nemo/model/AdjacentVertexWithEdge.class (in=700) (out=454) (deflated 35%)
+adding: edu/uw/nemo/model/Mapping.class (in=1784) (out=866) (deflated 51%)
+adding: edu/uw/nemo/model/NeighbourhoodCache$CacheKey.class (in=1426) (out=843) (deflated 40%)
+adding: edu/uw/nemo/model/NeighbourhoodCache.class (in=1954) (out=922) (deflated 52%)
+adding: edu/uw/nemo/model/SubGraph.class (in=2205) (out=1293) (deflated 41%)
+adding: edu/uw/nemo/io/Parser.class (in=4369) (out=2138) (deflated 51%)
+Total:
+------
+(in = 417501) (out = 207568) (deflated 50%)
+copying
+Copying nemo.jar
+rm: `/user/zalak/logdir/*': No such file or directory
+rmdir: `/user/zalak/logdir': No such file or directory
+rmdir: `/user/zalak/output1/_temporary/0': No such file or directory
+rmdir: `/user/zalak/output1/_temporary': No such file or directory
+rm: `/user/zalak/output1/*': No such file or directory
+rmdir: `/user/zalak/output1': No such file or directory
+rm: `/user/zalak/RandomGraphGenerator/*': No such file or directory
+rmdir: `/user/zalak/RandomGraphGenerator': No such file or directory
+Found 3 items
+-rw-r--r--   1 zalak zalak      24527 2015-05-22 23:27 /user/zalak/Y2k_GO5_Graphindex.csv
+-rw-r--r--   1 zalak zalak     347137 2015-05-22 23:27 /user/zalak/labelg
+-rw-r--r--   1 zalak zalak     207567 2015-05-22 23:28 /user/zalak/nemo.jar
+Copying nemo.jar
+15/05/22 23:31:16 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /user/zalak/nemo.jar
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ #~/hadoop-2.6.0/bin/hadoop jar nemo.jar edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain Y2k_GO5_Graphindex.csv  output1 1000 0.7 nemo.jar logdir 3
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/bin/hadoop jar nemo.jar edu/uw/nemo/motifSignificant/mapreduce/NemoRandomGraphMain Y2k_GO5_Graphindex.csv  output1 1000 0.7 nemo.jar logdir 3
+7
+Y2k_GO5_Graphindex.csv
+output1
+1000
+0.7
+nemo.jar
+logdir
+3
+loading for file took 72 milliseconds.
+mapping to ids took 6 milliseconds.
+Max split size: 100
+Max split size: 100
+15/05/22 23:33:52 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+15/05/22 23:33:52 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+15/05/22 23:33:52 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+15/05/22 23:33:52 INFO input.FileInputFormat: Total input paths to process : 1
+15/05/22 23:33:52 INFO mapreduce.JobSubmitter: number of splits:39
+15/05/22 23:33:52 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local700163723_0001
+15/05/22 23:33:53 INFO mapred.LocalDistributedCacheManager: Creating symlink: /tmp/hadoop-zalak/mapred/local/1432362832917/Y2k_GO5_Graphindex.csv <- /net/metis/home/zalak/Network Motif/NetworkMotif/src/main/java/mapperfile
+15/05/22 23:33:53 WARN fs.FileUtil: Command 'ln -s /tmp/hadoop-zalak/mapred/local/1432362832917/Y2k_GO5_Graphindex.csv /net/metis/home/zalak/Network Motif/NetworkMotif/src/main/java/mapperfile' failed 1 with: ln: failed to create symbolic link `/net/metis/home/zalak/Network Motif/NetworkMotif/src/main/java/mapperfile': File exists
+
+15/05/22 23:33:53 WARN mapred.LocalDistributedCacheManager: Failed to create symlink: /tmp/hadoop-zalak/mapred/local/1432362832917/Y2k_GO5_Graphindex.csv <- /net/metis/home/zalak/Network Motif/NetworkMotif/src/main/java/mapperfile
+15/05/22 23:33:53 INFO mapred.LocalDistributedCacheManager: Localized hdfs://uw1-320-10:12141/user/zalak/Y2k_GO5_Graphindex.csv as file:/tmp/hadoop-zalak/mapred/local/1432362832917/Y2k_GO5_Graphindex.csv
+15/05/22 23:33:53 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+15/05/22 23:33:53 INFO mapreduce.Job: Running job: job_local700163723_0001
+15/05/22 23:33:53 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+15/05/22 23:33:53 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+15/05/22 23:33:53 INFO mapred.LocalJobRunner: Waiting for map tasks
+15/05/22 23:33:53 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000000_0
+15/05/22 23:33:53 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:33:53 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:0+100
+15/05/22 23:33:53 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:33:53 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:33:53 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:33:53 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:33:53 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:33:53 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:0+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:33:54 INFO mapreduce.Job: Job job_local700163723_0001 running in uber mode : false
+15/05/22 23:33:54 INFO mapreduce.Job:  map 0% reduce 0%
+15/05/22 23:33:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#1
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#2
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#3
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#4
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#5
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#6
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:34:56 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#7
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:05 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#8
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#9
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#10
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#11
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:44 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#12
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:35:53 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:35:54 INFO mapreduce.Job:  map 1% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#13
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:05 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#14
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:14 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#15
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#16
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#17
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:41 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#18
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#19
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:36:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#20
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:11 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#21
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:20 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#22
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:29 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#23
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#24
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#25
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:37:56 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#26
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:05 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:38:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#27
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#28
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#29
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#30
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:44 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#31
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:38:53 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#32
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:02 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:39:03 INFO mapreduce.Job:  map 2% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#33
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:11 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#34
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#35
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#36
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:41 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#37
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/22 23:39:45 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:39:45 INFO mapred.MapTask: Starting flush of map output
+15/05/22 23:39:45 INFO mapred.MapTask: Spilling map output
+15/05/22 23:39:45 INFO mapred.MapTask: bufstart = 0; bufend = 57167359; bufvoid = 104857600
+15/05/22 23:39:45 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214252(104857008); length = 145/6553600
+15/05/22 23:39:45 INFO mapred.MapTask: Finished spill 0
+15/05/22 23:39:45 INFO mapred.Task: Task:attempt_local700163723_0001_m_000000_0 is done. And is in the process of committing
+15/05/22 23:39:45 INFO mapred.LocalJobRunner: map
+15/05/22 23:39:45 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000000_0' done.
+15/05/22 23:39:45 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000000_0
+15/05/22 23:39:45 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000001_0
+15/05/22 23:39:45 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:39:45 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:100+100
+15/05/22 23:39:45 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:39:45 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:39:45 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:39:45 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:39:45 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:39:45 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:100+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:39:46 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/22 23:39:51 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:39:52 INFO mapreduce.Job:  map 3% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#38
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:00 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#39
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:09 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#40
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:18 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#41
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:27 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#42
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:39 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#43
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:48 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#44
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:40:57 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#45
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:06 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#46
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:15 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#47
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:24 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#48
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:36 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#49
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:45 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#50
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:41:54 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#51
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:03 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#52
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:12 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#53
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:21 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#54
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:30 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:42:31 INFO mapreduce.Job:  map 4% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#55
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:42 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#56
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:42:51 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#57
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:00 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#58
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:09 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#59
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:18 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#60
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:27 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#61
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:36 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#62
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:48 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#63
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:43:57 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#64
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:06 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#65
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:15 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#66
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:24 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#67
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:33 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#68
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:45 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#69
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:54 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#70
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/22 23:44:59 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:44:59 INFO mapred.MapTask: Starting flush of map output
+15/05/22 23:44:59 INFO mapred.MapTask: Spilling map output
+15/05/22 23:44:59 INFO mapred.MapTask: bufstart = 0; bufend = 50987112; bufvoid = 104857600
+15/05/22 23:44:59 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214268(104857072); length = 129/6553600
+15/05/22 23:44:59 INFO mapred.MapTask: Finished spill 0
+15/05/22 23:44:59 INFO mapred.Task: Task:attempt_local700163723_0001_m_000001_0 is done. And is in the process of committing
+15/05/22 23:44:59 INFO mapred.LocalJobRunner: map
+15/05/22 23:44:59 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000001_0' done.
+15/05/22 23:44:59 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000001_0
+15/05/22 23:44:59 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000002_0
+15/05/22 23:44:59 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:44:59 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:200+100
+15/05/22 23:44:59 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:44:59 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:44:59 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:44:59 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:44:59 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:44:59 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:200+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:44:59 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/22 23:45:05 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:45:05 INFO mapreduce.Job:  map 5% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#71
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:45:14 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#72
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:45:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#73
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:45:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#74
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:45:41 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#75
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:45:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#76
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:02 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#77
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:11 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:46:11 INFO mapreduce.Job:  map 6% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#78
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:20 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#79
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:29 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#80
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#81
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#82
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:46:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#83
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#84
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#85
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#86
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#87
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#88
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:47:56 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#89
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:05 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#90
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:14 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#91
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#92
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#93
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:44 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#94
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:48:53 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#95
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:02 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#96
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:11 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:49:11 INFO mapreduce.Job:  map 7% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#97
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#98
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#99
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:41 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#100
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#101
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:49:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#102
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#103
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/22 23:50:14 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:50:14 INFO mapred.MapTask: Starting flush of map output
+15/05/22 23:50:14 INFO mapred.MapTask: Spilling map output
+15/05/22 23:50:14 INFO mapred.MapTask: bufstart = 0; bufend = 50987116; bufvoid = 104857600
+15/05/22 23:50:14 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214268(104857072); length = 129/6553600
+15/05/22 23:50:14 INFO mapred.MapTask: Finished spill 0
+15/05/22 23:50:14 INFO mapred.Task: Task:attempt_local700163723_0001_m_000002_0 is done. And is in the process of committing
+15/05/22 23:50:14 INFO mapred.LocalJobRunner: map
+15/05/22 23:50:14 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000002_0' done.
+15/05/22 23:50:14 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000002_0
+15/05/22 23:50:14 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000003_0
+15/05/22 23:50:14 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:50:14 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:300+100
+15/05/22 23:50:14 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:50:14 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:50:14 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:50:14 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:50:14 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:50:14 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:300+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:15 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/22 23:50:20 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:50:21 INFO mapreduce.Job:  map 8% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#104
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:29 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#105
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#106
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#107
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:50:56 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#108
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:05 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#109
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#110
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#111
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#112
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:44 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#113
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:51:53 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#114
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:05 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:52:06 INFO mapreduce.Job:  map 9% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#115
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:14 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#116
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#117
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#118
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:41 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#119
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:52:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#120
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:02 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#121
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:11 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#122
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:20 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#123
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:29 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#124
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#125
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#126
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:53:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#127
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#128
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/22 23:54:13 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:54:13 INFO mapred.MapTask: Starting flush of map output
+15/05/22 23:54:13 INFO mapred.MapTask: Spilling map output
+15/05/22 23:54:13 INFO mapred.MapTask: bufstart = 0; bufend = 38626625; bufvoid = 104857600
+15/05/22 23:54:13 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214300(104857200); length = 97/6553600
+15/05/22 23:54:13 INFO mapred.MapTask: Finished spill 0
+15/05/22 23:54:13 INFO mapred.Task: Task:attempt_local700163723_0001_m_000003_0 is done. And is in the process of committing
+15/05/22 23:54:13 INFO mapred.LocalJobRunner: map
+15/05/22 23:54:13 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000003_0' done.
+15/05/22 23:54:13 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000003_0
+15/05/22 23:54:13 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000004_0
+15/05/22 23:54:13 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:54:13 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:400+100
+15/05/22 23:54:13 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:54:13 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:54:13 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:54:13 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:54:13 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:54:13 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:400+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:13 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/22 23:54:19 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:54:19 INFO mapreduce.Job:  map 10% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#129
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:28 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#130
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:37 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#131
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:46 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:54:46 INFO mapreduce.Job:  map 11% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#132
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:54:55 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#133
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:04 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#134
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:16 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#135
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:25 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#136
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:34 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#137
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:43 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#138
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:55:52 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#139
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:01 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#140
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:13 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#141
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:22 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#142
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:31 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#143
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:40 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#144
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:49 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#145
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:56:58 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:56:58 INFO mapreduce.Job:  map 12% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#146
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:10 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#147
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:19 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#148
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:28 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#149
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:37 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#150
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:46 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#151
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:57:55 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#152
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:07 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#153
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/22 23:58:11 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:58:11 INFO mapred.MapTask: Starting flush of map output
+15/05/22 23:58:11 INFO mapred.MapTask: Spilling map output
+15/05/22 23:58:11 INFO mapred.MapTask: bufstart = 0; bufend = 38626625; bufvoid = 104857600
+15/05/22 23:58:11 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214300(104857200); length = 97/6553600
+15/05/22 23:58:11 INFO mapred.MapTask: Finished spill 0
+15/05/22 23:58:11 INFO mapred.Task: Task:attempt_local700163723_0001_m_000004_0 is done. And is in the process of committing
+15/05/22 23:58:11 INFO mapred.LocalJobRunner: map
+15/05/22 23:58:11 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000004_0' done.
+15/05/22 23:58:11 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000004_0
+15/05/22 23:58:11 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000005_0
+15/05/22 23:58:11 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/22 23:58:11 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:500+100
+15/05/22 23:58:11 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/22 23:58:11 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/22 23:58:11 INFO mapred.MapTask: soft limit at 83886080
+15/05/22 23:58:11 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/22 23:58:11 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/22 23:58:11 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:500+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:11 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/22 23:58:17 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:58:17 INFO mapreduce.Job:  map 13% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#154
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#155
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#156
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:44 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#157
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:58:53 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#158
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:02 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#159
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:14 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#160
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:23 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#161
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:32 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#162
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:41 INFO mapred.LocalJobRunner: map > map
+15/05/22 23:59:41 INFO mapreduce.Job:  map 14% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#163
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/22 23:59:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#164
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:02 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#165
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:11 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#166
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:20 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#167
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:29 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#168
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:38 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#169
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:50 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#170
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:00:59 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#171
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:08 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#172
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:17 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#173
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:26 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#174
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:35 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#175
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:47 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#176
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:01:56 INFO mapred.LocalJobRunner: map > map
+15/05/23 00:01:56 INFO mapreduce.Job:  map 15% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#177
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:05 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#178
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+15/05/23 00:02:10 INFO mapred.LocalJobRunner: map > map
+15/05/23 00:02:10 INFO mapred.MapTask: Starting flush of map output
+15/05/23 00:02:10 INFO mapred.MapTask: Spilling map output
+15/05/23 00:02:10 INFO mapred.MapTask: bufstart = 0; bufend = 38626625; bufvoid = 104857600
+15/05/23 00:02:10 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214300(104857200); length = 97/6553600
+15/05/23 00:02:10 INFO mapred.MapTask: Finished spill 0
+15/05/23 00:02:10 INFO mapred.Task: Task:attempt_local700163723_0001_m_000005_0 is done. And is in the process of committing
+15/05/23 00:02:10 INFO mapred.LocalJobRunner: map
+15/05/23 00:02:10 INFO mapred.Task: Task 'attempt_local700163723_0001_m_000005_0' done.
+15/05/23 00:02:10 INFO mapred.LocalJobRunner: Finishing task: attempt_local700163723_0001_m_000005_0
+15/05/23 00:02:10 INFO mapred.LocalJobRunner: Starting task: attempt_local700163723_0001_m_000006_0
+15/05/23 00:02:10 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+15/05/23 00:02:10 INFO mapred.MapTask: Processing split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:600+100
+15/05/23 00:02:10 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+15/05/23 00:02:10 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+15/05/23 00:02:10 INFO mapred.MapTask: soft limit at 83886080
+15/05/23 00:02:10 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+15/05/23 00:02:10 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+15/05/23 00:02:10 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Status :
+Input Split: hdfs://uw1-320-10:12141/user/zalak/RandomGraphGenerator/numberRandomGraphs.txt:600+100
+Job Id: job_local700163723_0001
+Job Name: randomGraphGeneratorJob
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:10 INFO mapreduce.Job:  map 100% reduce 0%
+15/05/23 00:02:16 INFO mapred.LocalJobRunner: map > map
+15/05/23 00:02:16 INFO mapreduce.Job:  map 15% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#179
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:25 INFO mapred.LocalJobRunner: map > map
+15/05/23 00:02:25 INFO mapreduce.Job:  map 16% reduce 0%
+
+ *****************************************************************************************************
+Mapping RandomGraph#180
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:34 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#181
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:43 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#182
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:02:52 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#183
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:01 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#184
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:13 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#185
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:22 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#186
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:31 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#187
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:40 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#188
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:49 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#189
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:03:58 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#190
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:04:10 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#191
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+15/05/23 00:04:19 INFO mapred.LocalJobRunner: map > map
+
+ *****************************************************************************************************
+Mapping RandomGraph#192
+Calling Context.write
+Zalak Write Started
+Zalak Write Ended
+Current IP AddressL:  69.91.198.161
+^Czalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/sbin/stop-sh
+-bash: /net/metis/home/zalak/hadoop-2.6.0/sbin/stop-sh: No such file or directory
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/sbin/
+distribute-exclude.sh    httpfs.sh                start-all.cmd            start-secure-dns.sh      stop-balancer.sh         stop-yarn.sh
+hadoop-daemon.sh         kms.sh                   start-all.sh             start-yarn.cmd           stop-dfs.cmd             yarn-daemon.sh
+hadoop-daemons.sh        mr-jobhistory-daemon.sh  start-balancer.sh        start-yarn.sh            stop-dfs.sh              yarn-daemons.sh
+hdfs-config.cmd          refresh-namenodes.sh     start-dfs.cmd            stop-all.cmd             stop-secure-dns.sh
+hdfs-config.sh           slaves.sh                start-dfs.sh             stop-all.sh              stop-yarn.cmd
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$ ~/hadoop-2.6.0/sbin/stop-dfs.sh
+Stopping namenodes on [uw1-320-10]
+uw1-320-10: stopping namenode
+uw1-320-12: stopping datanode
+uw1-320-10: stopping datanode
+uw1-320-11: stopping datanode
+uw1-320-14: stopping datanode
+uw1-320-13: no datanode to stop
+Stopping secondary namenodes [0.0.0.0]
+zalak@0.0.0.0's password:
+0.0.0.0: stopping secondarynamenode
+zalak@uw1-320-10:~/Network Motif/NetworkMotif/src/main/java$
